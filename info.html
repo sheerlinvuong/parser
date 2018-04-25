@@ -1,0 +1,4179 @@
+<!DOCTYPE html><html xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml"><head>
+
+<script type="text/javascript">var ue_t0=ue_t0||+new Date();</script>
+<script type="text/javascript">
+
+var ue_csm = window,
+    ue_hob = +new Date();
+(function(d){var e=d.ue=d.ue||{},f=Date.now||function(){return+new Date};e.d=function(b){return f()-(b?0:d.ue_t0)};e.stub=function(b,a){if(!b[a]){var c=[];b[a]=function(){c.push([c.slice.call(arguments),e.d(),d.ue_id])};b[a].replay=function(b){for(var a;a=c.shift();)b(a[0],a[1],a[2])};b[a].isStub=1}};e.exec=function(b,a){return function(){if(1==window.ueinit)try{return b.apply(this,arguments)}catch(c){ueLogError(c,{attribution:a||"undefined",logLevel:"WARN"})}}}})(ue_csm);
+
+
+    var ue_err_chan = 'jserr';
+(function(d,e){function h(f,b){if(!(a.ec>a.mxe)&&f){a.ter.push(f);b=b||{};var c=f.logLevel||b.logLevel;c&&c!==k&&c!==m&&c!==n&&c!==p||a.ec++;c&&c!=k||a.ecf++;b.pageURL=""+(e.location?e.location.href:"");b.logLevel=c;b.attribution=f.attribution||b.attribution;a.erl.push({ex:f,info:b})}}function l(a,b,c,e,g){d.ueLogError({m:a,f:b,l:c,c:""+e,err:g,fromOnError:1,args:arguments},g?{attribution:g.attribution,logLevel:g.logLevel}:void 0);return!1}var k="FATAL",m="ERROR",n="WARN",p="DOWNGRADED",a={ec:0,ecf:0,
+pec:0,ts:0,erl:[],ter:[],mxe:50,startTimer:function(){a.ts++;setInterval(function(){d.ue&&a.pec<a.ec&&d.uex("at");a.pec=a.ec},1E4)}};l.skipTrace=1;h.skipTrace=1;h.isStub=1;d.ueLogError=h;d.ue_err=a;e.onerror=l})(ue_csm,window);
+
+
+var ue_id = 'RSXPFYJYS4QD4CR42RQ2',
+    ue_url = '/uedata',
+    ue_navtiming = 1,
+    ue_mid = 'A1EVAM02EL8SFB',
+    ue_sid = '143-3513222-3382342',
+    ue_sn = 'www.imdb.com',
+    ue_furl = 'fls-na.amazon.com',
+    ue_surl = 'https://unagi-na.amazon.com/1/events/com.amazon.csm.nexusclient.prod',
+    ue_int = 0,
+    ue_fcsn = 1,
+    ue_urt = 3,
+    ue_rpl_ns = 'cel-rpl',
+    ue_ddq = 1,
+    ue_fpf = '//fls-na.amazon.com/1/batch/1/OP/A1EVAM02EL8SFB:143-3513222-3382342:RSXPFYJYS4QD4CR42RQ2$uedata=s:',
+    ue_rsc = 0,
+
+    ue_swi = 1;
+function ue_viz(){(function(c,e,a){function k(b){if(c.ue.viz.length<p&&!l){var a=b.type;b=b.originalEvent;/^focus./.test(a)&&b&&(b.toElement||b.fromElement||b.relatedTarget)||(a=e[m]||("blur"==a||"focusout"==a?"hidden":"visible"),c.ue.viz.push(a+":"+(+new Date-c.ue.t0)),"visible"==a&&(ue.isl&&uex("at"),l=1))}}for(var l=0,f,g,m,n=["","webkit","o","ms","moz"],d=0,p=20,h=0;h<n.length&&!d;h++)if(a=n[h],f=(a?a+"H":"h")+"idden",d="boolean"==typeof e[f])g=a+"visibilitychange",m=(a?a+"V":"v")+"isibilityState";
+k({});d&&e.addEventListener(g,k,0);c.ue&&d&&(c.ue.pageViz={event:g,propHid:f})})(ue_csm,document,window)};
+
+(function(a,g,x){function z(a){return a&&a.replace&&a.replace(/^\s+|\s+$/g,"")}function q(a){return"undefined"===typeof a}function J(e){if(a.ue_fpf&&g.encodeURIComponent&&e){var b=new Image;e=""+a.ue_fpf+g.encodeURIComponent(e)+":"+(+new Date-a.ue_t0);a.ue.iel.push(b);b.src=e}}function D(e){if(e&&0<e.length){var b=new Image;a.ue.iel.push(b);b.src=e}}function t(e,b,c,l){var g=l||+new Date,h;a.ueam&&a.ueam(b,e,l);if(b||q(c)){if(e)for(h in l=b?f("t",b)||f("t",b,{}):a.ue.t,l[e]=g,c)c.hasOwnProperty(h)&&
+f(h,b,c[h]);return g}}function f(e,b,c){var l=a.ue,f=b&&b!=l.id?l.sc[b]:l;f||(f=l.sc[b]={});"id"==e&&c&&(l.cfa2=1);return f[e]=c||f[e]}function A(e,b,c,f,g){c="on"+c;var h=b[c];"function"===typeof h?e&&(a.ue.h[e]=h):h=function(){};b[c]=g?function(a){f(a);h(a)}:function(a){h(a);f(a)};b[c]&&(b[c].isUeh=1)}function E(e,b,c){function l(b,c){var d=[b],L=0,g={},l,h;c?(d.push("m=1"),g[c]=1):g=a.ue.sc;for(h in g)if(g.hasOwnProperty(h)){var k=f("wb",h),m=f("t",h)||{},p=f("t0",h)||a.ue.t0,n;if(c||2==k){k=k?
+L++:"";d.push("sc"+k+"="+h);for(n in m)3>=n.length&&!q(m[n])&&null!==m[n]&&d.push(n+k+"="+(m[n]-p));d.push("t"+k+"="+m[e]);if(f("ctb",h)||f("wb",h))l=1}}!B&&l&&d.push("ctb=1");return d.join("&")}function K(b,c){if(a.ue.b){var e=a.ue.b;a.ue.b="";h(e,b,c,1)}}function h(b,c,e,d){if(b){var f=!d||!a.ue.log,l=a.ue_err,h;if(f&&(D(b),C&&"ul"===c&&r))try{r[F+a.ue.oid]=b}catch(k){}M?J(b):a.ue.log&&(h=g.chrome&&"ul"==c,a.ue.log(b,"uedata",a.ue_svi?{n:1,img:!d&&h?1:0}:{n:1}),a.ue.ielf.push(b));l&&!l.ts&&l.startTimer();
+K(c,e);C&&f&&"ld"===c&&N(F,function(a){a&&a.length&&(a+="&csmtags=was-recoverered");D(a)})}}function v(b){if(!ue.collected){var c=b.timing,e=b.navigation,d=ue.t;c&&(d.na_=c.navigationStart,d.ul_=c.unloadEventStart,d._ul=c.unloadEventEnd,d.rd_=c.redirectStart,d._rd=c.redirectEnd,d.fe_=c.fetchStart,d.lk_=c.domainLookupStart,d._lk=c.domainLookupEnd,d.co_=c.connectStart,d._co=c.connectEnd,d.sc_=c.secureConnectionStart,d.rq_=c.requestStart,d.rs_=c.responseStart,d._rs=c.responseEnd,d.dl_=c.domLoading,d.di_=
+c.domInteractive,d.de_=c.domContentLoadedEventStart,d._de=c.domContentLoadedEventEnd,d._dc=c.domComplete,d.ld_=c.loadEventStart,d._ld=c.loadEventEnd,c=d.na_,b="function"!==typeof b.now||q(c)?0:new Date(c+b.now())-new Date,d.ntd=b+a.ue.t0);e&&(d.ty=e.type+a.ue.t0,d.rc=e.redirectCount+a.ue.t0);ue.collected=1}}function s(b){var c=n&&n.navigation?n.navigation.type:y,d=c&&2!=c,e=a.ue.bfini;a.ue.cfa2||(e&&1<e&&(b+="&bfform=1",d||(a.ue.isBFT=e-1)),2==c&&(b+="&bfnt=1",a.ue.isBFT=a.ue.isBFT||1),a.ue.ssw&&
+a.ue.isBFT&&(q(a.ue.isNRBF)&&(c=a.ue.ssw(a.ue.oid),c.e||q(c.val)||(a.ue.isNRBF=1<c.val?0:1)),q(a.ue.isNRBF)||(b+="&nrbf="+a.ue.isNRBF)),a.ue.isBFT&&!a.ue.isNRBF&&(b+="&bft="+a.ue.isBFT));return b}if(b||q(c)){for(var m in c)c.hasOwnProperty(m)&&f(m,b,c[m]);t("pc",b,c);m=f("id",b)||a.ue.id;var d=a.ue.url+"?"+e+"&v="+a.ue.v+"&id="+m,B=f("ctb",b)||f("wb",b),n=g.performance||g.webkitPerformance,k,p;B&&(d+="&ctb="+B);1<a.ueinit&&(d+="&ic="+a.ueinit);!a.ue._fi||"at"!=e||b&&b!=m||(d+=a.ue._fi());if(!("ld"!=
+e&&"ul"!=e||b&&b!=m)){if("ld"==e){try{g.onbeforeunload&&g.onbeforeunload.isUeh&&(g.onbeforeunload=null)}catch(A){}if(g.chrome)for(p=0;p<ue.ulh.length;p++)G("beforeunload",ue.ulh[p]);(p=x.ue_backdetect)&&p.ue_back&&p.ue_back.value++;a._uess&&(k=a._uess());a.ue.isl=1}ue._bf&&(d+="&bf="+ue._bf());a.ue_navtiming&&n&&n.timing&&(f("ctb",m,"1"),1==a.ue_navtiming&&t("tc",y,y,n.timing.navigationStart));n&&v(n);a.ue.t.hob=a.ue_hob;a.ue.t.hoe=a.ue_hoe;a.ue.ifr&&(d+="&ifr=1")}t(e,b,c);c="ld"==e&&b&&f("wb",b);
+var w;c||b&&b!==m||O(b);c||m==a.ue.oid||P((f("t",b)||{}).tc||+f("t0",b),+f("t0",b));a.ue_mbl&&a.ue_mbl.cnt&&!c&&(d+=a.ue_mbl.cnt());c?f("wb",b,2):"ld"==e&&(u.lid=z(m));for(w in a.ue.sc)if(1==f("wb",w))break;if(c){if(a.ue.s)return;d=l(d,null)}else p=l(d,null),p!=d&&(p=s(p),a.ue.b=p),k&&(d+=k),d=l(d,b||a.ue.id);d=s(d);if(a.ue.b||c)for(w in a.ue.sc)2==f("wb",w)&&delete a.ue.sc[w];k=0;ue._rt&&(d+="&rt="+ue._rt());c||(a.ue.s=0,(k=a.ue_err)&&0<k.ec&&k.pec<k.ec&&(k.pec=k.ec,d+="&ec="+k.ec+"&ecf="+k.ecf),
+k=f("ctb",b),f("t",b,{}));d&&a.ue.tag&&0<a.ue.tag().length&&(d+="&csmtags="+a.ue.tag().join("|"),a.ue.tag=a.ue.tagC());d&&a.ue.viz&&0<a.ue.viz.length&&(d+="&viz="+a.ue.viz.join("|"),a.ue.viz=[]);d&&!q(a.ue_pty)&&(d+="&pty="+a.ue_pty+"&spty="+a.ue_spty+"&pti="+a.ue_pti);d&&a.ue.tabid&&(d+="&tid="+a.ue.tabid);d&&a.ue.aftb&&(d+="&aftb=1");d&&a.ue.sbf&&(d+="&sbf=1");!a.ue._ui||b&&b!=m||(d+=a.ue._ui());a.ue.a=d;h(d,e,k,c)}}function O(a){var b=g.ue_csm_markers||{},c;for(c in b)b.hasOwnProperty(c)&&t(c,
+a,y,b[c])}function v(e,b,c){c=c||g;a.ue_pel&&window.EventTarget&&window.EventTarget.prototype&&window.EventTarget.prototype.addEventListener?window.EventTarget.prototype.addEventListener.call(c,e,b,!!window.ue_clf):c.addEventListener?c.addEventListener(e,b,!!window.ue_clf):c.attachEvent&&c.attachEvent("on"+e,b)}function G(e,b,c){c=c||g;a.ue_pel&&window.EventTarget&&window.EventTarget.prototype&&window.EventTarget.prototype.removeEventListener?window.EventTarget.prototype.removeEventListener.call(c,
+e,b,!!window.ue_clf):c.removeEventListener?c.removeEventListener(e,b,!!window.ue_clf):c.detachEvent&&c.detachEvent("on"+e,b)}function H(){function e(){a.onUl()}function b(a){return function(){c[a]||(c[a]=1,E(a))}}var c=a.ue.r,f,q;a.onLd=b("ld");a.onLdEnd=b("ld");a.onUl=b("ul");f={stop:b("os")};g.chrome?(v("beforeunload",e),ue.ulh.push(e)):f[Q]=a.onUl;for(q in f)f.hasOwnProperty(q)&&A(0,g,q,f[q]);a.ue_viz&&ue_viz();R&&v("readystatechange",S,x);v("load",a.onLd);t("ue")}function S(){"complete"===x.readyState&&
+(T?setTimeout(I,0):I())}function I(){var e;if(!(e=ue.isl)&&(e=U))a:{e=x.images||[];for(var b=0;b<e.length;b++)if(!1===e[b].complete){e=!1;break a}e=!0}if(!e)a.onUl()}function P(e,b){a.ue_mbl&&a.ue_mbl.ajax&&a.ue_mbl.ajax(e,b);a.ue.tag("ajax-transition")}function N(a,b){if(r)try{for(var c=0;c<r.length;c++){var f=r.key(c);0===f.indexOf(a)&&(b(r[f]),r.removeItem(f))}}catch(g){}}a.ueinit=(a.ueinit||0)+1;var u={t0:g.aPageStart||a.ue_t0,id:a.ue_id,url:a.ue_url,rid:a.ue_id,a:"",b:"",h:{},r:{ld:0,oe:0,ul:0},
+s:1,t:{},sc:{},iel:[],ielf:[],fc_idx:{},viz:[],v:"0.200481.0",d:a.ue&&a.ue.d,log:a.ue&&a.ue.log,clog:a.ue&&a.ue.clog,onflush:a.ue&&a.ue.onflush,onunload:a.ue&&a.ue.onunload,stub:a.ue&&a.ue.stub,lr:a.ue&&a.ue.lr,exec:a.ue&&a.ue.exec,event:a.ue&&a.ue.event,onSushiUnload:a.ue&&a.ue.onSushiUnload,onSushiFlush:a.ue&&a.ue.onSushiFlush,ulh:[],cfa2:0},M=a.ue_fpf?1:0,C=1===a.ue_sspb,s;if(s=C)a:{try{s=g.sessionStorage;break a}catch(V){}s=void 0}var r=s,F="csmpb-",R=1===a.ue_rsc||3===a.ue_rsc,T=3===a.ue_rsc,
+U=1===a.ue_rsc,Q="beforeunload",y;u.oid=z(u.id);u.lid=z(u.id);a.ue=u;a.ue._t0=a.ue.t0;a.ue.tagC=function(){var a={};return function(b){b&&(a[b]=1);b=[];for(var c in a)a.hasOwnProperty(c)&&b.push(c);return b}};a.ue.tag=a.ue.tagC();a.ue.ifr=g.top!==g.self||g.frameElement?1:0;ue.attach=v;ue.detach=G;ue.reset=function(e,b){e&&(a.ue_cel&&a.ue_cel.reset(),a.ue.t0=+new Date,a.ue.rid=e,a.ue.id=e,a.ue.fc_idx={},a.ue.viz=[])};a.uei=H;a.ueh=A;a.ues=f;a.uet=t;a.uex=E;H()})(ue_csm,window,ue_csm.document);
+
+
+ue.stub(ue,"log");ue.stub(ue,"onunload");ue.stub(ue,"onflush");
+(function(b){var a=b.ue;a.cv={};a.cv.scopes={};a.count=function(c,b,d){var e={},f=a.cv;e.counter=c;e.value=b;e.t=a.d();d&&d.scope&&(f=a.cv.scopes[d.scope]=a.cv.scopes[d.scope]||{},e.scope=d.scope);if(void 0===b)return f[c];f[c]=b;c=0;d&&d.bf&&(c=1);a.clog&&0===c?a.clog(e,"csmcount",{bf:c}):a.log&&a.log(e,"csmcount",{c:1,bf:c})};a.count("baselineCounter2",1);a&&a.event&&(a.event({requestId:b.ue_id||"rid",server:b.ue_sn||"sn",obfuscatedMarketplaceId:b.ue_mid||"mid"},"csm","csm.CSMBaselineEvent.4"),
+a.count("nexusBaselineCounter",1,{bf:1}))})(ue_csm);
+
+
+
+var ue_hoe = +new Date();
+
+</script>
+
+<!-- 5twp3kb3pt9kpg5paufj9kive -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="apple-itunes-app" content="app-id=342792525, app-argument=imdb:///name/nm5397459?src=mdot">
+
+
+
+        <script type="text/javascript">var IMDbTimer={starttime: new Date().getTime(),pt:'java'};</script>
+
+<script>
+    if (typeof uet == 'function') {
+      uet("bb", "LoadTitle", {wb: 1});
+    }
+</script>
+  <script>(function(t){ (t.events = t.events || {})["csm_head_pre_title"] = new Date().getTime(); })(IMDbTimer);</script>
+        <title>Daisy Ridley - IMDb</title>
+  <script>(function(t){ (t.events = t.events || {})["csm_head_post_title"] = new Date().getTime(); })(IMDbTimer);</script>
+<script>
+    if (typeof uet == 'function') {
+      uet("be", "LoadTitle", {wb: 1});
+    }
+</script>
+<script>
+    if (typeof uex == 'function') {
+      uex("ld", "LoadTitle", {wb: 1});
+    }
+</script>
+
+        <link rel="canonical" href="http://www.imdb.com/name/nm5397459/">
+        <meta property="og:url" content="http://www.imdb.com/name/nm5397459/">
+        <link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.imdb.com/name/nm5397459/">
+
+<script>
+    if (typeof uet == 'function') {
+      uet("bb", "LoadIcons", {wb: 1});
+    }
+</script>
+  <script>(function(t){ (t.events = t.events || {})["csm_head_pre_icon"] = new Date().getTime(); })(IMDbTimer);</script>
+        <link href="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/safari-favicon-517611381._CB499613692_.svg" mask="" rel="icon" sizes="any">
+        <link rel="icon" type="image/ico" href="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/favicon-2165806970._CB499613556_.ico">
+        <meta name="theme-color" content="#000000">
+        <link rel="shortcut icon" type="image/x-icon" href="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/desktop-favicon-2165806970._CB499603838_.ico">
+        <link href="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/mobile/apple-touch-icon-web-4151659188._CB499613609_.png" rel="apple-touch-icon">
+        <link href="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/mobile/apple-touch-icon-web-76x76-53536248._CB499603831_.png" rel="apple-touch-icon" sizes="76x76">
+        <link href="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/mobile/apple-touch-icon-web-120x120-2442878471._CB499613645_.png" rel="apple-touch-icon" sizes="120x120">
+        <link href="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/mobile/apple-touch-icon-web-152x152-1475823641._CB499603835_.png" rel="apple-touch-icon" sizes="152x152">
+        <link rel="search" type="application/opensearchdescription+xml" href="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/imdbsearch-3349468880._CB499558879_.xml" title="IMDb">
+  <script>(function(t){ (t.events = t.events || {})["csm_head_post_icon"] = new Date().getTime(); })(IMDbTimer);</script>
+<script>
+    if (typeof uet == 'function') {
+      uet("be", "LoadIcons", {wb: 1});
+    }
+</script>
+<script>
+    if (typeof uex == 'function') {
+      uex("ld", "LoadIcons", {wb: 1});
+    }
+</script>
+
+        <meta property="pageId" content="nm5397459">
+        <meta property="pageType" content="name">
+        <meta property="subpageType" content="main">
+
+
+        <link rel="image_src" href="https://ia.media-imdb.com/images/M/MV5BMTgzMDk3MjI4OF5BMl5BanBnXkFtZTgwMzQxMDY5NjE@._V1_UY1200_CR165,0,630,1200_AL_.jpg">
+        <meta property="og:image" content="https://ia.media-imdb.com/images/M/MV5BMTgzMDk3MjI4OF5BMl5BanBnXkFtZTgwMzQxMDY5NjE@._V1_UY1200_CR165,0,630,1200_AL_.jpg">
+
+        <meta property="og:type" content="actor">
+    <meta property="fb:app_id" content="115109575169727">
+
+    <meta property="og:title" content="Daisy Ridley">
+    <meta property="og:site_name" content="IMDb">
+    <meta name="title" content="Daisy Ridley - IMDb">
+        <meta name="description" content="Daisy Ridley, Actress: Star Wars: Episode VII - The Force Awakens. Daisy Jazz Isobel Ridley is an English actress. She is best known for her breakthrough role as &quot;Rey&quot; in the 2015 film, Star Wars: Episode VII - The Force Awakens (2015). Daisy was born in Westminster, London, on April 10, 1992. She is the daughter of Louise Fawkner-Corbett and Chris Ridley. Her great-uncle was Arnold Ridley, an English actor, playwright, and appointed Officer of the Order of the ...">
+        <meta property="og:description" content="Daisy Ridley, Actress: Star Wars: Episode VII - The Force Awakens. Daisy Jazz Isobel Ridley is an English actress. She is best known for her breakthrough role as &quot;Rey&quot; in the 2015 film, Star Wars: Episode VII - The Force Awakens (2015). Daisy was born in Westminster, London, on April 10, 1992. She is the daughter of Louise Fawkner-Corbett and Chris Ridley. Her great-uncle was Arnold Ridley, an English actor, playwright, and appointed Officer of the Order of the ...">
+        <meta name="keywords" content="Biography, Photos, Awards, News">
+        <meta name="request_id" content="RSXPFYJYS4QD4CR42RQ2">
+
+<script>
+    if (typeof uet == 'function') {
+      uet("bb", "LoadCSS", {wb: 1});
+    }
+</script>
+  <script>(function(t){ (t.events = t.events || {})["csm_head_pre_css"] = new Date().getTime(); })(IMDbTimer);</script>
+<!-- h=ics-c42xl-2-1b-3f478561.us-east-1 -->
+
+            <link rel="stylesheet" type="text/css" href="https://images-na.ssl-images-amazon.com/images/G/01/imdb/css/collections/name-2759571453._CB498723692_.css">
+            <link rel="stylesheet" type="text/css" href="https://images-na.ssl-images-amazon.com/images/G/01/imdb/css/collections/title-flat-704346620._CB498722960_.css">
+            <link rel="stylesheet" type="text/css" href="https://images-na.ssl-images-amazon.com/images/G/01/imdb/css/site/consumer-navbar-mega-1675647670._CB497503083_.css">
+        <noscript>
+            <link rel="stylesheet" type="text/css" href="https://images-na.ssl-images-amazon.com/images/G/01/imdb/css/wheel/nojs-2827156349._CB499613502_.css">
+        </noscript>
+  <script>(function(t){ (t.events = t.events || {})["csm_head_post_css"] = new Date().getTime(); })(IMDbTimer);</script>
+<script>
+    if (typeof uet == 'function') {
+      uet("be", "LoadCSS", {wb: 1});
+    }
+</script>
+<script>
+    if (typeof uex == 'function') {
+      uex("ld", "LoadCSS", {wb: 1});
+    }
+</script>
+
+<script>
+    if (typeof uet == 'function') {
+      uet("bb", "LoadJS", {wb: 1});
+    }
+</script>
+  <script>(function(t){ (t.events = t.events || {})["csm_head_pre_ads"] = new Date().getTime(); })(IMDbTimer);</script>
+        <script>
+window.ads_js_start = new Date().getTime();
+var imdbads = imdbads || {}; imdbads.cmd = imdbads.cmd || [];
+</script>
+<!-- begin SRA -->
+<script>
+!function a(b,c,d){function e(g,h){if(!c[g]){if(!b[g]){var i="function"==typeof require&&require;if(!h&&i)return i(g,!0);if(f)return f(g,!0);var j=new Error("Cannot find module '"+g+"'");throw j.code="MODULE_NOT_FOUND",j}var k=c[g]={exports:{}};b[g][0].call(k.exports,function(a){var c=b[g][1][a];return e(c?c:a)},k,k.exports,a,b,c,d)}return c[g].exports}for(var f="function"==typeof require&&require,g=0;g<d.length;g++)e(d[g]);return e}({1:[function(a,b,c){"use strict";a(2)},{2:2}],2:[function(a,b,c){"use strict";!function(){var a,b,c=function(a){return"[object Array]"===Object.prototype.toString.call(a)},d=function(a,b){for(var c=0;c<a.length;c++)c in a&&b.call(null,a[c],c)},e=[],f=!1,g=!1,h=function(){var a=[],b=[],c={};return d(e,function(e){var f="";d(e.dartsite.split("/"),function(b){""!==b&&(b in c||(c[b]=a.length,a.push(b)),f+="/"+c[b])}),b.push(f)}),{iu_parts:a,enc_prev_ius:b}},i=function(){var a=[];return d(e,function(b){var c=[];d(b.sizes,function(a){c.push(a.join("x"))}),a.push(c.join("|"))}),a},j=function(){var a=[];return d(e,function(b){a.push(k(b.targeting))}),a.join("|")},k=function(a,b){var c,d=[];for(var e in a){c=[];for(var f=0;f<a[e].length;f++)c.push(encodeURIComponent(a[e][f]));b?d.push(e+"="+encodeURIComponent(c.join(","))):d.push(e+"="+c.join(","))}return d.join("&")},l=function(){var a=+new Date;g||document.readyState&&"loaded"!==document.readyState||(g=!0,f&&imdbads.cmd.push(function(){for(var b=0;b<e.length;b++)generic.monitoring.record_metric(e[b].name+".fail",csm.duration(a))}))};window.tinygpt={define_slot:function(a,b,c,d){e.push({dartsite:a.replace(/\/$/,""),sizes:b,name:c,targeting:d})},set_targeting:function(b){a=b},callback:function(a){var c,d,f={},g=+new Date;try{for(var h=0;h<e.length;h++)c=e[h].dartsite,d=e[h].name,a[h][c]?f[d]=a[h][c]:window.console&&console.error&&console.error("Unable to correlate GPT response for "+d);imdbads.cmd.push(function(){for(var a=0;a<e.length;a++)ad_utils.slot_events.trigger(e[a].name,"request",{timestamp:b}),ad_utils.slot_events.trigger(e[a].name,"tagdeliver",{timestamp:g});ad_utils.gpt.handle_response(f)})}catch(i){window.console&&console.error&&console.error("Exception in GPT callback: "+i.message)}},send:function(){var d,g,m=[],n=function(a,b){c(b)&&(b=b.join(",")),b&&m.push(a+"="+encodeURIComponent(""+b))};if(0===e.length)return void tinygpt.callback({});n("gdfp_req","1"),n("correlator",Math.floor(4503599627370496*Math.random())),n("output","json_html"),n("callback","tinygpt.callback"),n("impl","fifs"),n("json_a","1");var o=h();n("iu_parts",o.iu_parts),n("enc_prev_ius",o.enc_prev_ius),n("prev_iu_szs",i()),n("prev_scp",j()),n("cust_params",k(a,!0)),d=document.createElement("script"),g=document.getElementsByTagName("script")[0],d.async=!0,d.type="text/javascript",d.src="http://pubads.g.doubleclick.net/gampad/ads?"+m.join("&"),d.id="tinygpt",d.onload=d.onerror=d.onreadystatechange=l,f=!0,g.parentNode.insertBefore(d,g),b=+new Date}}}()},{}]},{},[1]);</script>
+<!-- begin ads header -->
+<script src="https://ia.media-imdb.com/images/G/01/imdbads/js/collections/tarnhelm-2374214476._CB498913118_.js"></script>
+<script id="ads_doWithAds">
+doWithAds = function(inside, failureMessage){
+if ('consoleLog' in window &&
+'generic' in window &&
+'ad_utils' in window &&
+'custom' in window &&
+'monitoring' in generic &&
+'document_is_ready' in generic) {
+try{
+inside.call(this);
+}catch(e) {
+if ( window.ueLogError ) {
+if(typeof failureMessage !== 'undefined'){
+e.message = failureMessage;
+}
+e.attribution = "Advertising";
+e.logLevel = "ERROR";
+ueLogError(e);
+}
+if( (document.location.hash.match('debug=1')) &&
+(typeof failureMessage !== 'undefined') ){
+console.error(failureMessage);
+}
+}
+} else {
+if( (document.location.hash.match('debug=1')) &&
+(typeof failureMessage !== 'undefined') ){
+console.error(failureMessage);
+}
+}
+};
+</script><script id="ads_monitoring_setup">
+doWithAds(function(){
+generic.monitoring.set_forester_info("name");
+generic.monitoring.set_twilight_info(
+"name",
+"GB",
+"c05e6b5cdbf3fe211aba95b9149eae74ec29a311",
+"2018-04-17T20%3A47%3A02GMT",
+"https://s.media-imdb.com/twilight/?",
+"consumer");
+generic.monitoring.start_timing("page_load");
+generic.seconds_to_midnight = 36778;
+generic.days_to_midnight = 0.4256713092327118;
+},"Generic not defined, skipping monitoring setup.");
+</script>
+<script src="https://images-na.ssl-images-amazon.com/images/G/01/dacx/sf/DAsf-1.34_FX1._V275812351_.js"></script>
+<script id="ads_safeframe_setup">
+doWithAds(function(){
+if (typeof DAsf != 'undefined' && typeof DAsf.registerCustomMessageListener === 'function') {
+DAsf.registerCustomMessageListener('adFeedback', window.ad_utils.show_ad_feedback);
+DAsf.registerCustomMessageListener('sendMetrics', window.generic.monitoring.update_sf_slot_metrics);
+DAsf.registerCustomMessageListener('expand', window.ad_utils.expand_overlay);
+DAsf.registerCustomMessageListener('collapse', window.ad_utils.collapse_overlay);
+}
+},"ads js missing, skipping safeframe setup.");
+</script>
+<script id="ads_general_setup">
+doWithAds(function(){
+generic.monitoring.record_metric("ads_js_request_to_done", (new Date().getTime()) - window.ads_js_start);
+generic.send_csm_head_metrics && generic.send_csm_head_metrics();
+ad_utils.set_slots_on_page({ 'injected_billboard':1, 'injected_navstrip':1, 'center_btf':1, 'bottom_ad':1, 'top_ad':1, 'top_rhs':1, 'btf_rhs2':1, 'rhs_cornerstone':1 });
+custom.full_page.data_url = "https://ia.media-imdb.com/images/G/01/imdbads/js/graffiti_data-538221799._CB514936172_.js";
+consoleLog('advertising initialized','ads');
+},"ads js missing, skipping general setup.");
+var _gaq = _gaq || [];
+_gaq.push(['_setCustomVar', 4, 'ads_abtest_treatment', '']);
+</script>
+<script>doWithAds(function() { ad_utils.ads_header.done(); });</script>
+<!-- end ads header -->
+        <script type="text/javascript">
+            // ensures js doesn't die if ads service fails.
+            // Note that we need to define the js here, since ad js is being rendered inline after this.
+            (function(f) {
+                // Fallback javascript, when the ad Service call fails.
+
+                if((window.csm == null || window.generic == null || window.consoleLog == null)) {
+                    if (window.console && console.log) {
+                        console.log("one or more of window.csm, window.generic or window.consoleLog has been stubbed...");
+                    }
+                }
+
+                window.csm = window.csm || { measure:f, record:f, duration:f, listen:f, metrics:{} };
+                window.generic = window.generic || { monitoring: { start_timing: f, stop_timing: f } };
+                window.consoleLog = window.consoleLog || f;
+            })(function() {});
+        </script>
+  <script>
+    if ('csm' in window) {
+      csm.measure('csm_head_delivery_finished');
+    }
+  </script>
+<script>
+    if (typeof uet == 'function') {
+      uet("be", "LoadJS", {wb: 1});
+    }
+</script>
+<script>
+    if (typeof uex == 'function') {
+      uex("ld", "LoadJS", {wb: 1});
+    }
+</script>
+        <script type="text/javascript">
+(function(e,c){function h(b,a){f.push([b,a])}function g(b,a){if(b){var c=e.head||e.getElementsByTagName("head")[0]||e.documentElement,d=e.createElement("script");d.async="async";d.src=b;d.setAttribute("crossorigin","anonymous");a&&a.onerror&&(d.onerror=a.onerror);a&&a.onload&&(d.onload=a.onload);c.insertBefore(d,c.firstChild)}}function k(){ue.uels=g;for(var b=0;b<f.length;b++){var a=f[b];g(a[0],a[1])}ue.deffered=1}var f=[];c.ue&&(ue.uels=h,c.ue.attach&&c.ue.attach("load",k))})(document,window);
+
+(function(a){var b=a.alert;window.alert=function(){a.ueLogError&&a.ueLogError({message:"[CSM] Alert invocation detected with argument: "+arguments[0],logLevel:"WARN"});Function.prototype.apply.apply(b,[a,arguments||[]])}})(window);
+
+(function(k,l,g){function m(a){c||(c=b[a.type].id,"undefined"===typeof a.clientX?(e=a.pageX,f=a.pageY):(e=a.clientX,f=a.clientY),2!=c||h&&(h!=e||n!=f)?(r(),d.isl&&l.setTimeout(function(){p("at",d.id)},0)):(h=e,n=f,c=0))}function r(){for(var a in b)b.hasOwnProperty(a)&&d.detach(a,m,b[a].parent)}function s(){for(var a in b)b.hasOwnProperty(a)&&d.attach(a,m,b[a].parent)}function t(){var a="";!q&&c&&(q=1,a+="&ui="+c);return a}var d=k.ue,p=k.uex,q=0,c=0,h,n,e,f,b={click:{id:1,parent:g},mousemove:{id:2,
+parent:g},scroll:{id:3,parent:l},keydown:{id:4,parent:g}};d&&p&&(s(),d._ui=t)})(ue_csm,window,document);
+
+
+
+    if (window.ue && window.ue.uels) {
+                    ue.uels("https://images-na.ssl-images-amazon.com/images/G/01/AUIClients/ClientSideMetricsAUIJavascript-6afe90f59e4cb3ac9ad111c00e514c050509d99a._V2_.js");
+    }
+
+(function(k,c){function l(a,b){return a.filter(function(a){return a.initiatorType==b})}function f(a,c){if(b.t[a]){var g=b.t[a]-b._t0,e=c.filter(function(a){return 0!==a.responseEnd&&m(a)<g}),f=l(e,"script"),h=l(e,"link"),k=l(e,"img"),n=e.map(function(a){return a.name.split("/")[2]}).filter(function(a,b,c){return a&&c.lastIndexOf(a)==b}),q=e.filter(function(a){return a.duration<p}),s=g-Math.max.apply(null,e.map(m))<r|0;"af"==a&&(b._afjs=f.length);return a+":"+[e[d],f[d],h[d],k[d],n[d],q[d],s].join("-")}}
+function m(a){return a.responseEnd-(b._t0-c.timing.navigationStart)}function n(){var a=c[h]("resource"),d=f("cf",a),g=f("af",a),a=f("ld",a);delete b._rt;b._ld=b.t.ld-b._t0;b._art&&b._art();return[d,g,a].join("_")}var p=20,r=50,d="length",b=k.ue,h="getEntriesByType";b._rre=m;b._rt=c&&c.timing&&c[h]&&n})(ue_csm,window.performance);
+
+
+(function(m,d){function c(b){b="";var c=a.isBFT?"b":"s",d=""+a.oid,f=""+a.lid,g=d;d!=f&&20==f.length&&(c+="a",g+="-"+f);a.tabid&&(b=a.tabid+"+");b+=c+"-"+g;b!=e&&100>b.length&&(e=b,a.cookie?a.cookie.updateCsmHit(n,b+("|"+ +new Date),h):document.cookie="csm-hit="+b+("|"+ +new Date)+p+"; path=/")}function q(){e=0}function k(b){!0===d[a.pageViz.propHid]?e=0:!1===d[a.pageViz.propHid]&&c({type:"visible"})}var h=new Date(+new Date+6048E5),p="; expires="+h.toGMTString(),n="tb",e,a=m.ue||{},l=a.pageViz&&
+a.pageViz.event&&a.pageViz.propHid;a.attach&&(a.attach("click",c),a.attach("keyup",c),l||(a.attach("focus",c),a.attach("blur",q)),l&&(a.attach(a.pageViz.event,k,d),k({})));a.aftb=1})(ue_csm,document);
+
+
+ue_csm.ue.stub(ue,"impression");
+
+
+(function(k,d,h){function f(a,c,b){a&&a.indexOf&&0===a.indexOf("http")&&0!==a.indexOf("https")&&l(s,c,a,b)}function g(a,c,b){a&&a.indexOf&&(location.href.split("#")[0]!=a&&null!==a&&"undefined"!==typeof a||l(t,c,a,b))}function l(a,c,b,e){m[b]||(e=u&&e?n(e):"N/A",d.ueLogError&&d.ueLogError({message:a+c+" : "+b,logLevel:v,stack:"N/A"},{attribution:e}),m[b]=1,p++)}function e(a,c){if(a&&c)for(var b=0;b<a.length;b++)try{c(a[b])}catch(d){}}function q(){return d.performance&&d.performance.getEntriesByType?
+d.performance.getEntriesByType("resource"):[]}function n(a){if(a.id)return"//*[@id='"+a.id+"']";var c;c=1;var b;for(b=a.previousSibling;b;b=b.previousSibling)b.nodeName==a.nodeName&&(c+=1);b=a.nodeName;1!=c&&(b+="["+c+"]");a.parentNode&&(b=n(a.parentNode)+"/"+b);return b}function w(){var a=h.images;a&&a.length&&e(a,function(a){var b=a.getAttribute("src");f(b,"img",a);g(b,"img",a)})}function x(){var a=h.scripts;a&&a.length&&e(a,function(a){var b=a.getAttribute("src");f(b,"script",a);g(b,"script",a)})}
+function y(){var a=h.styleSheets;a&&a.length&&e(a,function(a){if(a=a.ownerNode){var b=a.getAttribute("href");f(b,"style",a);g(b,"style",a)}})}function z(){if(A){var a=q();e(a,function(a){f(a.name,a.initiatorType)})}}function B(){e(q(),function(a){g(a.name,a.initiatorType)})}function r(){var a;a=d.location&&d.location.protocol?d.location.protocol:void 0;"https:"==a&&(z(),w(),x(),y(),B(),p<C&&setTimeout(r,D))}var s="[CSM] Insecure content detected ",t="[CSM] Ajax request to same page detected ",v="WARN",
+m={},p=0,D=k.ue_nsip||1E3,C=5,A=1==k.ue_urt,u=!0;ue_csm.ue_disableNonSecure||(d.performance&&d.performance.setResourceTimingBufferSize&&d.performance.setResourceTimingBufferSize(300),r())})(ue_csm,window,document);
+
+
+
+if(window.ue&&uet) { uet('bb'); }
+
+</script>
+        </head>
+    <body id="styleguide-v2" class="fixed">
+            <img height="1" width="1" style="display:none;visibility:hidden;" src="//fls-na.amazon.com/1/batch/1/OP/A1EVAM02EL8SFB:143-3513222-3382342:RSXPFYJYS4QD4CR42RQ2$uedata=s:%2Fuedata%3Fstaticb%26id%3DRSXPFYJYS4QD4CR42RQ2:0" alt="" onload="window.ue_sbl &amp;&amp; window.ue_sbl();">
+
+
+<script>
+    if (typeof uet == 'function') {
+      uet("bb");
+    }
+</script>
+  <script>
+    if ('csm' in window) {
+      csm.measure('csm_body_delivery_started');
+    }
+  </script>
+        <div id="wrapper">
+            <div id="root" class="redesign">
+<script>
+    if (typeof uet == 'function') {
+      uet("ns");
+    }
+</script>
+<div id="nb20" class="navbarSprite">
+<div id="supertab">
+
+<!-- begin TOP_AD -->
+<div id="top_ad_wrapper" class="cornerstone_slot">
+<script type="text/javascript">
+doWithAds(function(){
+if ('cornerstone_slot' != 'injected_slot') {
+ad_utils.register_ad('top_ad');
+}
+});
+</script>
+<iframe allowtransparency="true" class="yesScript" data-blank-serverside="" frameborder="0" id="top_ad" marginwidth="0" marginheight="0" name="top_ad" onload="doWithAds.call(this, function(){ ad_utils.on_ad_load(this); });" scrolling="no" data-original-width="0" data-original-height="85" width="0" height="85"></iframe> </div>
+<div id="top_ad_reflow_helper"></div>
+<script id="top_ad_rendering">
+doWithAds(function(){
+if ('cornerstone_slot' == 'injected_slot') {
+ad_utils.inject_ad.register('top_ad');
+} else {
+ad_utils.gpt.render_ad('top_ad');
+}
+}, "ad_utils not defined, unable to render client-side GPT ad or injected ad.");
+</script>
+<!-- End TOP_AD -->
+
+</div>
+  <div id="navbar" class="navbarSprite">
+<noscript>
+  <link rel="stylesheet" type="text/css" href="https://images-na.ssl-images-amazon.com/images/G/01/imdb/css/site/consumer-navbar-no-js-3652782989._CB499603776_.css" />
+</noscript>
+<span id="home_img_holder">
+<a href="/?ref_=nv_home" title="Home" class="navbarSprite" id="home_img"></a>  <span class="alt_logo">
+    <a href="/?ref_=nv_home" title="Home">IMDb</a>
+  </span>
+</span>
+<form method="get" action="/find" class="nav-searchbar-inner" id="navbar-form">
+  <div id="nb_search">
+    <noscript><div id="more_if_no_javascript"><a href="/search/">More</a></div></noscript>
+    <button id="navbar-submit-button" class="primary btn" type="submit"><div class="magnifyingglass navbarSprite"></div></button>
+    <input type="hidden" name="ref_" value="nv_sr_fn">
+    <input type="text" autocomplete="off" value="" name="q" id="navbar-query" placeholder="Find Movies, TV shows, Celebrities and more...">
+    <div class="quicksearch_dropdown_wrapper">
+      <select name="s" id="quicksearch" class="quicksearch_dropdown navbarSprite hidden">
+        <option value="all">All</option>
+        <option value="tt">Titles</option>
+        <option value="ep">TV Episodes</option>
+        <option value="nm">Names</option>
+        <option value="co">Companies</option>
+        <option value="kw">Keywords</option>
+      </select>
+    </div>
+    <div id="navbar-suggestionsearch"></div>
+  </div>
+</form>
+<div id="megaMenu">
+    <ul id="consumer_main_nav" class="main_nav">
+        <li class="spacer"></li>
+        <li class="css_nav_item" id="navTitleMenu">
+            <p class="navCategory">
+                <a href="/movies-in-theaters/?ref_=nv_tp_inth_1">Movies</a>,
+                <a href="/chart/toptv/?ref_=nv_tp_tv250_2">TV</a><br>
+                &amp; <a href="/showtimes/?ref_=nv_tp_sh_3">Showtimes</a></p>
+            <span class="downArrow"></span>
+            <div id="navMenu1" class="sub_nav">
+                    <div id="titleMenuImage" style="background: url(&apos;https://ia.media-imdb.com/images/M/MV5BMTc5MzUxODg5OV5BMl5BanBnXkFtZTYwMzc3Nzc2._V1._UY315_CR70,0,410,315_CT10_.jpg&apos;)">
+                        <a title="                            Lawrence of Arabia
+, #85 on IMDb Top Rated Movies" href="/title/tt0056172/?ref_=nv_mv_dflt_1" class="fallback">
+                        </a>
+                        <div class="overlay">
+                            <p>
+                                <a href="/title/tt0056172/?ref_=nv_mv_dflt_2" id="titleMenuImageClick">
+                                    <strong>                            Lawrence of Arabia
+</strong> (1962)
+                                </a>
+                                <br>
+                                <a href="/chart/top?ref_=nv_mv_dflt_3" id="titleMenuImageSecondaryClick">
+                                    #<strong>85</strong> on IMDb Top Rated Movies
+                                </a> &#xBB;
+                            </p>
+                        </div>
+                    </div>
+                <div class="subNavListContainer">
+                    <h5>MOVIES</h5>
+                    <ul>
+                        <li><a href="/movies-in-theaters/?ref_=nv_mv_inth_1">In Theaters</a></li>
+                        <li><a href="/showtimes/?ref_=nv_mv_sh_2">Showtimes &amp; Tickets</a></li>
+                        <li><a href="/trailers/?ref_=nv_mv_tr_3">Latest Trailers</a></li>
+                        <li><a href="/movies-coming-soon/?ref_=nv_mv_cs_4">Coming Soon</a></li>
+                        <li><a href="/calendar/?ref_=nv_mv_cal_5">Release Calendar</a></li>
+                        <li><a href="/chart/top?ref_=nv_mv_250_6">Top Rated Movies</a></li>
+                        <li><a href="/india/top-rated-indian-movies?ref_=nv_mv_250_in_7">Top Rated Indian Movies</a></li>
+                        <li><a href="/chart/moviemeter?ref_=nv_mv_mpm_8">Most Popular Movies</a></li>
+                    </ul>
+                    <h5>CHARTS &amp; TRENDS</h5>
+                    <ul>
+                        <li><a href="/chart/?ref_=nv_ch_cht_1">Box Office</a></li>
+                        <li><a href="/search/title?count=100&amp;groups=oscar_best_picture_winners&amp;sort=year,desc&amp;ref_=nv_ch_osc_2">Oscar Winners</a></li>
+                        <li><a href="/genre/?ref_=nv_ch_gr_3">Most Popular by Genre</a></li>
+                    </ul>
+                </div>
+                <div class="subNavListContainer">
+                    <h5>TV &amp; VIDEO</h5>
+                    <ul>
+                        <li><a href="/tv/?ref_=nv_tvv_tv_1">IMDb TV</a></li>
+                        <li><a href="/chart/toptv/?ref_=nv_tvv_250_3">Top Rated TV Shows</a></li>
+                        <li><a href="/chart/tvmeter?ref_=nv_tvv_mptv_4">Most Popular TV Shows</a></li>
+                        <li><a href="/sections/dvd/?ref_=nv_tvv_dvd_5">DVD &amp; Blu-Ray</a></li>
+                    </ul>
+                    <h5>SPECIAL FEATURES</h5>
+                    <ul>
+                        <li><a href="/amazon-originals/?ref_=nv_sf_ams_1">Amazon Originals</a></li>
+                        <li><a href="/streaming/?ref_=nv_sf_st_2">Streaming</a></li>
+                        <li><a href="/star-wars/?ref_=nv_sf_stw_3">Star Wars</a></li>
+                        <li><a href="/imdbpicks/?ref_=nv_sf_picks_4">IMDb Picks</a></li>
+                        <li><a href="/superheroes/?ref_=nv_sf_supr_5">Superheroes</a></li>
+                        <li><a href="/family-entertainment-guide/?ref_=nv_sf_fam_6">Family</a></li>
+                        <li><a href="/show/?ref_=nv_sf_is_7">&quot;The IMDb Show&quot;</a></li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+        <li class="spacer"></li>
+        <li class="css_nav_item" id="navNameMenu">
+            <p class="navCategory">
+                <a href="/search/name?gender=male,female&amp;ref_=nv_tp_cel_1">Celebs</a>,
+                <a href="/awards-central/?ref_=nv_tp_awrd_2">Events</a><br>
+                &amp; <a href="/gallery/rg784964352?ref_=nv_tp_ph_3">Photos</a></p>
+            <span class="downArrow"></span>
+            <div id="navMenu2" class="sub_nav">
+                    <div id="nameMenuImage" style="background: url(&apos;https://ia.media-imdb.com/images/M/MV5BMjA4MDU4MjIyMl5BMl5BanBnXkFtZTcwOTM2OTE0Nw@@._V1._SX250_CR0,0,250,315_.jpg&apos;)">
+                        <a title="Jennifer Aniston, #146 on STARmeter" href="/name/nm0000098/?ref_=nv_cel_dflt_1" class="fallback">
+                        </a>
+                        <div class="overlay">
+                            <p>
+                                <a href="/name/nm0000098/?ref_=nv_cel_dflt_2" id="nameAdClick">
+                                    <strong>Jennifer Aniston</strong>
+                                </a> &#xBB;
+                                <br>
+                                #<strong>146</strong> on STARmeter
+                            </p>
+                        </div>
+                    </div>
+                <div class="subNavListContainer">
+                    <h5>CELEBS</h5>
+                    <ul>
+                            <li><a href="/search/name?birth_monthday=04-17&amp;refine=birth_monthday&amp;ref_=nv_cel_brn_1">Born Today</a></li>
+                        <li><a href="/news/celebrity?ref_=nv_cel_nw_2">Celebrity News</a></li>
+                        <li><a href="/search/name?gender=male,female&amp;ref_=nv_cel_m_3">Most Popular Celebs</a></li>
+                    </ul>
+                    <h5>PHOTOS</h5>
+                    <ul>
+                        <li><a href="/gallery/rg1859820288?ref_=nv_ph_ls_1">Latest Stills</a></li>
+                        <li><a href="/gallery/rg1624939264?ref_=nv_ph_lp_2">Latest Posters</a></li>
+                        <li><a href="/gallery/rg1641716480?ref_=nv_ph_lv_3">Photos We Love</a></li>
+                    </ul>
+                </div>
+                <div class="subNavListContainer">
+                    <h5>EVENTS</h5>
+                    <ul>
+                        <li><a href="/awards-central/?ref_=nv_ev_awrd_1">Awards Central</a></li>
+                        <li><a href="/festival-central/?ref_=nv_ev_fc_2">Festival Central</a></li>
+                        <li><a href="/oscars/?ref_=nv_ev_acd_3">Oscars</a></li>
+                        <li><a href="/golden-globes/?ref_=nv_ev_gg_4">Golden Globes</a></li>
+                        <li><a href="/sundance/?ref_=nv_ev_sun_5">Sundance</a></li>
+                        <li><a href="/cannes/?ref_=nv_ev_can_6">Cannes</a></li>
+                        <li><a href="/comic-con/?ref_=nv_ev_comic_7">Comic-Con</a></li>
+                        <li><a href="/emmys/?ref_=nv_ev_rte_8">Emmy Awards</a></li>
+                        <li><a href="/venice/?ref_=nv_ev_venice_9">Venice Film Festival</a></li>
+                        <li><a href="/toronto/?ref_=nv_ev_tor_10">Toronto Film Festival</a></li>
+                        <li><a href="/festival-central/tribeca?ref_=nv_ev_trb_11">Tribeca</a></li>
+                        <li><a href="/sxsw/?ref_=nv_ev_sxsw_12">SXSW</a></li>
+                        <li><a href="/event/all/?ref_=nv_ev_all_13">All Events</a></li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+        <li class="spacer"></li>
+        <li class="css_nav_item" id="navNewsMenu">
+            <p class="navCategory">
+                <a href="/news/top?ref_=nv_tp_nw_1">News</a> &amp;<br>
+                <a href="/czone/?ref_=nv_cm_cz_2">Community</a>
+            </p>
+            <span class="downArrow"></span>
+            <div id="navMenu3" class="sub_nav">
+                <div id="latestHeadlines">
+                    <div class="subNavListContainer">
+                        <h5>LATEST HEADLINES</h5>
+    <ul class="ipl-simple-list">
+            <li class="news_item" itemprop="headline">
+<a href="/news/ni62005809?ref_=nv_nw_tn_1"> Amazon Buys &#x2018;The Peripheral&#x2019; Drama From Jonathan Nolan &amp; Lisa Joy&#x2019;s Kilter Films
+</a><br>
+                <small>
+                <span itemprop="datePublished">4 hours ago</span>
+                <span>|</span>
+                <span itemprop="provider">Deadline TV</span>
+                </small>
+            </li>
+            <li class="news_item" itemprop="headline">
+<a href="/news/ni62005733?ref_=nv_nw_tn_2"> Cathy Yan to Direct Harley Quinn Movie Starring Margot Robbie
+</a><br>
+                <small>
+                <span itemprop="datePublished">5 hours ago</span>
+                <span>|</span>
+                <span itemprop="provider">Variety - Film News</span>
+                </small>
+            </li>
+            <li class="news_item" itemprop="headline">
+<a href="/news/ni62004828?ref_=nv_nw_tn_3"> &apos;Night Court&apos; Star Harry Anderson Dead at 65
+</a><br>
+                <small>
+                <span itemprop="datePublished">21 hours ago</span>
+                <span>|</span>
+                <span itemprop="provider">TMZ</span>
+                </small>
+            </li>
+    </ul>
+                    </div>
+                </div>
+                <div class="subNavListContainer">
+                    <h5>NEWS</h5>
+                    <ul>
+                        <li><a href="/news/top?ref_=nv_nw_tp_1">Top News</a></li>
+                        <li><a href="/news/movie?ref_=nv_nw_mv_2">Movie News</a></li>
+                        <li><a href="/news/tv?ref_=nv_nw_tv_3">TV News</a></li>
+                        <li><a href="/news/celebrity?ref_=nv_nw_cel_4">Celebrity News</a></li>
+                        <li><a href="/news/indie?ref_=nv_nw_ind_5">Indie News</a></li>
+                    </ul>
+                    <h5>COMMUNITY</h5>
+                    <ul>
+                        <li><a href="/czone/?ref_=nv_cm_cz_2">Contributor Zone</a></li>
+                        <li><a href="/poll/?ref_=nv_cm_pl_3">Polls</a></li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+        <li class="spacer"></li>
+        <li class="css_nav_item" id="navWatchlistMenu">
+<p class="navCategory singleLine watchlist">
+    <a href="/list/watchlist?ref_=nv_wl_all_0">Watchlist</a>
+</p>
+<span class="downArrow"></span>
+<div id="navMenu4" class="sub_nav">
+    <h5>
+            YOUR WATCHLIST
+    </h5>
+    <ul id="navWatchlist">
+    </ul>
+    <script>
+    if (!('imdb' in window)) { window.imdb = {}; }
+    window.imdb.watchlistTeaserData = [
+                {
+                        href : "/list/watchlist",
+                src : "https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/navbar/watchlist_slot1_logged_out-1670046337._CB499558634_.jpg"
+                },
+                {
+                    href : "/search/title?count=100&title_type=feature,tv_series",
+                src : "https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/navbar/watchlist_slot2_popular-4090757197._CB499603798_.jpg"
+                },
+                {
+                    href : "/chart/top",
+                src : "https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/navbar/watchlist_slot3_top250-575799966._CB499606965_.jpg"
+                }
+    ];
+    </script>
+</div>
+        </li>
+        <li class="spacer"></li>
+    </ul>
+</div>
+<div id="nb_extra">
+    <ul id="nb_extra_nav" class="main_nav">
+        <li class="css_nav_item" id="navProMenu">
+            <p class="navCategory">
+<a href="https://pro.imdb.com/signup/index.html?rf=cons_nb_hm&amp;ref_=cons_nb_hm"> <img alt="IMDbPro Menu" src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/navbar/imdbpro_logo_nb-3000473826._CB499603813_.png">
+</a>            </p>
+            <span class="downArrow"></span>
+            <div id="navMenuPro" class="imdb-pro-ad sub_nav">
+<a href="https://pro.imdb.com/signup/index.html?rf=cons_nb_hm&amp;ref_=cons_nb_hm" class="imdp-pro-ad__link"> <div id="proAd" class="imdb-pro-ad__image">
+<img alt="Go to IMDbPro" height="180" width="174" src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/navbar/imdbpro_menu_user-4091932618._CB499606980_.png" srcset="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/navbar/imdbpro_menu_user-4091932618._CB499606980_.png 1x,
+https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/navbar/imdbpro_menu_user_2x-2074318947._CB499559356_.png 2x">
+</div>
+<section class="imdb-pro-ad__content">
+<div class="imdb-pro-ad__title">The leading information resource for the entertainment industry</div>
+<p class="imdb-pro-ad__line">Find industry contacts &amp; talent representation</p>
+<p class="imdb-pro-ad__line">Manage your photos, credits, &amp; more</p>
+<p class="imdb-pro-ad__line">Showcase yourself on IMDb &amp; Amazon</p>
+<span class="imdb-pro-ad__button">Go to IMDbPro</span>
+</section>
+</a>            </div>
+        </li>
+        <li class="spacer"><span class="ghost">|</span></li>
+        <li>
+            <a href="https://help.imdb.com/imdb?ref_=cons_nb_hlp">Help</a>
+        </li>
+        <li class="social">
+
+    <a href="/offsite/?page-action=fol_fb&amp;token=BCYuM65-BGGivLeYRQ3JuUIIK9xNsX15D8__zEkCqufwfYQwFdevVQz4ztk07_GZJrUUeySOjvh1%0D%0Avs7YIc0XYczaECyM37cfKqxsmmB6sihu715EAq5-ROfw72d1vYUcp0ub8t2I54BTEdNaHAoNyNZ2%0D%0Axh0xF3sC5a7odr5deool2jOPD9gfrLq0QB2ZZ6bRookHOHpGDPK8b8wfyktEg2PdSw%0D%0A&amp;ref_=nm_nv_fol_fb" title="Follow IMDb on Facebook" target="_blank" itemprop="url"> <span class="desktop-sprite follow-facebook"></span>
+</a>
+    <a href="/offsite/?page-action=fol_tw&amp;token=BCYkjX9jLg01WPk4uYMzOg6k5OoZtR18XAGhiq1dy6_1rPj1gm9CjRUHh3ITzQl0zCucu3x5en20%0D%0AgGeI9AXwvkP-1tEXXR6ZF5o1l5EoZItjGxwUUhCfLShWSzeXCVRntd5yWCj085kOxuzS_fFPh_V8%0D%0A3NAHAw-0q50pW7bExbeJglzuvOEX_BbJa_nK0-UZw1reu7VOc5ETHZ12iAIcQdRFrw%0D%0A&amp;ref_=nm_nv_fol_tw" title="Follow IMDb on Twitter" target="_blank" itemprop="url"> <span class="desktop-sprite follow-twitter"></span>
+</a>
+    <a href="/offsite/?page-action=fol_inst&amp;token=BCYszREpI-SFhJ9L5VbJUOtnH0KzujuQIdJrJuN7UI8rd9YllCYc7o8xypn4VuQcbavqjWvbdgkP%0D%0AvfZX_JL04EA_trA301NqxfbaqxYvU9wOgpii2GHsS_KVajmydLxYbTcTgAKKLZOW-1eneD31mtrS%0D%0Azp-OppKY5hm3j7t52YfsdRydgk8Wpj_drwXJSdFHomLhbHBoTizsyzgSwAOAwoHJKA%0D%0A&amp;ref_=nm_nv_fol_inst" title="Follow IMDb on Instagram" target="_blank" itemprop="url"> <span class="desktop-sprite follow-instagram"></span>
+</a>
+        </li>
+    </ul>
+</div>
+<div id="nb_personal">
+    <ul id="consumer_user_nav" class="main_nav">
+            <li class="css_nav_menu no_arrow" id="navUserMenu">
+            <p class="navCategory singleLine">
+                <a id="facebook-signin-link" href="https://graph.facebook.com/v2.8/oauth/authorize?client_id=127059960673829&amp;scope=email%2Cuser_about_me%2Cuser_birthday&amp;state=eyI0OWU2YyI6IjEyNGMiLCJ1IjoiaHR0cHM6Ly93d3cuaW1kYi5jb20vP3JlZl89bnZfZmJfbGdpbiIsIm1hbnVhbExpbmsiOiJmYWxzZSJ9&amp;redirect_uri=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Ffacebookhandler%2F" class="signin-button">
+                <span class="facebook-logo"></span>
+                <span class="signin-facebook-text">Sign in with Facebook</span></a>
+                <a href="https://www.imdb.com/registration/signin?u=/name/nm5397459/%3Fref_%3Dnmmi_mi_nm&amp;ref_=nv_usr_lgin_1" rel="login" class="signin-other-options-text" id="nblogin">Other Sign in options</a>
+                </p>
+        </li>
+    </ul>
+</div>
+  </div>
+</div>
+
+	<!-- no content received for slot: navstrip -->
+
+
+
+<!-- begin INJECTED_NAVSTRIP -->
+<div id="injected_navstrip_wrapper" class="injected_slot">
+<script type="text/javascript">
+doWithAds(function(){
+if ('injected_slot' != 'injected_slot') {
+ad_utils.register_ad('injected_navstrip');
+}
+});
+</script>
+<iframe allowtransparency="true" class="yesScript" data-dart-params="#doubleclick;u=467494768829;ord=467494768829?" frameborder="0" id="injected_navstrip" marginwidth="0" marginheight="0" name="injected_navstrip" onload="doWithAds.call(this, function(){ ad_utils.on_ad_load(this); });" scrolling="no" data-original-width="0" data-original-height="0" width="0" height="0"></iframe> </div>
+<div id="injected_navstrip_reflow_helper"></div>
+<script id="injected_navstrip_rendering">
+doWithAds(function(){
+if ('injected_slot' == 'injected_slot') {
+ad_utils.inject_ad.register('injected_navstrip');
+} else {
+ad_utils.gpt.render_ad('injected_navstrip');
+}
+}, "ad_utils not defined, unable to render client-side GPT ad or injected ad.");
+</script>
+<!-- End INJECTED_NAVSTRIP -->
+
+<script>
+    if (typeof uet == 'function') {
+      uet("ne");
+    }
+</script>
+
+
+                    <div id="pagecontent" class="pagecontent" itemscope="" itemtype="http://schema.org/Person">
+
+
+<!-- begin INJECTED_BILLBOARD -->
+<div id="injected_billboard_wrapper" class="injected_slot">
+<script type="text/javascript">
+doWithAds(function(){
+if ('injected_slot' != 'injected_slot') {
+ad_utils.register_ad('injected_billboard');
+}
+});
+</script>
+<iframe allowtransparency="true" class="yesScript" data-dart-params="#doubleclick;u=467494768829;ord=467494768829?" frameborder="0" id="injected_billboard" marginwidth="0" marginheight="0" name="injected_billboard" onload="doWithAds.call(this, function(){ ad_utils.on_ad_load(this); });" scrolling="no" data-original-width="0" data-original-height="0" width="0" height="0"></iframe> </div>
+<div id="injected_billboard_reflow_helper"></div>
+<script id="injected_billboard_rendering">
+doWithAds(function(){
+if ('injected_slot' == 'injected_slot') {
+ad_utils.inject_ad.register('injected_billboard');
+} else {
+ad_utils.gpt.render_ad('injected_billboard');
+}
+}, "ad_utils not defined, unable to render client-side GPT ad or injected ad.");
+</script>
+<!-- End INJECTED_BILLBOARD -->
+
+
+
+
+
+
+
+
+
+
+
+<div id="content-2-wide" class="redesign">
+
+    <div class="maindetails_center" id="maindetails_center_top">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="article name-overview">
+
+<script>
+    if (typeof uet == 'function') {
+      uet("bb", "NameOverviewWidget", {wb: 1});
+    }
+</script>
+    <script>
+      if ('csm' in window) {
+        csm.measure('csm_NameOverviewWidget_started');
+      }
+    </script>
+
+    <div id="name-overview-widget">
+        <table cellspacing="0" cellpadding="0" border="0" id="name-overview-widget-layout">
+            <tbody>
+                <tr>
+                    <td rowspan="2" id="img_primary">
+                        <div class="image">
+<a href="/name/nm5397459/mediaviewer/rm1105915136?ref_=nm_ov_ph"> <img id="name-poster" height="317" width="214" alt="Daisy Ridley Picture" title="Daisy Ridley Picture" src="https://ia.media-imdb.com/images/M/MV5BMTgzMDk3MjI4OF5BMl5BanBnXkFtZTgwMzQxMDY5NjE@._V1_UY317_CR20,0,214,317_AL_.jpg" itemprop="image">
+</a>
+
+                        </div>
+                    </td>
+
+                    <td id="overview-top">
+
+
+
+
+
+
+            <div id="prometer_container">
+                <div id="prometer" class="meter-collapsed up three-line">
+                    <div id="meterHeaderBox">
+                        <div class="meterToggleOnHover">STARmeter</div>
+<a href="https://pro.imdb.com/name/nm5397459?rf=cons_nm_meter&amp;ref_=cons_nm_meter" class="top100" id="meterRank">5</a>
+                    </div>
+                    <div id="meterChangeRow" class="meterToggleOnHover">
+                            <span>Up</span>
+                        <span id="meterChange">24</span>
+                        <span>this week</span>
+                    </div>
+                    <div id="meterSeeMoreRow" class="meterToggleOnHover">
+<a href="https://pro.imdb.com/name/nm5397459?rf=cons_nm_meter&amp;ref_=cons_nm_meter" class="top100">View rank on IMDbPro</a>
+                        <span>&#xBB;</span>
+                    </div>
+                </div>
+            </div>
+
+    <h1 class="header"> <span class="itemprop" itemprop="name">Daisy Ridley</span>
+
+
+    </h1>
+
+        <div class="infobar" id="name-job-categories">
+
+
+<a href="#actress" onclick="nameJobCategoriesClickHandler(this)"> <span class="itemprop" itemprop="jobTitle">
+Actress</span></a>                 <span class="ghost">|</span>
+
+
+<a href="#producer" onclick="nameJobCategoriesClickHandler(this)"> <span class="itemprop" itemprop="jobTitle">
+Producer</span></a>                 <span class="ghost">|</span>
+
+
+<a href="#soundtrack" onclick="nameJobCategoriesClickHandler(this)"> <span class="itemprop" itemprop="jobTitle">
+Soundtrack</span></a>
+        </div>
+
+        <hr>
+
+<div class="txt-block" id="name-bio-text">
+        <div class="name-trivia-bio-text">
+                      <div class="inline" itemprop="description">
+Daisy Jazz Isobel Ridley is an English actress. She is best known for her breakthrough role as &quot;Rey&quot; in the 2015 film, <a href="/title/tt2488496?ref_=nm_ov_bio_lk1">Star Wars: Episode VII - The Force Awakens</a> (2015). Daisy was born in Westminster, London, on April 10, 1992. She is the daughter of Louise Fawkner-Corbett and Chris Ridley. Her great-uncle was <a href="/name/nm0725965?ref_=nm_ov_bio_lk2">Arnold Ridley</a>, an English actor, ...            <span class="see-more inline nobr-only">
+                    <a href="/name/nm5397459/bio?ref_=nm_ov_bio_sm">See full bio</a> &#xBB;
+            </span>
+</div>        </div>
+</div>
+
+
+    <div id="name-born-info" class="txt-block">
+        <h4 class="inline">Born:</h4>
+
+  <time datetime="1992-4-10" itemprop="birthDate">
+<a href="/search/name?birth_monthday=4-10&amp;refine=birth_monthday&amp;ref_=nm_ov_bth_monthday">April 10</a>,
+
+<a href="/search/name?birth_year=1992&amp;ref_=nm_ov_bth_year">1992</a>
+  </time>
+            in
+            <a href="/search/name?birth_place=London,%20England,%20UK&amp;ref_=nm_ov_bth_place">London, England, UK</a>
+    </div>
+
+
+
+                   </td>
+                </tr><tr>
+                   <td id="overview-middle">
+        <div id="name-pro-info" class="pro-list">
+            <span class="pro-list-title"><a href="https://pro.imdb.com/name/nm5397459?rf=cons_nm_more&amp;ref_=cons_nm_more">More at IMDbPro</a> &#xBB;</span>
+<a href="https://pro.imdb.com/name/nm5397459?rf=cons_nm_contact&amp;ref_=cons_nm_contact"><img class="absmiddle" width="13" height="13" src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/icons/phone-375450651._CB499558561_.png" alt="Contact Info on IMDbPro"></a>                <strong>Contact Info:</strong>
+<a href="https://pro.imdb.com/name/nm5397459?rf=cons_nm_contact&amp;ref_=cons_nm_contact"> View agent, publicist and legal
+</a><br>
+
+
+        </div>
+                   </td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <div class="mediastrip_container">
+    <div class="mediastrip">
+
+<a href="/name/nm5397459/mediaviewer/rm84233728?context=default&amp;ref_=nm_phs_md_1" itemprop="thumbnailUrl"><img height="99" width="99" alt="Oscar Isaac and Daisy Ridley in Star Wars: Episode VIII - The Last Jedi (2017)" title="Oscar Isaac and Daisy Ridley in Star Wars: Episode VIII - The Last Jedi (2017)" src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._CB499606652_.png" class="loadlate hidden " loadlate="https://ia.media-imdb.com/images/M/MV5BZWY4NjI4MTctZTExOS00YWU3LWI0NmEtZmI4YjJkMjQwMDc3XkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_UY99_CR68,0,99,99_AL_.jpg" itemprop="image"></a>
+<a href="/name/nm5397459/mediaviewer/rm956648960?context=default&amp;ref_=nm_phs_md_2" itemprop="thumbnailUrl"><img height="99" width="99" alt="Daisy Ridley in Star Wars: Episode VIII - The Last Jedi (2017)" title="Daisy Ridley in Star Wars: Episode VIII - The Last Jedi (2017)" src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._CB499606652_.png" class="loadlate hidden " loadlate="https://ia.media-imdb.com/images/M/MV5BMmQ5MWMxYjAtNmFlNS00Y2Y2LWE3ZmUtNmNiNjYyYTcwYWRmXkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_UY99_CR68,0,99,99_AL_.jpg" itemprop="image"></a>
+<a href="/name/nm5397459/mediaviewer/rm1006980608?context=default&amp;ref_=nm_phs_md_3" itemprop="thumbnailUrl"><img height="99" width="99" alt="Daisy Ridley in Star Wars: Episode VIII - The Last Jedi (2017)" title="Daisy Ridley in Star Wars: Episode VIII - The Last Jedi (2017)" src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._CB499606652_.png" class="loadlate hidden " loadlate="https://ia.media-imdb.com/images/M/MV5BMjYwYThhM2QtZDJlOS00N2VkLWEwNDAtZDAwMGExOGJkNWEwXkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_UY99_CR68,0,99,99_AL_.jpg" itemprop="image"></a>
+<a href="/name/nm5397459/mediaviewer/rm805654016?context=default&amp;ref_=nm_phs_md_4" itemprop="thumbnailUrl"><img height="99" width="99" alt="Daisy Ridley in Star Wars: Episode VIII - The Last Jedi (2017)" title="Daisy Ridley in Star Wars: Episode VIII - The Last Jedi (2017)" src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._CB499606652_.png" class="loadlate hidden " loadlate="https://ia.media-imdb.com/images/M/MV5BMDU3YjRhMTctYmMwZS00MWQxLWEzYTQtNmFmMDE2NjA2YTY3XkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_UY99_CR68,0,99,99_AL_.jpg" itemprop="image"></a>
+<a href="/name/nm5397459/mediaviewer/rm355945984?context=default&amp;ref_=nm_phs_md_5" itemprop="thumbnailUrl"><img height="99" width="99" alt="Daisy Ridley in Star Wars: Episode VII - The Force Awakens (2015)" title="Daisy Ridley in Star Wars: Episode VII - The Force Awakens (2015)" src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._CB499606652_.png" class="loadlate hidden " loadlate="https://ia.media-imdb.com/images/M/MV5BZTAxOTVlOGEtNzA1MC00OGY4LTkxMzAtNjQ0ZmM4ZTM2NGM5XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_UY99_CR68,0,99,99_AL_.jpg" itemprop="image"></a>
+<a href="/name/nm5397459/mediaviewer/rm221728256?context=default&amp;ref_=nm_phs_md_6" itemprop="thumbnailUrl"><img height="99" width="99" alt="Mark Hamill and Daisy Ridley in Star Wars: Episode VII - The Force Awakens (2015)" title="Mark Hamill and Daisy Ridley in Star Wars: Episode VII - The Force Awakens (2015)" src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/small/unknown-1394846836._CB499606652_.png" class="loadlate hidden " loadlate="https://ia.media-imdb.com/images/M/MV5BZmJkOGU1MzItMjM2ZS00MDhlLWE2MTMtNTM3YWYyMDI3YzM1XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_UY99_CR68,0,99,99_AL_.jpg" itemprop="image"></a>    </div>
+
+                <div class="see-more">
+<a href="/name/nm5397459/mediaindex?ref_=nm_phs_md_sm"><span class="titlePageSprite showAllVidsAndPics"></span></a>
+<a href="/name/nm5397459/mediaindex?ref_=nm_phs_md_sm">410 photos</a>
+<span class="ghost">|</span>
+<a href="/name/nm5397459/videogallery?ref_=nm_phs_vi">32 videos</a>
+&#xBB;                </div>
+        </div>
+
+    </div>
+    <script>
+      if ('csm' in window) {
+        csm.measure('csm_NameOverviewWidget_finished');
+      }
+    </script>
+<script>
+    if (typeof uet == 'function') {
+      uet("be", "NameOverviewWidget", {wb: 1});
+    }
+</script>
+<script>
+    if (typeof uex == 'function') {
+      uex("ld", "NameOverviewWidget", {wb: 1});
+    }
+</script>
+
+            </div>
+
+
+<script>
+    if (typeof uet == 'function') {
+      uet("af");
+    }
+</script>
+  <script>
+    if ('csm' in window) {
+      csm.measure('csm_atf_main');
+    }
+  </script>
+
+
+
+
+    </div>
+
+<script>
+    if (typeof uet == 'function') {
+      uet("cf");
+    }
+</script>
+
+
+    <div id="maindetails_sidebar_bottom" class="maindetails_sidebar" data-caller-name="name-main">
+
+  <script>
+    if ('csm' in window) {
+      csm.measure('csm_atf_sidebar');
+    }
+  </script>
+
+
+
+<!-- begin TOP_RHS -->
+<div id="top_rhs_wrapper" class="cornerstone_slot">
+<script type="text/javascript">
+doWithAds(function(){
+if ('cornerstone_slot' != 'injected_slot') {
+ad_utils.register_ad('top_rhs');
+}
+});
+</script>
+<iframe allowtransparency="true" class="yesScript" data-blank-serverside="" frameborder="0" id="top_rhs" marginwidth="0" marginheight="0" name="top_rhs" onload="doWithAds.call(this, function(){ ad_utils.on_ad_load(this); });" scrolling="no" data-original-width="300" data-original-height="250" width="300" height="250"></iframe> </div>
+<div id="top_rhs_reflow_helper"></div>
+<div id="top_rhs_after" class="after_ad" style="visibility:hidden;">
+<a class="yesScript" href="#" onclick="ad_utils.show_ad_feedback(&apos;top_rhs&apos;);return false;" id="ad_feedback_top_rhs">ad feedback</a>
+</div>
+<script id="top_rhs_rendering">
+doWithAds(function(){
+if ('cornerstone_slot' == 'injected_slot') {
+ad_utils.inject_ad.register('top_rhs');
+} else {
+ad_utils.gpt.render_ad('top_rhs');
+}
+}, "ad_utils not defined, unable to render client-side GPT ad or injected ad.");
+</script>
+<!-- End TOP_RHS -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="aux-content-widget-3 links subnav" div="quicklinks">
+
+             <h3>Quick Links</h3>
+
+
+
+        <div id="maindetails_quicklinks">
+                <div class="split_0">
+
+    <ul class="quicklinks">
+                <li class="subnav_item_main">
+                    <span class="nobr-only">
+<a href="/name/nm5397459/bio?ref_=nm_ql_1" class="link">Biography</a>
+                    </span>
+                </li>
+                <li class="subnav_item_main">
+                    <span class="nobr-only">
+<a href="/name/nm5397459/awards?ref_=nm_ql_2" class="link">Awards</a>
+                    </span>
+                </li>
+                <li class="subnav_item_main">
+                    <span class="nobr-only">
+<a href="/name/nm5397459/mediaindex?ref_=nm_ql_3" class="link">Photo Gallery</a>
+                    </span>
+                </li>
+    </ul>
+                </div>
+                <div class="split_1">
+
+    <ul class="quicklinks">
+                <li class="subnav_item_main">
+                    <span class="nobr-only">
+<a href="/name/nm5397459/?nmdp=1&amp;ref_=nm_ql_4#filmography" class="link">Filmography <span class="ghost quicklink_modifier">(by Job)</span></a>
+                    </span>
+                </li>
+                <li class="subnav_item_main">
+                    <span class="nobr-only">
+<a href="/name/nm5397459/videogallery?ref_=nm_ql_5" class="link">Trailers and Videos</a>
+                    </span>
+                </li>
+    </ul>
+                </div>
+        </div>
+
+
+        <hr>
+
+        <div id="full_subnav">
+
+
+
+
+        <h4>Filmography</h4>
+
+    <ul class="quicklinks">
+                <li class="subnav_item_main">
+                    <span class="nobr-only">
+<a href="/filmosearch?sort=year&amp;explore=title_type&amp;role=nm5397459&amp;ref_=nm_ql_flmg_1" class="link"><span class="ghost">by</span> Year</a>
+                    </span>
+                </li>
+                <li class="subnav_item_main">
+                    <span class="nobr-only">
+<a href="/name/nm5397459/?nmdp=1&amp;ref_=nm_ql_flmg_2#filmography" class="link"><span class="ghost">by</span> Job</a>
+                    </span>
+                </li>
+                <li class="subnav_item_main">
+                    <span class="nobr-only">
+<a href="/filmosearch?sort=user_rating&amp;explore=title_type&amp;role=nm5397459&amp;ref_=nm_ql_flmg_3" class="link"><span class="ghost">by</span> Ratings</a>
+                    </span>
+                </li>
+                <li class="subnav_item_main">
+                    <span class="nobr-only">
+<a href="/filmosearch?sort=num_votes&amp;explore=title_type&amp;role=nm5397459&amp;ref_=nm_ql_flmg_4" class="link"><span class="ghost">by</span> Votes</a>
+                    </span>
+                </li>
+                <li class="subnav_item_main">
+                    <span class="nobr-only">
+<a href="/filmosearch?sort=moviemeter&amp;explore=genres&amp;role=nm5397459&amp;ref_=nm_ql_flmg_5" class="link"><span class="ghost">by</span> Genre</a>
+                    </span>
+                </li>
+                <li class="subnav_item_main">
+                    <span class="nobr-only">
+<a href="/filmosearch?sort=moviemeter&amp;explore=keywords&amp;role=nm5397459&amp;ref_=nm_ql_flmg_6" class="link"><span class="ghost">by</span> Keyword</a>
+                    </span>
+                </li>
+    </ul>
+
+
+
+        <h4>Personal Details</h4>
+
+    <ul class="quicklinks">
+                <li class="subnav_item_main">
+                    <span class="nobr-only">
+<a href="/name/nm5397459/bio?ref_=nm_ql_pdtls_1" class="link">Biography</a>
+                    </span>
+                </li>
+                <li class="subnav_item_main">
+                    <span class="nobr-only">
+<a href="/name/nm5397459/otherworks?ref_=nm_ql_pdtls_2" class="link">Other Works</a>
+                    </span>
+                </li>
+                <li class="subnav_item_main">
+                    <span class="nobr-only">
+<a href="/name/nm5397459/publicity?ref_=nm_ql_pdtls_3" class="link">Publicity Listings</a>
+                    </span>
+                </li>
+                <li class="subnav_item_main">
+                    <span class="nobr-only">
+<a href="/name/nm5397459/officialsites?ref_=nm_ql_pdtls_4" class="link ghost">Official Sites</a>
+                    </span>
+                </li>
+                <li class="subnav_item_main">
+                    <span class="nobr-only">
+                            <a href="https://pro.imdb.com/name/nm5397459?rf=cons_nm_ql_contact&amp;ref_=cons_nm_ql_contact">Contact Info <span class="ghost quicklink_modifier">(IMDbPro)</span></a>
+                    </span>
+                </li>
+    </ul>
+
+
+
+        <h4>Did You Know?</h4>
+
+    <ul class="quicklinks">
+                <li class="subnav_item_main">
+                    <span class="nobr-only">
+<a href="/name/nm5397459/bio?ref_=nm_ql_dyk_1#quotes" class="link">Personal Quotes</a>
+                    </span>
+                </li>
+                <li class="subnav_item_main">
+                    <span class="nobr-only">
+<a href="/name/nm5397459/bio?ref_=nm_ql_dyk_2#trivia" class="link">Trivia </a>
+                    </span>
+                </li>
+                <li class="subnav_item_main">
+                    <span class="nobr-only">
+<a href="/name/nm5397459/bio?ref_=nm_ql_dyk_3#trademark" class="link">Trademark</a>
+                    </span>
+                </li>
+    </ul>
+
+
+
+        <h4>Photo &amp; Video</h4>
+
+    <ul class="quicklinks">
+                <li class="subnav_item_main">
+                    <span class="nobr-only">
+<a href="/name/nm5397459/mediaindex?ref_=nm_ql_pv_1" class="link">Photo Gallery</a>
+                    </span>
+                </li>
+                <li class="subnav_item_main">
+                    <span class="nobr-only">
+<a href="/name/nm5397459/videogallery?ref_=nm_ql_pv_2" class="link">Trailers and Videos</a>
+                    </span>
+                </li>
+    </ul>
+
+
+
+        <h4>Opinion</h4>
+
+    <ul class="quicklinks">
+                <li class="subnav_item_main">
+                    <span class="nobr-only">
+<a href="/name/nm5397459/awards?ref_=nm_ql_op_1" class="link">Awards</a>
+                    </span>
+                </li>
+    </ul>
+
+
+
+        <h4>Related Items</h4>
+
+    <ul class="quicklinks">
+                <li class="subnav_item_main">
+                    <span class="nobr-only">
+<a href="/search/common?name=nm5397459&amp;ref_=nm_ql_rel_1" class="link">Credited With</a>
+                    </span>
+                </li>
+                <li class="subnav_item_main">
+                    <span class="nobr-only">
+<a href="/name/nm5397459/news?ref_=nm_ql_rel_2" class="link">News</a>
+                    </span>
+                </li>
+                <li class="subnav_item_main">
+                    <span class="nobr-only">
+<a href="/name/nm5397459/externalsites?ref_=nm_ql_rel_3" class="link">External Sites</a>
+                    </span>
+                </li>
+    </ul>
+
+
+
+        <h4>Professional Services</h4>
+
+    <ul class="quicklinks">
+                <li class="subnav_item_main">
+                    <span class="nobr-only">
+                            <a href="https://pro.imdb.com/name/nm5397459?rf=cons_nm_ql_getmore&amp;ref_=cons_nm_ql_getmore">Get more at IMDbPro</a>
+                    </span>
+                </li>
+    </ul>
+    <hr>
+        </div>
+
+        <div class="show_more"><span class="titlePageSprite arrows show"></span>Explore More</div>
+        <div class="show_less"><span class="titlePageSprite arrows hide"></span>Show Less</div>
+    </div>
+
+
+
+
+        <a name="slot_right-3"></a>
+        <div class="aux-content-widget-2">
+
+
+
+
+
+
+            <script type="text/javascript">if(typeof uet === 'function'){uet('bb','NinjaWidget',{wb:1});}</script>
+
+
+
+
+        <span class="ab_widget">
+
+
+
+    <div class="ab_ninja">
+<span class="widget_header"> <span class="oneline"> <a href="/list/ls025849840/videoplayer/vi4213618713?pf_rd_m=A2FGELUUNOQJNL&amp;pf_rd_p=360600d5-c090-400c-bba5-930ceee4e38a&amp;pf_rd_r=RSXPFYJYS4QD4CR42RQ2&amp;pf_rd_s=right-3&amp;pf_rd_t=15011&amp;pf_rd_i=nm5397459&amp;ref_=nm_ecw_117_vod3_rhs_hd"> <h3>&apos;Ready Player One&apos; Speed Round With Olivia Cooke</h3> </a> </span> </span> <div class="widget_content no_inline_blurb"> <div class="widget_nested"> <div class="ninja_image_pack"> <div class="ninja_center"> <div class="ninja_image first_image last_image" style="width:307px;height:auto;"> <div style="width:307px;height:auto;margin:0 auto;"> <div class="widget_image"> <div class="image"> <a href="/list/ls025849840/videoplayer/vi4213618713?pf_rd_m=A2FGELUUNOQJNL&amp;pf_rd_p=360600d5-c090-400c-bba5-930ceee4e38a&amp;pf_rd_r=RSXPFYJYS4QD4CR42RQ2&amp;pf_rd_s=right-3&amp;pf_rd_t=15011&amp;pf_rd_i=nm5397459&amp;ref_=nm_ecw_117_vod3_rhs_i_1" class="video-modal" data-refsuffix="nm_ecw_117_vod3_rhs" data-ref="nm_ecw_117_vod3_rhs_i_1"> <img class="pri_image" title="The IMDb Show (2017-)" alt="The IMDb Show (2017-)" src="https://ia.media-imdb.com/images/M/MV5BODc2MTUzNzI0M15BMl5BanBnXkFtZTgwNDEyMjgyNTM@._V1_SY230_SX307_AL_.jpg"> <img alt="The IMDb Show (2017-)" title="The IMDb Show (2017-)" class="image_overlay overlay_mouseout" src="https://images-na.ssl-images-amazon.com/images/G/01/IMDb/icon/play-button._CB318667375_.png" data-src-x2="https://images-na.ssl-images-amazon.com/images/G/01/IMDb/icon/play-button._CB318667375_.png"> <img alt="The IMDb Show (2017-)" title="The IMDb Show (2017-)" class="image_overlay overlay_mouseover" src="https://images-na.ssl-images-amazon.com/images/G/01/IMDb/icon/play-button-hover._CB318667374_.png" data-src-x2="https://images-na.ssl-images-amazon.com/images/G/01/IMDb/icon/play-button-hover._CB318667374_.png"> </a> </div> </div> </div> </div> </div> </div> </div> </div> <p class="blurb">&quot;<a href="/title/tt7549864/?pf_rd_m=A2FGELUUNOQJNL&amp;pf_rd_p=360600d5-c090-400c-bba5-930ceee4e38a&amp;pf_rd_r=RSXPFYJYS4QD4CR42RQ2&amp;pf_rd_s=right-3&amp;pf_rd_t=15011&amp;pf_rd_i=nm5397459&amp;ref_=nm_ecw_117_vod3_rhs_lk1">The IMDb Show</a>&quot; challenges <a href="/name/nm4972453/?pf_rd_m=A2FGELUUNOQJNL&amp;pf_rd_p=360600d5-c090-400c-bba5-930ceee4e38a&amp;pf_rd_r=RSXPFYJYS4QD4CR42RQ2&amp;pf_rd_s=right-3&amp;pf_rd_t=15011&amp;pf_rd_i=nm5397459&amp;ref_=nm_ecw_117_vod3_rhs_lk2">Olivia Cooke</a> to a gauntlet of questions about the <a href="/name/nm0000229/?pf_rd_m=A2FGELUUNOQJNL&amp;pf_rd_p=360600d5-c090-400c-bba5-930ceee4e38a&amp;pf_rd_r=RSXPFYJYS4QD4CR42RQ2&amp;pf_rd_s=right-3&amp;pf_rd_t=15011&amp;pf_rd_i=nm5397459&amp;ref_=nm_ecw_117_vod3_rhs_lk3">Steven Spielberg</a> blockbuster <i><a href="/title/tt1677720/?pf_rd_m=A2FGELUUNOQJNL&amp;pf_rd_p=360600d5-c090-400c-bba5-930ceee4e38a&amp;pf_rd_r=RSXPFYJYS4QD4CR42RQ2&amp;pf_rd_s=right-3&amp;pf_rd_t=15011&amp;pf_rd_i=nm5397459&amp;ref_=nm_ecw_117_vod3_rhs_lk4">Ready Player One</a></i>.</p> <p class="seemore"><a href="/list/ls025849840/videoplayer/vi4213618713?pf_rd_m=A2FGELUUNOQJNL&amp;pf_rd_p=360600d5-c090-400c-bba5-930ceee4e38a&amp;pf_rd_r=RSXPFYJYS4QD4CR42RQ2&amp;pf_rd_s=right-3&amp;pf_rd_t=15011&amp;pf_rd_i=nm5397459&amp;ref_=nm_ecw_117_vod3_rhs_sm" class="position_bottom supplemental">Watch now</a></p>    </div>
+
+
+
+        </span>
+
+
+
+            <script type="text/javascript">
+                if(typeof uex === 'function'){uex('ld','NinjaWidget',{wb:1});}
+            </script>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="aux-content-widget-2" id="social-share-widget">
+
+    <div class="social">
+      <div class="social_networking">
+       <span><strong>Share</strong> this page:</span>
+  <a onclick="window.open(&quot;https://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.imdb.com%2Fname%2Fnm5397459%2F&quot;, &apos;newWindow&apos;, &apos;width=626, height=436&apos;); return false;" href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.imdb.com%2Fname%2Fnm5397459%2F" target="_blank" title="Share on Facebook" class="share_icon facebook"></a>
+  <a onclick="window.open(&quot;https://twitter.com/intent/tweet?text=Daisy%20Ridley%20-%20https%3A%2F%2Fwww.imdb.com%2Fname%2Fnm5397459%2F&quot;, &apos;newWindow&apos;, &apos;width=815, height=436&apos;); return false;" href="https://twitter.com/intent/tweet?text=Daisy%20Ridley%20-%20https%3A%2F%2Fwww.imdb.com%2Fname%2Fnm5397459%2F" target="_blank" title="Share on Twitter" class="share_icon twitter"></a>
+  <a onclick="$(&apos;div.social input[name=share-link]&apos;).show().select(); return false;" title="Share the page" class="share_icon share_url_link" href="http://www.imdb.com/name/nm5397459/"></a>
+      </div>
+      <input type="text" name="share-link" value="https://www.imdb.com/name/nm5397459/" readonly>
+    </div>
+    <div class="social_networking_like">
+        <script type="text/javascript">
+            if (typeof uet == 'function') {
+                uet('bb', 'facebook_like_iframe', {wb: 1});
+            }
+        </script>
+        <iframe id="iframe_like" class="social-iframe" height="65" scrolling="no" seamless frameborder="0" allowtransparency="allowTransparency" data-src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/IMDbConsumerSiteSocialPluginViews/html/facebook-like-2606740705._CB499558675_.html?http%3A%2F%2Fwww.imdb.com%2Fname%2Fnm5397459%2F"></iframe>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+<!-- begin RHS_CORNERSTONE -->
+<div id="rhs_cornerstone_wrapper" class="cornerstone_slot">
+<script type="text/javascript">
+doWithAds(function(){
+if ('cornerstone_slot' != 'injected_slot') {
+ad_utils.register_ad('rhs_cornerstone');
+}
+});
+</script>
+<iframe allowtransparency="true" class="yesScript" data-blank-serverside="" frameborder="0" id="rhs_cornerstone" marginwidth="0" marginheight="0" name="rhs_cornerstone" onload="doWithAds.call(this, function(){ ad_utils.on_ad_load(this); });" scrolling="no" data-original-width="300" data-original-height="125" width="300" height="125"></iframe> </div>
+<div id="rhs_cornerstone_reflow_helper"></div>
+<script id="rhs_cornerstone_rendering">
+doWithAds(function(){
+if ('cornerstone_slot' == 'injected_slot') {
+ad_utils.inject_ad.register('rhs_cornerstone');
+} else {
+ad_utils.gpt.render_ad('rhs_cornerstone');
+}
+}, "ad_utils not defined, unable to render client-side GPT ad or injected ad.");
+</script>
+<!-- End RHS_CORNERSTONE -->
+
+
+
+
+
+
+
+<script>
+    if (typeof uet == 'function') {
+      uet("bb", "RelatedNewsWidgetRHS", {wb: 1});
+    }
+</script>
+    <script>
+      if ('csm' in window) {
+        csm.measure('csm_RelatedNewsWidgetRHS_started');
+      }
+    </script>
+
+        <div class="aux-content-widget-2">
+            <h3>Related News</h3>
+    <ul class="ipl-simple-list">
+            <li class="news_item" itemprop="headline">
+<a href="/news/ni62002649?ref_=nm_nwr1"> Yoda Rumored To Share A Scene With Rey In Star Wars: Episode IX
+</a><br>
+                <small>
+                <span itemprop="datePublished">2 days ago</span>
+                <span>|</span>
+                <span itemprop="provider">We Got This Covered</span>
+                </small>
+            </li>
+            <li class="news_item" itemprop="headline">
+<a href="/news/ni61997547?ref_=nm_nwr2"> Mark Hamill doesn&#x2019;t &#x201C;care anymore&#x201D; about returning to Star Wars now Carrie Fisher has passed away
+</a><br>
+                <small>
+                <span itemprop="datePublished">6 days ago</span>
+                <span>|</span>
+                <span itemprop="provider">Flickeringmyth</span>
+                </small>
+            </li>
+            <li class="news_item" itemprop="headline">
+<a href="/news/ni61996953?ref_=nm_nwr3"> Did Mark Hamill Just Reveal a Huge Star Wars Spoiler &#x2014; or Is He Trolling Fans?
+</a><br>
+                <small>
+                <span itemprop="datePublished">6 days ago</span>
+                <span>|</span>
+                <span itemprop="provider">PEOPLE.com</span>
+                </small>
+            </li>
+    </ul>
+
+            <div class="see-more">
+                <a href="/name/nm5397459/news?ref_=nm_nwr_sm">See all related articles</a>&#xA0;&#xBB;
+            </div>
+        </div>
+
+    <script>
+      if ('csm' in window) {
+        csm.measure('csm_RelatedNewsWidgetRHS_finished');
+      }
+    </script>
+<script>
+    if (typeof uet == 'function') {
+      uet("be", "RelatedNewsWidgetRHS", {wb: 1});
+    }
+</script>
+<script>
+    if (typeof uex == 'function') {
+      uex("ld", "RelatedNewsWidgetRHS", {wb: 1});
+    }
+</script>
+
+
+
+
+        <a name="slot_right-7"></a>
+        <div class="aux-content-widget-2">
+
+
+
+
+
+
+            <script type="text/javascript">if(typeof uet === 'function'){uet('bb','ZergnetWidget',{wb:1});}</script>
+
+
+
+
+        <span class="ab_widget">
+            <div class="ab_zergnet">
+<span class="widget_header"> <span class="oneline"> <h3>Around The Web</h3> <span>&#xA0;|&#xA0;</span> <h4>Powered by ZergNet</h4> </span> </span> <div class="widget_content no_inline_blurb"> <div class="widget_nested"> <iframe class="zergnet-frame__sidebar" scrolling="no" seamless src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/html/zergnet-3826556079._CB499558523_.html?widgetId=47009"></iframe> </div> </div>    </div>
+
+
+        </span>
+
+
+
+            <script type="text/javascript">
+                if(typeof uex === 'function'){uex('ld','ZergnetWidget',{wb:1});}
+            </script>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+            <div class="aux-content-widget-2">
+<script>
+    if (typeof uet == 'function') {
+      uet("bb", "NameProjectsInDevelopmentWidget", {wb: 1});
+    }
+</script>
+    <script>
+      if ('csm' in window) {
+        csm.measure('csm_NameProjectsInDevelopmentWidget_started');
+      }
+    </script>
+    <h3>Projects In Development <a href="https://help.imdb.com/article/imdb/discover-watch/can-i-view-in-development-titles-on-imdb/GDGA3TBE7F6KPDFN?ref_=cons_nm_indevelopment" class="titlePageSprite helpInSprite"></a></h3>
+            <div class="devitem odd">
+<a href="/title/tt7461686?ref_=nm_dev_1"> Daddio
+</a>            </div>
+            <div class="devitem even">
+<a href="/title/tt7563554?ref_=nm_dev_2"> Super-Normal
+</a>            </div>
+            <div class="devitem odd">
+<a href="/title/tt5667122?ref_=nm_dev_3"> The Lost Wife
+</a>            </div>
+    <div class="see-more">
+        Details only on <a href="https://pro.imdb.com/name/nm5397459?rf=cons_nm_pid_det&amp;ref_=cons_nm_pid_det">IMDbPro</a> &#xBB;
+    </div>
+    <script>
+      if ('csm' in window) {
+        csm.measure('csm_NameProjectsInDevelopmentWidget_finished');
+      }
+    </script>
+<script>
+    if (typeof uet == 'function') {
+      uet("be", "NameProjectsInDevelopmentWidget", {wb: 1});
+    }
+</script>
+<script>
+    if (typeof uex == 'function') {
+      uex("ld", "NameProjectsInDevelopmentWidget", {wb: 1});
+    }
+</script>
+            </div>
+
+
+
+
+
+
+<script>
+    if (typeof uet == 'function') {
+      uet("bb", "RelatedEditorialListsWidget", {wb: 1});
+    }
+</script>
+        <div class="aux-content-widget-2">
+            <div id="relatedEditorialListsWidget">
+                <h3>Editorial Lists</h3>
+                <p>Related lists from IMDb editors</p>
+
+    <div class="list-preview even">
+        <div class="list-preview-item-narrow">
+<a href="/list/ls063095038?ref_=nm_rels_1"><img height="86" width="86" alt="list image" title="list image" src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/medium/film-3385785534._CB499606919_.png" class="loadlate hidden " loadlate="https://ia.media-imdb.com/images/M/MV5BMjIxODQ0NjY1NF5BMl5BanBnXkFtZTcwMTkzMTk2Mw@@._V1_UY86_CR58,0,86,86_AL_.jpg"></a>        </div>
+        <div class="list_name">
+            <strong><a href="/list/ls063095038?ref_=nm_rels_1">
+The Billion-Dollar Film Club: 33 Movies to Reach $1 Billion Worldwide
+</a></strong>
+        </div>
+        <div class="list_meta">
+            a list of 33 images
+
+            <br>updated 2&#xA0;weeks&#xA0;ago
+        </div>
+        <div class="clear">&#xA0;</div>
+    </div>
+    <div class="list-preview odd">
+        <div class="list-preview-item-narrow">
+<a href="/list/ls023081332?ref_=nm_rels_2"><img height="86" width="86" alt="list image" title="list image" src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/medium/film-3385785534._CB499606919_.png" class="loadlate hidden " loadlate="https://ia.media-imdb.com/images/M/MV5BOWUwODk2MjEtMWU0Zi00YWY0LWIxOGQtZjQ5MmEwNTg1N2FlXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_UY86_CR37,0,86,86_AL_.jpg"></a>        </div>
+        <div class="list_name">
+            <strong><a href="/list/ls023081332?ref_=nm_rels_2">
+2018 Oscar-Nominated Movies As Ranked by IMDb Users
+</a></strong>
+        </div>
+        <div class="list_meta">
+            a list of 39 images
+
+            <br>updated 1&#xA0;month&#xA0;ago
+        </div>
+        <div class="clear">&#xA0;</div>
+    </div>
+    <div class="list-preview even">
+        <div class="list-preview-item-narrow">
+<a href="/list/ls027611946?ref_=nm_rels_3"><img height="86" width="86" alt="list image" title="list image" src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/medium/film-3385785534._CB499606919_.png" class="loadlate hidden " loadlate="https://ia.media-imdb.com/images/M/MV5BMTgxODc2MjQ3NF5BMl5BanBnXkFtZTgwODYzMjIyMzI@._V1_UY86_CR59,0,86,86_AL_.jpg"></a>        </div>
+        <div class="list_name">
+            <strong><a href="/list/ls027611946?ref_=nm_rels_3">
+Top 25 Highest-Grossing Movies of 2017
+</a></strong>
+        </div>
+        <div class="list_meta">
+            a list of 26 images
+
+            <br>updated 2&#xA0;months&#xA0;ago
+        </div>
+        <div class="clear">&#xA0;</div>
+    </div>
+    <div class="list-preview odd">
+        <div class="list-preview-item-narrow">
+<a href="/list/ls021644145?ref_=nm_rels_4"><img height="86" width="86" alt="list image" title="list image" src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/medium/film-3385785534._CB499606919_.png" class=""></a>        </div>
+        <div class="list_name">
+            <strong><a href="/list/ls021644145?ref_=nm_rels_4">
+Trending Titles: Who Won Sundance on IMDb?
+</a></strong>
+        </div>
+        <div class="list_meta">
+            a list of 10 images
+
+            <br>updated 2&#xA0;months&#xA0;ago
+        </div>
+        <div class="clear">&#xA0;</div>
+    </div>
+    <div class="list-preview even">
+        <div class="list-preview-item-narrow">
+<a href="/list/ls021787587?ref_=nm_rels_5"><img height="86" width="86" alt="list image" title="list image" src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/medium/film-3385785534._CB499606919_.png" class="loadlate hidden " loadlate="https://ia.media-imdb.com/images/M/MV5BMTc3NDIwOTk5MV5BMl5BanBnXkFtZTgwMzA3MTgyNDM@._V1_UY86_CR21,0,86,86_AL_.jpg"></a>        </div>
+        <div class="list_name">
+            <strong><a href="/list/ls021787587?ref_=nm_rels_5">
+15 Stars in Sundance 2018 Movies
+</a></strong>
+        </div>
+        <div class="list_meta">
+            a list of 15 images
+
+            <br>updated 3&#xA0;months&#xA0;ago
+        </div>
+        <div class="clear">&#xA0;</div>
+    </div>
+            </div>
+        </div>
+<script>
+    if (typeof uet == 'function') {
+      uet("be", "RelatedEditorialListsWidget", {wb: 1});
+    }
+</script>
+<script>
+    if (typeof uex == 'function') {
+      uex("ld", "RelatedEditorialListsWidget", {wb: 1});
+    }
+</script>
+<script>
+    if (typeof uet == 'function') {
+      uet("bb", "RelatedListsWidget", {wb: 1});
+    }
+</script>
+        <div class="aux-content-widget-2">
+            <div id="relatedListsWidget">
+                <div class="rightcornerlink">
+                    <a href="/list/create?ref_=nm_rls">Create a list</a>&#xA0;&#xBB;
+                </div>
+                <h3>User Lists</h3>
+                <p>Related lists from IMDb users</p>
+
+    <div class="list-preview even">
+        <div class="list-preview-item-narrow">
+<a href="/list/ls026514553?ref_=nm_rls_1"><img height="86" width="86" alt="list image" title="list image" src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/medium/name-2135195744._CB499558849_.png" class="loadlate hidden " loadlate="https://ia.media-imdb.com/images/M/MV5BMTUxNDY4MTMzM15BMl5BanBnXkFtZTcwMjg5NzM2Ng@@._V1_UX86_CR0,0,86,86_AL_.jpg"></a>        </div>
+        <div class="list_name">
+            <strong><a href="/list/ls026514553?ref_=nm_rls_1">
+Favorite Actors
+</a></strong>
+        </div>
+        <div class="list_meta">
+            a list of 21 people
+            <br>created 2&#xA0;days&#xA0;ago
+
+        </div>
+        <div class="clear">&#xA0;</div>
+    </div>
+    <div class="list-preview odd">
+        <div class="list-preview-item-narrow">
+<a href="/list/ls031342939?ref_=nm_rls_2"><img height="86" width="86" alt="list image" title="list image" src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/medium/name-2135195744._CB499558849_.png" class="loadlate hidden " loadlate="https://ia.media-imdb.com/images/M/MV5BMjI4NjM1NDkyN15BMl5BanBnXkFtZTgwODgyNTY1MjE@._V1.._UX86_CR0,0,86,86_AL_.jpg"></a>        </div>
+        <div class="list_name">
+            <strong><a href="/list/ls031342939?ref_=nm_rls_2">
+Favorite Actresses
+</a></strong>
+        </div>
+        <div class="list_meta">
+            a list of 39 people
+            <br>created 21&#xA0;Dec&#xA0;2015
+
+        </div>
+        <div class="clear">&#xA0;</div>
+    </div>
+    <div class="list-preview even">
+        <div class="list-preview-item-narrow">
+<a href="/list/ls021542629?ref_=nm_rls_3"><img height="86" width="86" alt="list image" title="list image" src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/medium/name-2135195744._CB499558849_.png" class="loadlate hidden " loadlate="https://ia.media-imdb.com/images/M/MV5BMTQwMDQ0NDk1OV5BMl5BanBnXkFtZTcwNDcxOTExNg@@._V1_UX86_CR0,0,86,86_AL_.jpg"></a>        </div>
+        <div class="list_name">
+            <strong><a href="/list/ls021542629?ref_=nm_rls_3">
+Actresses
+</a></strong>
+        </div>
+        <div class="list_meta">
+            a list of 29 people
+            <br>created 3&#xA0;months&#xA0;ago
+
+        </div>
+        <div class="clear">&#xA0;</div>
+    </div>
+    <div class="list-preview odd">
+        <div class="list-preview-item-narrow">
+<a href="/list/ls023820903?ref_=nm_rls_4"><img height="86" width="86" alt="list image" title="list image" src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/medium/name-2135195744._CB499558849_.png" class="loadlate hidden " loadlate="https://ia.media-imdb.com/images/M/MV5BMTc1MDI0MDg1NV5BMl5BanBnXkFtZTgwMDM3OTAzMTE@._V1_UX86_CR0,0,86,86_AL_.jpg"></a>        </div>
+        <div class="list_name">
+            <strong><a href="/list/ls023820903?ref_=nm_rls_4">
+Potential Bond Girls
+</a></strong>
+        </div>
+        <div class="list_meta">
+            a list of 48 people
+            <br>created 1&#xA0;week&#xA0;ago
+
+        </div>
+        <div class="clear">&#xA0;</div>
+    </div>
+    <div class="list-preview even">
+        <div class="list-preview-item-narrow">
+<a href="/list/ls021601050?ref_=nm_rls_5"><img height="86" width="86" alt="list image" title="list image" src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/medium/name-2135195744._CB499558849_.png" class="loadlate hidden " loadlate="https://ia.media-imdb.com/images/M/MV5BMTU0NDM5OTE0N15BMl5BanBnXkFtZTcwMzMzNjM0Nw@@._V1_UX86_CR0,0,86,86_AL_.jpg"></a>        </div>
+        <div class="list_name">
+            <strong><a href="/list/ls021601050?ref_=nm_rls_5">
+Favoritos
+</a></strong>
+        </div>
+        <div class="list_meta">
+            a list of 29 people
+            <br>created 2&#xA0;months&#xA0;ago
+
+        </div>
+        <div class="clear">&#xA0;</div>
+    </div>
+                <div class="see-more">
+                    <a href="/lists/nm5397459?ref_=nm_rls_sm">See all related lists</a>&#xA0;&#xBB;
+                </div>
+            </div>
+        </div>
+<script>
+    if (typeof uet == 'function') {
+      uet("be", "RelatedListsWidget", {wb: 1});
+    }
+</script>
+<script>
+    if (typeof uex == 'function') {
+      uex("ld", "RelatedListsWidget", {wb: 1});
+    }
+</script>
+
+
+
+
+
+
+<script>
+    if (typeof uet == 'function') {
+      uet("bb", "DemoReelsWidget", {wb: 1});
+    }
+</script>
+    <script>
+      if ('csm' in window) {
+        csm.measure('csm_DemoReelsWidget_started');
+      }
+    </script>
+    <div class="aux-content-widget-2">
+        <h3>Do you have a demo reel?</h3>
+
+        <p>Add it to your IMDbPage</p>
+        <div class="video-browser-widget">
+             <div id="demoReelShoveler">
+
+
+<a href="/videoplayer/vi2577045529?ref_=nm_demo_1" title="My Demo Reel -- No description provided." alt="My Demo Reel -- No description provided." class="video-modal" data-video="vi2577045529" data-context="user" data-rid="" widget-context="nameDemoreels" itemprop="url"><img height="90" width="120" alt="My Demo Reel -- No description provided." title="My Demo Reel -- No description provided." src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._CB499607001_.png" class="loadlate hidden video" loadlate="https://images-na.ssl-images-amazon.com/images/M/MV5BMjM2MTUyNjExNl5BMl5BanBnXkFtZTgwMjUyMzczMzE@._V1_SP229,229,0,C,0,0,0_CR45,62,139,105_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,139,105_PIimdb-bluebutton-big,BottomRight,-1,-1_ZA00%253A57,103,1,14,36,verdenab,7,255,255,255,1_.jpg" viconst="vi2577045529"></a>
+
+<a href="/videoplayer/vi2542180377?ref_=nm_demo_2" title="My Demo Reel -- Three different genres" alt="My Demo Reel -- Three different genres" class="video-modal" data-video="vi2542180377" data-context="user" data-rid="" widget-context="nameDemoreels" itemprop="url"><img height="90" width="120" alt="My Demo Reel -- Three different genres" title="My Demo Reel -- Three different genres" src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._CB499607001_.png" class="loadlate hidden video" loadlate="https://images-na.ssl-images-amazon.com/images/M/MV5BMTY4OTYxNzE2M15BMl5BanBnXkFtZTcwMDA3MzMyNA@@._V1_SP229,229,0,C,0,0,0_CR45,62,139,105_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,139,105_PIimdb-bluebutton-big,BottomRight,-1,-1_ZA02%253A08,103,1,14,36,verdenab,7,255,255,255,1_.jpg" viconst="vi2542180377"></a>
+
+<a href="/videoplayer/vi2276170521?ref_=nm_demo_3" title="Sara Woo Hosting Reel -- Sara Woo&apos;s Hosting Reel covers Film, Food and Travel!" alt="Sara Woo Hosting Reel -- Sara Woo&apos;s Hosting Reel covers Film, Food and Travel!" class="video-modal" data-video="vi2276170521" data-context="user" data-rid="" widget-context="nameDemoreels" itemprop="url"><img height="90" width="120" alt="Sara Woo Hosting Reel -- Sara Woo&apos;s Hosting Reel covers Film, Food and Travel!" title="Sara Woo Hosting Reel -- Sara Woo&apos;s Hosting Reel covers Film, Food and Travel!" src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._CB499607001_.png" class="loadlate hidden video" loadlate="https://images-na.ssl-images-amazon.com/images/M/MV5BMTgyMjQ0OTY3OF5BMl5BanBnXkFtZTcwNjI4ODYyNA@@._V1_SP229,229,0,C,0,0,0_CR45,62,139,105_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,139,105_PIimdb-bluebutton-big,BottomRight,-1,-1_ZA02%253A45,103,1,14,36,verdenab,7,255,255,255,1_.jpg" viconst="vi2276170521"></a>
+             </div>
+        </div>
+        <div id="pro_demo_reel_link">
+<a href="https://pro.imdb.com/demoreels/list?rf=cons_nm_demoreel&amp;ref_=cons_nm_demoreel">Find out more at IMDb Pro</a> &#xBB;
+        </div>
+    </div>
+    <script>
+      if ('csm' in window) {
+        csm.measure('csm_DemoReelsWidget_finished');
+      }
+    </script>
+<script>
+    if (typeof uet == 'function') {
+      uet("be", "DemoReelsWidget", {wb: 1});
+    }
+</script>
+<script>
+    if (typeof uex == 'function') {
+      uex("ld", "DemoReelsWidget", {wb: 1});
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<div class="aux-content-widget-2 ">
+    <h3>How Much Have You Seen?</h3>
+How much of <a href="/seen/nm5397459/?ref_=nm_se">Daisy Ridley&apos;s work</a> have you seen?
+</div>
+
+
+
+
+
+
+<script>
+    if (typeof uet == 'function') {
+      uet("bb", "NameMainDetailsRelatedPolls", {wb: 1});
+    }
+</script>
+    <script>
+      if ('csm' in window) {
+        csm.measure('csm_NameMainDetailsRelatedPolls_started');
+      }
+    </script>
+<div class="aux-content-widget-2 poll-widget-rhs ">
+    <style>
+        .aux-content-widget-2.poll-widget-rhs ul li { margin-bottom: 0.5em; clear: left; font-weight: bold;}
+        .aux-content-widget-2.poll-widget-rhs span { margin-bottom: 0.5em; clear: left;}
+        .aux-content-widget-2.poll-widget-rhs img { float: left; padding: 0 5px 5px 0; height: 86px; width: 86px;}
+    </style>
+    <h3>User Polls</h3>
+    <ul>
+        <li>
+<a href="/poll/97Jqdvrc1mA/?ref_=nm_po_i1"><img height="86" width="86" alt="poll image" title="poll image" src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/medium/unknown-4203433384._CB499559311_.png" class="loadlate hidden " loadlate="https://ia.media-imdb.com/images/M/MV5BZGQ3N2ZlMWQtYzU5NC00YjVkLTg0NDAtOWIzY2E1NTI2OTgxL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMzQ3Nzk5MTU@._V1_SX86_CR0,0,86,86_.jpg"></a>        <a href="/poll/97Jqdvrc1mA/?ref_=nm_po_q1">Sword-wielding Female Characters</a>
+        </li><li>
+<a href="/poll/C8BoLdLEyjI/?ref_=nm_po_i2"><img height="86" width="86" alt="poll image" title="poll image" src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/medium/unknown-4203433384._CB499559311_.png" class="loadlate hidden " loadlate="https://ia.media-imdb.com/images/M/MV5BNjg3OTg4MDczMl5BMl5BanBnXkFtZTgwODc0NzUwNjE@._V1_SX86_CR0,0,86,86_.jpg"></a>        <a href="/poll/C8BoLdLEyjI/?ref_=nm_po_q2">X-23?</a>
+        </li><li>
+<a href="/poll/ecIqtK12Viw/?ref_=nm_po_i3"><img height="86" width="86" alt="poll image" title="poll image" src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/medium/unknown-4203433384._CB499559311_.png" class="loadlate hidden " loadlate="https://ia.media-imdb.com/images/M/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_SX86_CR0,0,86,86_.jpg"></a>        <a href="/poll/ecIqtK12Viw/?ref_=nm_po_q3">2016 MTV Movie Awards</a>
+        </li><li>
+<a href="/poll/QUMc1vD0bdM/?ref_=nm_po_i4"><img height="86" width="86" alt="poll image" title="poll image" src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/medium/unknown-4203433384._CB499559311_.png" class="loadlate hidden " loadlate="https://ia.media-imdb.com/images/M/MV5BOTNlYTg4ODUtOTg3OS00ZjdkLWJlMTMtODE1Y2ExZjdjMmM0XkEyXkFqcGdeQXVyNjczOTE0MzM@._V1_SY86_CR26,0,86,86_.jpg"></a>        <a href="/poll/QUMc1vD0bdM/?ref_=nm_po_q4">Favorite Movie Heroine of 2017</a>
+        </li><li>
+<a href="/poll/YJz0kRq3ZbQ/?ref_=nm_po_i5"><img height="86" width="86" alt="poll image" title="poll image" src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/medium/unknown-4203433384._CB499559311_.png" class="loadlate hidden " loadlate="https://ia.media-imdb.com/images/M/MV5BNzA0MjY5MjMyNl5BMl5BanBnXkFtZTgwMzQwOTk2MTE@._V1_SY86_CR32,0,86,86_.jpg"></a>        <a href="/poll/YJz0kRq3ZbQ/?ref_=nm_po_q5">How many times have you seen The Force Awakens?</a>
+        </li><li>
+<a href="/poll/S1J4exGeNZ4/?ref_=nm_po_i6"><img height="86" width="86" alt="poll image" title="poll image" src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/medium/unknown-4203433384._CB499559311_.png" class="loadlate hidden " loadlate="https://ia.media-imdb.com/images/M/MV5BMTk5ODUzNTQ0Nl5BMl5BanBnXkFtZTcwMDYxMTY2Mw@@._V1_SX86_CR0,0,86,86_.jpg"></a>        <a href="/poll/S1J4exGeNZ4/?ref_=nm_po_q6">Face-Off: Leia vs Padm&#xE9; vs Rey</a>
+    </li></ul>
+    <div class="see-more"><a href="/poll/?ref_=nm_po_sm">See more polls &#xBB;</a></div>
+</div>
+    <script>
+      if ('csm' in window) {
+        csm.measure('csm_NameMainDetailsRelatedPolls_finished');
+      }
+    </script>
+<script>
+    if (typeof uet == 'function') {
+      uet("be", "NameMainDetailsRelatedPolls", {wb: 1});
+    }
+</script>
+<script>
+    if (typeof uex == 'function') {
+      uex("ld", "NameMainDetailsRelatedPolls", {wb: 1});
+    }
+</script>
+
+
+
+
+
+
+
+
+<!-- begin BTF_RHS2 -->
+<div id="btf_rhs2_wrapper" class="cornerstone_slot">
+<script type="text/javascript">
+doWithAds(function(){
+if ('cornerstone_slot' != 'injected_slot') {
+ad_utils.register_ad('btf_rhs2');
+}
+});
+</script>
+<iframe allowtransparency="true" class="yesScript" data-blank-serverside="" frameborder="0" id="btf_rhs2" marginwidth="0" marginheight="0" name="btf_rhs2" onload="doWithAds.call(this, function(){ ad_utils.on_ad_load(this); });" scrolling="no" data-original-width="300" data-original-height="250" width="300" height="250"></iframe> </div>
+<div id="btf_rhs2_reflow_helper"></div>
+<script id="btf_rhs2_rendering">
+doWithAds(function(){
+if ('cornerstone_slot' == 'injected_slot') {
+ad_utils.inject_ad.register('btf_rhs2');
+} else {
+ad_utils.gpt.render_ad('btf_rhs2');
+}
+}, "ad_utils not defined, unable to render client-side GPT ad or injected ad.");
+</script>
+<!-- End BTF_RHS2 -->
+
+
+
+
+
+
+
+    </div>
+
+    <div id="maindetails_center_bottom" class="maindetails_center">
+
+
+
+
+            <div class="article highlighted">
+
+<script>
+    if (typeof uet == 'function') {
+      uet("bb", "NameAwardsSummaryWidget", {wb: 1});
+    }
+</script>
+    <script>
+      if ('csm' in window) {
+        csm.measure('csm_NameAwardsSummaryWidget_started');
+      }
+    </script>
+    <span itemprop="awards">
+      8 wins &amp; 20 nominations.
+    </span>
+    <span class="see-more inline">
+<a href="/name/nm5397459/awards?ref_=nm_awd" class="btn-full">See more awards</a>&#xA0;&#xBB;    </span>
+    <script>
+      if ('csm' in window) {
+        csm.measure('csm_NameAwardsSummaryWidget_finished');
+      }
+    </script>
+<script>
+    if (typeof uet == 'function') {
+      uet("be", "NameAwardsSummaryWidget", {wb: 1});
+    }
+</script>
+<script>
+    if (typeof uex == 'function') {
+      uex("ld", "NameAwardsSummaryWidget", {wb: 1});
+    }
+</script>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="article">
+<script>
+    if (typeof uet == 'function') {
+      uet("bb", "NameKnownForWidget", {wb: 1});
+    }
+</script>
+    <script>
+      if ('csm' in window) {
+        csm.measure('csm_NameKnownForWidget_started');
+      }
+    </script>
+<h2>Known For</h2>
+<div id="knownfor">
+<div class="knownfor-title">
+<a href="/title/tt2488496/?ref_=nm_knf_i1"> <img title="Star Wars: Episode VII - The Force Awakens" width="148" height="216" alt="Star Wars: Episode VII - The Force Awakens" src="https://ia.media-imdb.com/images/M/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_UX148_CR0,0,148,216_AL_.jpg" class="wtw-option" data-tconst="tt2488496" data-watchtype="icon" data-baseref="nm_knf_i">
+</a>    <div class="knownfor-title-role">
+        <a href="/title/tt2488496/?ref_=nm_knf_t1" title="Star Wars: Episode VII - The Force Awakens" class="knownfor-ellipsis">Star Wars: Episode VII - The Force Awakens</a>
+        <span class="knownfor-ellipsis">Rey</span>
+    </div>
+    <div class="knownfor-year"><span class="knownfor-ellipsis">(2015)</span></div>
+</div>
+<div class="knownfor-title">
+<a href="/title/tt2527336/?ref_=nm_knf_i2"> <img title="Star Wars: Episode VIII - The Last Jedi" width="148" height="216" alt="Star Wars: Episode VIII - The Last Jedi" src="https://ia.media-imdb.com/images/M/MV5BMjQ1MzcxNjg4N15BMl5BanBnXkFtZTgwNzgwMjY4MzI@._V1_UX148_CR0,0,148,216_AL_.jpg" class="wtw-option" data-tconst="tt2527336" data-watchtype="icon" data-baseref="nm_knf_i">
+</a>    <div class="knownfor-title-role">
+        <a href="/title/tt2527336/?ref_=nm_knf_t2" title="Star Wars: Episode VIII - The Last Jedi" class="knownfor-ellipsis">Star Wars: Episode VIII - The Last Jedi</a>
+        <span class="knownfor-ellipsis">Rey</span>
+    </div>
+    <div class="knownfor-year"><span class="knownfor-ellipsis">(2017)</span></div>
+</div>
+<div class="knownfor-title">
+<a href="/title/tt3402236/?ref_=nm_knf_i3"> <img title="Murder on the Orient Express" width="148" height="216" alt="Murder on the Orient Express" src="https://ia.media-imdb.com/images/M/MV5BMTAxNDkxODIyMDZeQTJeQWpwZ15BbWU4MDQ2Mjg4NDIy._V1_UX148_CR0,0,148,216_AL_.jpg" class="wtw-option" data-tconst="tt3402236" data-watchtype="icon" data-baseref="nm_knf_i">
+</a>    <div class="knownfor-title-role">
+        <a href="/title/tt3402236/?ref_=nm_knf_t3" title="Murder on the Orient Express" class="knownfor-ellipsis">Murder on the Orient Express</a>
+        <span class="knownfor-ellipsis">Miss Mary Debenham</span>
+    </div>
+    <div class="knownfor-year"><span class="knownfor-ellipsis">(2017)</span></div>
+</div>
+<div class="knownfor-title last">
+<a href="/title/tt2501366/?ref_=nm_knf_i4"> <img title="Scrawl" width="148" height="216" alt="Scrawl" src="https://ia.media-imdb.com/images/M/MV5BMTY0NTM4MDE4M15BMl5BanBnXkFtZTgwMTYyNDY3MTE@._V1_UY216_CR0,0,148,216_AL_.jpg" class="wtw-option" data-tconst="tt2501366" data-watchtype="icon" data-baseref="nm_knf_i">
+</a>    <div class="knownfor-title-role">
+        <a href="/title/tt2501366/?ref_=nm_knf_t4" title="Scrawl" class="knownfor-ellipsis">Scrawl</a>
+        <span class="knownfor-ellipsis">Hannah</span>
+    </div>
+    <div class="knownfor-year"><span class="knownfor-ellipsis">(2015)</span></div>
+</div>
+</div>
+    <script>
+      if ('csm' in window) {
+        csm.measure('csm_NameKnownForWidget_finished');
+      }
+    </script>
+<script>
+    if (typeof uet == 'function') {
+      uet("be", "NameKnownForWidget", {wb: 1});
+    }
+</script>
+<script>
+    if (typeof uex == 'function') {
+      uex("ld", "NameKnownForWidget", {wb: 1});
+    }
+</script>
+            </div>
+            <div class="article">
+<script>
+    if (typeof uet == 'function') {
+      uet("bb", "NameFilmographyWidget", {wb: 1});
+    }
+</script>
+    <script>
+      if ('csm' in window) {
+        csm.measure('csm_NameFilmographyWidget_started');
+      }
+    </script>
+<div class="rightcornerlink">
+<span class="filmo-show-hide-all" style="display: inline;" onclick="showOrHideAll();">
+<img src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/icons/show_mini-603933165._CB499603746_.png" alt="Show" width="14" height="12" class="absmiddle">&#xA0;Show all
+</span>
+<span class="filmo-show-hide-all" style="display: none;" onclick="showOrHideAll();">
+<img src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/icons/hide_mini-3743750714._CB499560118_.png" alt="Hide" width="14" height="12" class="absmiddle">&#xA0;Hide all
+</span>
+&#xA0;<span>|</span>&#xA0;
+<form name="navform" method="get" action="filmosummary" id="filmoform">
+<select name="sort" class="fixed">
+<option value="">Show by...</option>
+<option value="?nmdp=1">Job</option>
+<option value="/filmosearch?sort=year&amp;explore=title_type&amp;role=nm5397459">Year &#xBB;</option>
+<option value="/filmosearch?sort=user_rating&amp;explore=title_type&amp;role=nm5397459">Rating &#xBB;</option>
+<option value="/filmosearch?sort=num_votes&amp;explore=title_type&amp;role=nm5397459">Number of Ratings &#xBB;</option>
+<option value="/filmosearch?sort=moviemeter&amp;explore=genres&amp;role=nm5397459">Genre &#xBB;</option>
+<option value="/filmosearch?sort=moviemeter&amp;explore=keywords&amp;role=nm5397459">Keyword &#xBB;</option>
+</select>
+</form>
+&#xA0;<span>|</span>&#xA0;
+<a href="https://contribute.imdb.com/updates?edit=nm5397459/filmography&amp;ref_=nm_flmg_edt"> Edit
+</a> </div>
+<h2>Filmography</h2>
+<div id="jumpto">
+Jump to:
+<a href="#actress" onclick="handleFilmoJumpto(this);" data-category="actress">Actress</a>
+<span class="ghost">|</span> <a href="#producer" onclick="handleFilmoJumpto(this);" data-category="producer">Producer</a>
+<span class="ghost">|</span> <a href="#soundtrack" onclick="handleFilmoJumpto(this);" data-category="soundtrack">Soundtrack</a>
+<span class="ghost">|</span> <a href="#self" onclick="handleFilmoJumpto(this);" data-category="self">Self</a>
+<span class="ghost">|</span> <a href="#archive_footage" onclick="handleFilmoJumpto(this);" data-category="archive_footage">Archive footage</a>
+</div>
+<div id="filmography">
+<div id="filmo-head-actress" class="head" data-category="actress" onclick="toggleFilmoCategory(this);">
+<span id="hide-actress" class="hide-link">Hide&#xA0;<img src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/icons/hide-1061525577._CB499613648_.png" class="absmiddle" alt="Hide" width="18" height="16"></span>
+<span id="show-actress" class="show-link">Show&#xA0;<img src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/icons/show-582987296._CB499606955_.png" class="absmiddle" alt="Show" width="18" height="16"></span>
+<a name="actress">Actress</a> (32 credits)
+</div>
+<div class="filmo-category-section">
+<div class="filmo-row odd" id="actress-tt2527338">
+<span class="year_column">
+&#xA0;2019
+</span>
+<b><a href="/title/tt2527338/?ref_=nm_flmg_act_1">Star Wars: Episode IX</a></b>
+(<a href="https://pro.imdb.com/title/tt2527338?rf=cons_nm_filmo&amp;ref_=cons_nm_filmo" class="in_production">pre-production</a>)
+<br>
+Rey
+</div>
+<div class="filmo-row even" id="actress-tt2076822">
+<span class="year_column">
+&#xA0;2019
+</span>
+<b><a href="/title/tt2076822/?ref_=nm_flmg_act_2">Chaos Walking</a></b>
+(<a href="https://pro.imdb.com/title/tt2076822?rf=cons_nm_filmo&amp;ref_=cons_nm_filmo" class="in_production">post-production</a>)
+<br>
+Viola Eade
+</div>
+<div class="filmo-row odd" id="actress-tt6463720">
+<span class="year_column">
+&#xA0;
+</span>
+<b><a href="/title/tt6463720/?ref_=nm_flmg_act_3">A Woman of No Importance</a></b>
+(<a href="https://pro.imdb.com/title/tt6463720?rf=cons_nm_filmo&amp;ref_=cons_nm_filmo" class="in_production">announced</a>)
+<br>
+Virginia Hall
+</div>
+<div class="filmo-row even" id="actress-tt2637372">
+<span class="year_column">
+&#xA0;
+</span>
+<b><a href="/title/tt2637372/?ref_=nm_flmg_act_4">Kolma</a></b>
+(<a href="https://pro.imdb.com/title/tt2637372?rf=cons_nm_filmo&amp;ref_=cons_nm_filmo" class="in_production">announced</a>)
+<br>
+Tamara Kolma
+</div>
+<div class="filmo-row odd" id="actress-tt8211922">
+<span class="year_column">
+&#xA0;2018
+</span>
+<b><a href="/title/tt8211922/?ref_=nm_flmg_act_5">Flopsy Turvy</a></b>
+(Short)
+<br>
+Cotton-Tail (voice)
+</div>
+<div class="filmo-row even" id="actress-tt6779076">
+<span class="year_column">
+&#xA0;2017-2018
+</span>
+<b><a href="/title/tt6779076/?ref_=nm_flmg_act_6">Star Wars: Forces of Destiny</a></b>
+(TV Series)
+<br>
+Rey
+<div class="filmo-episodes">
+- <a href="/title/tt8151998/?ref_=nm_flmg_act_6">Porg Problems</a>
+(2018)
+... Rey (voice)
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt8151992/?ref_=nm_flmg_act_6">Run Rey Run</a>
+(2018)
+... Rey (voice)
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt7439484/?ref_=nm_flmg_act_6">The Happabore Hazard</a>
+(2017)
+... Rey (voice)
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt6875242/?ref_=nm_flmg_act_6">Tracker Trouble</a>
+(2017)
+... Rey (voice)
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt7107522/?ref_=nm_flmg_act_6">BB-8 Bandits</a>
+(2017)
+... Rey (voice)
+</div>
+<div id="more-episodes-tt6779076-actress" style="display:none;">
+<img src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/favorite_theater/spinner-3099941772._CB499603823_.gif">
+</div>
+<div class="filmo-episodes">
+<a href="#" data-n="6" onclick="toggleSeeMoreEpisodes(this,&apos;nm5397459&apos;,&apos;tt6779076&apos;,&apos;actress&apos;,&apos;nm_flmg_act_6&apos;,5,&apos;blind&apos;,&apos;#more-episodes-tt6779076-actress&apos;,toggleContent); return false;">Show all 6 episodes</a>
+</div>
+</div>
+<div class="filmo-row odd" id="actress-tt8230574">
+<span class="year_column">
+&#xA0;2018
+</span>
+<b><a href="/title/tt8230574/?ref_=nm_flmg_act_7">Star Wars Forces of Destiny: Volume 3</a></b>
+(Short)
+<br>
+Rey (voice)
+</div>
+<div class="filmo-row even" id="actress-tt5117670">
+<span class="year_column">
+&#xA0;2018
+</span>
+<b><a href="/title/tt5117670/?ref_=nm_flmg_act_8">Peter Rabbit</a></b>
+<br>
+Cotton-Tail (voice)
+</div>
+<div class="filmo-row odd" id="actress-tt5690810">
+<span class="year_column">
+&#xA0;2018/I
+</span>
+<b><a href="/title/tt5690810/?ref_=nm_flmg_act_9">Ophelia</a></b>
+<br>
+Ophelia
+</div>
+<div class="filmo-row even" id="actress-tt2527336">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt2527336/?ref_=nm_flmg_act_10">Star Wars: Episode VIII - The Last Jedi</a></b>
+<br>
+Rey
+</div>
+<div class="filmo-row odd" id="actress-tt5710996">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt5710996/?ref_=nm_flmg_act_11">Star Wars: Battlefront II</a></b>
+(Video Game)
+<br>
+Rey (voice)
+</div>
+<div class="filmo-row even" id="actress-tt3402236">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt3402236/?ref_=nm_flmg_act_12">Murder on the Orient Express</a></b>
+<br>
+Miss Mary Debenham
+</div>
+<div class="filmo-row odd" id="actress-tt7589570">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt7589570/?ref_=nm_flmg_act_13">Star Wars Forces of Destiny: Volume 2</a></b>
+(TV Movie)
+<br>
+Rey (voice)
+</div>
+<div class="filmo-row even" id="actress-tt7557052">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt7557052/?ref_=nm_flmg_act_14">Star Wars Forces of Destiny: Volume 1</a></b>
+(TV Movie)
+<br>
+Rey (voice)
+</div>
+<div class="filmo-row odd" id="actress-tt5430544">
+<span class="year_column">
+&#xA0;2016
+</span>
+<b><a href="/title/tt5430544/?ref_=nm_flmg_act_15">Lego Star Wars: The Force Awakens</a></b>
+(Video Game)
+<br>
+Rey (voice)
+</div>
+<div class="filmo-row even" id="actress-tt2488496">
+<span class="year_column">
+&#xA0;2015
+</span>
+<b><a href="/title/tt2488496/?ref_=nm_flmg_act_16">Star Wars: Episode VII - The Force Awakens</a></b>
+<br>
+Rey
+</div>
+<div class="filmo-row odd" id="actress-tt0072562">
+<span class="year_column">
+&#xA0;2015
+</span>
+<b><a href="/title/tt0072562/?ref_=nm_flmg_act_17">Saturday Night Live</a></b>
+(TV Series)
+<br>
+Daisy Ridley (segment &quot;Star Wars Auditions&quot;)
+<div class="filmo-episodes">
+- <a href="/title/tt5182368/?ref_=nm_flmg_act_17">Matthew McConaughey/Adele</a>
+(2015)
+... Daisy Ridley (segment &quot;Star Wars Auditions&quot;) (uncredited)
+</div>
+</div>
+<div class="filmo-row even" id="actress-tt2501366">
+<span class="year_column">
+&#xA0;2015
+</span>
+<b><a href="/title/tt2501366/?ref_=nm_flmg_act_18">Scrawl</a></b>
+<br>
+Hannah
+</div>
+<div class="filmo-row odd" id="actress-tt4671444">
+<span class="year_column">
+&#xA0;2015
+</span>
+<b><a href="/title/tt4671444/?ref_=nm_flmg_act_19">Disney Infinity 3.0</a></b>
+(Video Game)
+<br>
+Rey - The Force Awakens DLC (voice)
+</div>
+<div class="filmo-row even" id="actress-tt2310212">
+<span class="year_column">
+&#xA0;2014
+</span>
+<b><a href="/title/tt2310212/?ref_=nm_flmg_act_20">Mr Selfridge</a></b>
+(TV Series)
+<br>
+Roxy
+<div class="filmo-episodes">
+- <a href="/title/tt3110364/?ref_=nm_flmg_act_20">Episode #2.8</a>
+(2014)
+... Roxy
+</div>
+</div>
+<div class="filmo-row odd" id="actress-tt0115355">
+<span class="year_column">
+&#xA0;2014
+</span>
+<b><a href="/title/tt0115355/?ref_=nm_flmg_act_21">Silent Witness</a></b>
+(TV Series)
+<br>
+Hannah Kennedy
+<div class="filmo-episodes">
+- <a href="/title/tt3250828/?ref_=nm_flmg_act_21">Fraternity: Part 2</a>
+(2014)
+... Hannah Kennedy
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt3250830/?ref_=nm_flmg_act_21">Fraternity: Part 1</a>
+(2014)
+... Hannah Kennedy
+</div>
+</div>
+<div class="filmo-row even" id="actress-tt3064242">
+<span class="year_column">
+&#xA0;2014
+</span>
+<b><a href="/title/tt3064242/?ref_=nm_flmg_act_22">Under</a></b>
+(Short)
+<br>
+Waitress
+</div>
+<div class="filmo-row odd" id="actress-tt7762280">
+<span class="year_column">
+&#xA0;2013/III
+</span>
+<b><a href="/title/tt7762280/?ref_=nm_flmg_act_23">Crossed Wires</a></b>
+(Short)
+<br>
+</div>
+<div class="filmo-row even" id="actress-tt2432604">
+<span class="year_column">
+&#xA0;2013
+</span>
+<b><a href="/title/tt2432604/?ref_=nm_flmg_act_24">Toast of London</a></b>
+(TV Series)
+<br>
+Stage Hand
+<div class="filmo-episodes">
+- <a href="/title/tt3270302/?ref_=nm_flmg_act_24">Vanity Project</a>
+(2013)
+... Stage Hand
+</div>
+</div>
+<div class="filmo-row odd" id="actress-tt7762290">
+<span class="year_column">
+&#xA0;2013
+</span>
+<b><a href="/title/tt7762290/?ref_=nm_flmg_act_25">100% BEEF</a></b>
+(Short)
+<br>
+Girl
+</div>
+<div class="filmo-row even" id="actress-tt5671416">
+<span class="year_column">
+&#xA0;2013
+</span>
+<b><a href="/title/tt5671416/?ref_=nm_flmg_act_26">Wiley: Lights On</a></b>
+(Video short)
+<br>
+Kim
+</div>
+<div class="filmo-row odd" id="actress-tt2783314">
+<span class="year_column">
+&#xA0;2013
+</span>
+<b><a href="/title/tt2783314/?ref_=nm_flmg_act_27">Youngers</a></b>
+(TV Series)
+<br>
+Jessie
+<div class="filmo-episodes">
+- <a href="/title/tt2831036/?ref_=nm_flmg_act_27">A to B and the Apology</a>
+(2013)
+... Jessie
+</div>
+</div>
+<div class="filmo-row even" id="actress-tt2829562">
+<span class="year_column">
+&#xA0;2013
+</span>
+<b><a href="/title/tt2829562/?ref_=nm_flmg_act_28">Blue Season</a></b>
+(Short)
+<br>
+Sarah
+</div>
+<div class="filmo-row odd" id="actress-tt0096555">
+<span class="year_column">
+&#xA0;2013
+</span>
+<b><a href="/title/tt0096555/?ref_=nm_flmg_act_29">Casualty</a></b>
+(TV Series)
+<br>
+Fran Bedingfield
+<div class="filmo-episodes">
+- <a href="/title/tt2783938/?ref_=nm_flmg_act_29">And the Walls Come Tumbling Down</a>
+(2013)
+... Fran Bedingfield
+</div>
+</div>
+<div class="filmo-row even" id="actress-tt3702134">
+<span class="year_column">
+&#xA0;2013
+</span>
+<b><a href="/title/tt3702134/?ref_=nm_flmg_act_30">Lifesaver</a></b>
+(Short)
+<br>
+Jo (Rescuer)
+</div>
+<div class="filmo-row odd" id="actress-tt8011500">
+<span class="year_column">
+&#xA0;2012
+</span>
+<b><a href="/title/tt8011500/?ref_=nm_flmg_act_31">ASOS Africa</a></b>
+(Short)
+<br>
+Girl
+</div>
+<div class="filmo-row even" id="actress-tt0102587">
+<span class="year_column">
+&#xA0;1991
+</span>
+<b><a href="/title/tt0102587/?ref_=nm_flmg_act_32">Only Yesterday</a></b>
+<br>
+Taeko (English version, voice)
+</div>
+</div>
+<div id="filmo-head-producer" class="head" data-category="producer" onclick="toggleFilmoCategory(this);">
+<span id="hide-producer" class="hide-link" style="display:none;">Hide&#xA0;<img src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/icons/hide-1061525577._CB499613648_.png" class="absmiddle" alt="Hide" width="18" height="16"></span>
+<span id="show-producer" class="show-link" style="display:inline;">Show&#xA0;<img src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/icons/show-582987296._CB499606955_.png" class="absmiddle" alt="Show" width="18" height="16"></span>
+<a name="producer">Producer</a> (1 credit)
+</div>
+<div class="filmo-category-section" style="display:none;">
+<div class="filmo-row odd" id="producer-tt3882074">
+<span class="year_column">
+&#xA0;2016
+</span>
+<b><a href="/title/tt3882074/?ref_=nm_flmg_prd_1">The Eagle Huntress</a></b>
+(Documentary) (executive producer)
+<br>
+</div>
+</div>
+<div id="filmo-head-soundtrack" class="head" data-category="soundtrack" onclick="toggleFilmoCategory(this);">
+<span id="hide-soundtrack" class="hide-link" style="display:none;">Hide&#xA0;<img src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/icons/hide-1061525577._CB499613648_.png" class="absmiddle" alt="Hide" width="18" height="16"></span>
+<span id="show-soundtrack" class="show-link" style="display:inline;">Show&#xA0;<img src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/icons/show-582987296._CB499606955_.png" class="absmiddle" alt="Show" width="18" height="16"></span>
+<a name="soundtrack">Soundtrack</a> (1 credit)
+</div>
+<div class="filmo-category-section" style="display:none;">
+<div class="filmo-row odd" id="soundtrack-tt3444938">
+<span class="year_column">
+&#xA0;2015
+</span>
+<b><a href="/title/tt3444938/?ref_=_1">The Tonight Show Starring Jimmy Fallon</a></b>
+(TV Series) (performer - 1 episode)
+<br>
+<div class="filmo-episodes">
+- <a href="/title/tt5255232/?ref_=_1">Mark Wahlberg/Bill Burr/Sheryl Crow</a>
+(2015)
+... (performer: &quot;Theme from &apos;Star Wars&apos;&quot; - uncredited)
+</div>
+</div>
+</div>
+<div id="filmo-head-self" class="head" data-category="self" onclick="toggleFilmoCategory(this);">
+<span id="hide-self" class="hide-link" style="display:none;">Hide&#xA0;<img src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/icons/hide-1061525577._CB499613648_.png" class="absmiddle" alt="Hide" width="18" height="16"></span>
+<span id="show-self" class="show-link" style="display:inline;">Show&#xA0;<img src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/icons/show-582987296._CB499606955_.png" class="absmiddle" alt="Show" width="18" height="16"></span>
+<a name="self">Self</a> (65 credits)
+</div>
+<div class="filmo-category-section" style="display:none;">
+<div class="filmo-row odd" id="self-tt8246602">
+<span class="year_column">
+&#xA0;2018
+</span>
+<b><a href="/title/tt8246602/?ref_=nm_flmg_slf_1">Balance of The Force</a></b>
+(Documentary short)
+<br>
+Herself
+</div>
+<div class="filmo-row even" id="self-tt8080556">
+<span class="year_column">
+&#xA0;2018
+</span>
+<b><a href="/title/tt8080556/?ref_=nm_flmg_slf_2">The Director and The Jedi</a></b>
+(Documentary)
+<br>
+Herself
+</div>
+<div class="filmo-row odd" id="self-tt8181390">
+<span class="year_column">
+&#xA0;2018
+</span>
+<b><a href="/title/tt8181390/?ref_=nm_flmg_slf_3">Daisy Ridley Facebook Live Q&amp;A</a></b>
+(TV Movie)
+<br>
+Herself
+</div>
+<div class="filmo-row even" id="self-tt0181261">
+<span class="year_column">
+&#xA0;2018
+</span>
+<b><a href="/title/tt0181261/?ref_=nm_flmg_slf_4">This Morning</a></b>
+(TV Series)
+<br>
+Herself
+<div class="filmo-episodes">
+- <a href="/title/tt8112544/?ref_=nm_flmg_slf_4">Episode dated 9 March 2018</a>
+(2018)
+... Herself
+</div>
+</div>
+<div class="filmo-row odd" id="self-tt3503424">
+<span class="year_column">
+&#xA0;2017-2018
+</span>
+<b><a href="/title/tt3503424/?ref_=nm_flmg_slf_5">Ok! TV</a></b>
+(TV Series)
+<br>
+Herself
+<div class="filmo-episodes">
+- <a href="/title/tt7955186/?ref_=nm_flmg_slf_5">Episode #3.128</a>
+(2018)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt7955178/?ref_=nm_flmg_slf_5">Episode #3.113</a>
+(2018)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt7694294/?ref_=nm_flmg_slf_5">Episode #3.81</a>
+(2017)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt7733646/?ref_=nm_flmg_slf_5">Episode #3.73</a>
+(2017)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt7162232/?ref_=nm_flmg_slf_5">Episode #2.246</a>
+(2017)
+... Herself
+</div>
+<div id="more-episodes-tt3503424-self" style="display:none;">
+<img src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/favorite_theater/spinner-3099941772._CB499603823_.gif">
+</div>
+<div class="filmo-episodes">
+<a href="#" data-n="6" onclick="toggleSeeMoreEpisodes(this,&apos;nm5397459&apos;,&apos;tt3503424&apos;,&apos;self&apos;,&apos;nm_flmg_slf_5&apos;,5,&apos;blind&apos;,&apos;#more-episodes-tt3503424-self&apos;,toggleContent); return false;">Show all 6 episodes</a>
+</div>
+</div>
+<div class="filmo-row even" id="self-tt0911896">
+<span class="year_column">
+&#xA0;2015-2017
+</span>
+<b><a href="/title/tt0911896/?ref_=nm_flmg_slf_6">Made in Hollywood</a></b>
+(TV Series)
+<br>
+Herself
+<div class="filmo-episodes">
+- <a href="/title/tt7569762/?ref_=nm_flmg_slf_6">Star Wars: The Last Jedi/Jumanji: Welcome to the Jungle/The Greatest Showman/Downsizing</a>
+(2017)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt7569756/?ref_=nm_flmg_slf_6">Murder on the Orient Express/Justice League/Daddy&apos;s Home 2/Lady Bird</a>
+(2017)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt5324454/?ref_=nm_flmg_slf_6">Star Wars: The Force Awakens</a>
+(2015)
+... Herself
+</div>
+</div>
+<div class="filmo-row odd" id="self-tt0081857">
+<span class="year_column">
+&#xA0;2015-2017
+</span>
+<b><a href="/title/tt0081857/?ref_=nm_flmg_slf_7">Entertainment Tonight</a></b>
+(TV Series)
+<br>
+Herself
+<div class="filmo-episodes">
+- <a href="/title/tt7624298/?ref_=nm_flmg_slf_7">Episode #37.83</a>
+(2017)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt7740324/?ref_=nm_flmg_slf_7">December 12, 2017</a>
+(2017)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt7326538/?ref_=nm_flmg_slf_7">Episode #37.51</a>
+(2017)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt7274666/?ref_=nm_flmg_slf_7">Episode #37.47</a>
+(2017)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt6963088/?ref_=nm_flmg_slf_7">Episode #36.233</a>
+(2017)
+... Herself
+</div>
+<div id="more-episodes-tt0081857-self" style="display:none;">
+<img src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/favorite_theater/spinner-3099941772._CB499603823_.gif">
+</div>
+<div class="filmo-episodes">
+<a href="#" data-n="9" onclick="toggleSeeMoreEpisodes(this,&apos;nm5397459&apos;,&apos;tt0081857&apos;,&apos;self&apos;,&apos;nm_flmg_slf_7&apos;,5,&apos;blind&apos;,&apos;#more-episodes-tt0081857-self&apos;,toggleContent); return false;">Show all 9 episodes</a>
+</div>
+</div>
+<div class="filmo-row even" id="self-tt0924651">
+<span class="year_column">
+&#xA0;2015-2017
+</span>
+<b><a href="/title/tt0924651/?ref_=nm_flmg_slf_8">The Graham Norton Show</a></b>
+(TV Series)
+<br>
+Herself - Guest
+<div class="filmo-episodes">
+- <a href="/title/tt7664892/?ref_=nm_flmg_slf_8">Mark Hamill/Daisy Ridley/John Boyega/Gwendoline Christie/Sam Smith</a>
+(2017)
+... Herself - Guest
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt5298572/?ref_=nm_flmg_slf_8">David Beckham/Carrie Fisher/Daisy Ridley/John Boyega/Kylie Minogue</a>
+(2015)
+... Herself - Guest
+</div>
+</div>
+<div class="filmo-row odd" id="self-tt0262152">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt0262152/?ref_=nm_flmg_slf_9">Breakfast</a></b>
+(TV Series)
+<br>
+Herself - Actor
+<div class="filmo-episodes">
+- <a href="/title/tt7755776/?ref_=nm_flmg_slf_9">Episode dated 13 December 2017</a>
+(2017)
+... Herself - Actor
+</div>
+</div>
+<div class="filmo-row even" id="self-tt3644198">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt3644198/?ref_=nm_flmg_slf_10">Good Morning Britain</a></b>
+(TV Series)
+<br>
+Herself - Plays Rey
+<div class="filmo-episodes">
+- <a href="/title/tt7827596/?ref_=nm_flmg_slf_10">Episode dated 13 December 2017</a>
+(2017)
+... Herself - Plays Rey
+</div>
+</div>
+<div class="filmo-row odd" id="self-tt0298674">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt0298674/?ref_=nm_flmg_slf_11">Lorraine</a></b>
+(TV Series)
+<br>
+Herself - &apos;Rey&apos;
+<div class="filmo-episodes">
+- <a href="/title/tt7744928/?ref_=nm_flmg_slf_11">Episode dated 13 December 2017</a>
+(2017)
+... Herself - &apos;Rey&apos;
+</div>
+</div>
+<div class="filmo-row even" id="self-tt0428169">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt0428169/?ref_=nm_flmg_slf_12">Sunrise</a></b>
+(TV Series)
+<br>
+Herself
+<div class="filmo-episodes">
+- <a href="/title/tt7954460/?ref_=nm_flmg_slf_12">Episode dated 13 December 2017</a>
+(2017)
+... Herself
+</div>
+</div>
+<div class="filmo-row odd" id="self-tt7954808">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt7954808/?ref_=nm_flmg_slf_13">The Oh My Disney Show</a></b>
+(TV Series)
+<br>
+Herself
+<div class="filmo-episodes">
+- <a href="/title/tt7959756/?ref_=nm_flmg_slf_13">Red Carpet Interviews at the World Premiere of Star Wars: The Last Jedi</a>
+(2017)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt7960066/?ref_=nm_flmg_slf_13">Daisy Ridley and Adam Driver Talk About Working Together on Star Wars: The Last Jedi</a>
+(2017)
+... Herself
+</div>
+</div>
+<div class="filmo-row even" id="self-tt5715678">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt5715678/?ref_=nm_flmg_slf_14">The Star Wars Show</a></b>
+(TV Series short)
+<br>
+Herself / Herself - Rey: Star Wars The Last Jedi
+<div class="filmo-episodes">
+- <a href="/title/tt7768410/?ref_=nm_flmg_slf_14">The Last Jedi Cast Answers YOUR Questions, Behind the Scenes of the Red Carpet Live Stream, &amp; More!</a>
+(2017)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt7768404/?ref_=nm_flmg_slf_14">We Talk with the Cast of The Last Jedi, Go to Anthony Daniels&apos; Droid School, and More!</a>
+(2017)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt7188144/?ref_=nm_flmg_slf_14">The Last Jedi Cast Talks Teaser &amp; the Freemaker Adventures S2 Preview!</a>
+(2017)
+... Herself - Rey: Star Wars The Last Jedi
+</div>
+</div>
+<div class="filmo-row odd" id="self-tt7933952">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt7933952/?ref_=nm_flmg_slf_15">The Last Jedi Cast Competes in a Compliment Battle</a></b>
+(Video short)
+<br>
+Herself
+</div>
+<div class="filmo-row even" id="self-tt7826984">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt7826984/?ref_=nm_flmg_slf_16">Celebrities Answer the Web&apos;s Most Searched Questions</a></b>
+(TV Series)
+<br>
+Herself
+<div class="filmo-episodes">
+- <a href="/title/tt7933888/?ref_=nm_flmg_slf_16">The Last Jedi Cast Answers the Web&apos;s Most Searched Questions</a>
+(2017)
+... Herself
+</div>
+</div>
+<div class="filmo-row odd" id="self-tt5139360">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt5139360/?ref_=nm_flmg_slf_17">WGN Morning News</a></b>
+(TV Series)
+<br>
+Herself
+<div class="filmo-episodes">
+- <a href="/title/tt7737140/?ref_=nm_flmg_slf_17">Episode dated 11 December 2017</a>
+(2017)
+... Herself
+</div>
+</div>
+<div class="filmo-row even" id="self-tt7933844">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt7933844/?ref_=nm_flmg_slf_18">Wired Magazine: The Last Jedi Cast Answers the Web&apos;s Most Searched Questions</a></b>
+(Video short)
+<br>
+Herself
+</div>
+<div class="filmo-row odd" id="self-tt4346344">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt4346344/?ref_=nm_flmg_slf_19">E! Live from the Red Carpet</a></b>
+(TV Series)
+<br>
+Herself
+<div class="filmo-episodes">
+- <a href="/title/tt7949354/?ref_=nm_flmg_slf_19">Star Wars Premiere</a>
+(2017)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt7949344/?ref_=nm_flmg_slf_19">&quot;Star Wars: The Last Jedi&quot; Cast</a>
+(2017)
+... Herself
+</div>
+</div>
+<div class="filmo-row even" id="self-tt7768586">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt7768586/?ref_=nm_flmg_slf_20">Live from the Red Carpet of Star Wars: The Last Jedi</a></b>
+(TV Movie)
+<br>
+Herself
+</div>
+<div class="filmo-row odd" id="self-tt7549864">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt7549864/?ref_=nm_flmg_slf_21">The IMDb Show</a></b>
+(TV Series)
+<br>
+Herself - Guest
+<div class="filmo-episodes">
+- <a href="/title/tt7720388/?ref_=nm_flmg_slf_21">Ep. 104: Paul Scheer</a>
+(2017)
+... Herself - Guest
+</div>
+</div>
+<div class="filmo-row even" id="self-tt8023810">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt8023810/?ref_=nm_flmg_slf_22">Daisy Ridley Talks Star Wars Fan Theories, Strange Merchandise and the Chewbacca Voice Glamour</a></b>
+(TV Movie)
+<br>
+Herself
+</div>
+<div class="filmo-row odd" id="self-tt0167515">
+<span class="year_column">
+&#xA0;2015-2017
+</span>
+<b><a href="/title/tt0167515/?ref_=nm_flmg_slf_23">Access Hollywood</a></b>
+(TV Series)
+<br>
+Herself
+<div class="filmo-episodes">
+- <a href="/title/tt7690784/?ref_=nm_flmg_slf_23">Episode #22.73</a>
+(2017)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt5259380/?ref_=nm_flmg_slf_23">Episode dated 22 December 2015</a>
+(2015)
+... Herself
+</div>
+</div>
+<div class="filmo-row even" id="self-tt0320037">
+<span class="year_column">
+&#xA0;2015-2017
+</span>
+<b><a href="/title/tt0320037/?ref_=nm_flmg_slf_24">Jimmy Kimmel Live!</a></b>
+(TV Series)
+<br>
+Herself / Herself - Guest
+<div class="filmo-episodes">
+- <a href="/title/tt7639264/?ref_=nm_flmg_slf_24">&quot;Star Wars: The Last Jedi&quot; Cast</a>
+(2017)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt6996498/?ref_=nm_flmg_slf_24">Billy Crystal/Chris Bianco/Casey James Salengo</a>
+(2017)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt5194166/?ref_=nm_flmg_slf_24">The Cast of Star Wars: The Force Awakens</a>
+(2015)
+... Herself - Guest
+</div>
+</div>
+<div class="filmo-row odd" id="self-tt7769872">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt7769872/?ref_=nm_flmg_slf_25">Star Wars: The Last Jedi Cast Live Q&amp;A</a></b>
+(TV Movie)
+<br>
+Herself
+</div>
+<div class="filmo-row even" id="self-tt3444938">
+<span class="year_column">
+&#xA0;2015-2017
+</span>
+<b><a href="/title/tt3444938/?ref_=nm_flmg_slf_26">The Tonight Show Starring Jimmy Fallon</a></b>
+(TV Series)
+<br>
+Herself / Herself - Message for John Boyega / Herself - Performer
+<div class="filmo-episodes">
+- <a href="/title/tt7664236/?ref_=nm_flmg_slf_26">John Boyega/Kevin Nealon/Fallonventions</a>
+(2017)
+... Herself - Message for John Boyega
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt7664234/?ref_=nm_flmg_slf_26">Daisy Ridley/Jim Belushi/Liam Gallagher</a>
+(2017)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt5255232/?ref_=nm_flmg_slf_26">Mark Wahlberg/Bill Burr/Sheryl Crow</a>
+(2015)
+... Herself - Performer (uncredited)
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt5234936/?ref_=nm_flmg_slf_26">Mindy Kaling/Daisy Ridley/Gwen Stefani</a>
+(2015)
+... Herself
+</div>
+</div>
+<div class="filmo-row odd" id="self-tt0072506">
+<span class="year_column">
+&#xA0;2015-2017
+</span>
+<b><a href="/title/tt0072506/?ref_=nm_flmg_slf_27">Good Morning America</a></b>
+(TV Series)
+<br>
+Herself / Herself - Guest
+<div class="filmo-episodes">
+- <a href="/title/tt7570692/?ref_=nm_flmg_slf_27">Episode dated 28 November 2017</a>
+(2017)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt5212466/?ref_=nm_flmg_slf_27">Episode dated 2 December 2015</a>
+(2015)
+... Herself - Guest
+</div>
+</div>
+<div class="filmo-row even" id="self-tt0096636">
+<span class="year_column">
+&#xA0;2015-2017
+</span>
+<b><a href="/title/tt0096636/?ref_=nm_flmg_slf_28">Live with Regis and Kathie Lee</a></b>
+(TV Series)
+<br>
+Herself - Guest
+<div class="filmo-episodes">
+- <a href="/title/tt7669462/?ref_=nm_flmg_slf_28">Daisy Ridley/Jeffrey Donovan</a>
+(2017)
+... Herself - Guest
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt5251068/?ref_=nm_flmg_slf_28">Maya Rudolph/Daisy Ridley/Gigi Hadid</a>
+(2015)
+... Herself - Guest
+</div>
+</div>
+<div class="filmo-row odd" id="self-tt7593308">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt7593308/?ref_=nm_flmg_slf_29">Agatha Christie: Murder Beyond the Orient Express</a></b>
+(TV Movie documentary)
+<br>
+Herself
+</div>
+<div class="filmo-row even" id="self-tt7595752">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt7595752/?ref_=nm_flmg_slf_30">The British Academy Britannia Awards</a></b>
+(TV Movie)
+<br>
+Herself
+</div>
+<div class="filmo-row odd" id="self-tt5220922">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt5220922/?ref_=nm_flmg_slf_31">73 Questions</a></b>
+(TV Series documentary short)
+<br>
+Herself
+<div class="filmo-episodes">
+- <a href="/title/tt7631054/?ref_=nm_flmg_slf_31">73 Questions with Daisy Ridley</a>
+(2017)
+... Herself
+</div>
+</div>
+<div class="filmo-row even" id="self-tt0247094">
+<span class="year_column">
+&#xA0;2015-2017
+</span>
+<b><a href="/title/tt0247094/?ref_=nm_flmg_slf_32">Extra</a></b>
+(TV Series)
+<br>
+Herself
+<div class="filmo-episodes">
+- <a href="/title/tt6728228/?ref_=nm_flmg_slf_32">Episode #23.232</a>
+(2017)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt6860754/?ref_=nm_flmg_slf_32">Episode #23.212</a>
+(2017)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt5267254/?ref_=nm_flmg_slf_32">Episode #22.76</a>
+(2015)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt5267252/?ref_=nm_flmg_slf_32">Episode #22.75</a>
+(2015)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt5233508/?ref_=nm_flmg_slf_32">Episode #22.66</a>
+(2015)
+... Herself
+</div>
+</div>
+<div class="filmo-row odd" id="self-tt0482346">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt0482346/?ref_=nm_flmg_slf_33">Entertainment Tonight Canada</a></b>
+(TV Series)
+<br>
+Herself
+<div class="filmo-episodes">
+- <a href="/title/tt7955566/?ref_=nm_flmg_slf_33">Episode dated 19 April 2017</a>
+(2017)
+... Herself
+</div>
+</div>
+<div class="filmo-row even" id="self-tt3725872">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt3725872/?ref_=nm_flmg_slf_34">Studio 10</a></b>
+(TV Series)
+<br>
+Herself
+<div class="filmo-episodes">
+- <a href="/title/tt7896440/?ref_=nm_flmg_slf_34">Star Wars Convention Orlando</a>
+(2017)
+... Herself
+</div>
+</div>
+<div class="filmo-row odd" id="self-tt0819851">
+<span class="year_column">
+&#xA0;2015-2017
+</span>
+<b><a href="/title/tt0819851/?ref_=nm_flmg_slf_35">ABC News</a></b>
+(TV Series)
+<br>
+Herself
+<div class="filmo-episodes">
+- <a href="/title/tt7942722/?ref_=nm_flmg_slf_35">Apr 15, 2017</a>
+(2017)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt7942716/?ref_=nm_flmg_slf_35">Dec 10, 2015</a>
+(2015)
+... Herself
+</div>
+</div>
+<div class="filmo-row even" id="self-tt6772706">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt6772706/?ref_=nm_flmg_slf_36">The Star Wars Show LIVE! Celebration Orlando 2017</a></b>
+(TV Mini-Series)
+<br>
+Herself - Special Guest
+<div class="filmo-episodes">
+- <a href="/title/tt6781190/?ref_=nm_flmg_slf_36">Day 2</a>
+(2017)
+... Herself - Special Guest
+</div>
+</div>
+<div class="filmo-row odd" id="self-tt7947034">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt7947034/?ref_=nm_flmg_slf_37">Mark Hamill and Daisy Ridley&apos;s Epic Star Wars: Force for Change Announcement</a></b>
+(Short)
+<br>
+Herself
+</div>
+<div class="filmo-row even" id="self-tt6528684">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt6528684/?ref_=nm_flmg_slf_38">BAFTAs 2017: Live from the Red Carpet</a></b>
+(TV Special)
+<br>
+Herself
+</div>
+<div class="filmo-row odd" id="self-tt6533268">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt6533268/?ref_=nm_flmg_slf_39">The EE British Academy Film Awards</a></b>
+(TV Special)
+<br>
+Herself
+</div>
+<div class="filmo-row even" id="self-tt6342710">
+<span class="year_column">
+&#xA0;2016
+</span>
+<b><a href="/title/tt6342710/?ref_=nm_flmg_slf_40">The Force Awakens: Dressing the Galaxy</a></b>
+(Video documentary short)
+<br>
+Herself
+</div>
+<div class="filmo-row odd" id="self-tt5928104">
+<span class="year_column">
+&#xA0;2016
+</span>
+<b><a href="/title/tt5928104/?ref_=nm_flmg_slf_41">Teen Choice Awards 2016</a></b>
+(TV Movie)
+<br>
+Herself - Winner
+</div>
+<div class="filmo-row even" id="self-tt5817814">
+<span class="year_column">
+&#xA0;2016
+</span>
+<b><a href="/title/tt5817814/?ref_=nm_flmg_slf_42">AFI Life Achievement Award: A Tribute to John Williams</a></b>
+(TV Special)
+<br>
+Herself
+</div>
+<div class="filmo-row odd" id="self-tt5556144">
+<span class="year_column">
+&#xA0;2016
+</span>
+<b><a href="/title/tt5556144/?ref_=nm_flmg_slf_43">2016 MTV Movie Awards</a></b>
+(TV Special)
+<br>
+Herself - Winner &amp; Nominee
+</div>
+<div class="filmo-row even" id="self-tt5974830">
+<span class="year_column">
+&#xA0;2016
+</span>
+<b><a href="/title/tt5974830/?ref_=nm_flmg_slf_44">Blueprint of a Battle: The Snow Fight</a></b>
+(Video documentary short)
+<br>
+Herself
+</div>
+<div class="filmo-row odd" id="self-tt5613052">
+<span class="year_column">
+&#xA0;2016
+</span>
+<b><a href="/title/tt5613052/?ref_=nm_flmg_slf_45">Star Wars: Episode VII - The Force Awakens: The Story Awakens - The Table Read</a></b>
+(Video documentary short)
+<br>
+Herself
+</div>
+<div class="filmo-row even" id="self-tt5974820">
+<span class="year_column">
+&#xA0;2016
+</span>
+<b><a href="/title/tt5974820/?ref_=nm_flmg_slf_46">The Force Awakens: Building BB-8</a></b>
+(Video documentary short)
+<br>
+Herself
+</div>
+<div class="filmo-row odd" id="self-tt6342798">
+<span class="year_column">
+&#xA0;2016
+</span>
+<b><a href="/title/tt6342798/?ref_=nm_flmg_slf_47">The Force Awakens: Force for Change</a></b>
+(Video short)
+<br>
+Herself
+</div>
+<div class="filmo-row even" id="self-tt5974948">
+<span class="year_column">
+&#xA0;2016
+</span>
+<b><a href="/title/tt5974948/?ref_=nm_flmg_slf_48">The Force Awakens: Inside the Armory</a></b>
+(Video documentary short)
+<br>
+Herself
+</div>
+<div class="filmo-row odd" id="self-tt5974968">
+<span class="year_column">
+&#xA0;2016
+</span>
+<b><a href="/title/tt5974968/?ref_=nm_flmg_slf_49">The Scavenger &amp; the Stormtrooper: A Conversation with Daisy Ridley and John Boyega</a></b>
+(Video documentary short)
+<br>
+Herself
+</div>
+<div class="filmo-row even" id="self-tt5622310">
+<span class="year_column">
+&#xA0;2016
+</span>
+<b><a href="/title/tt5622310/?ref_=nm_flmg_slf_50">Daisy Ridley Exclusive Q&amp;A</a></b>
+(TV Short)
+<br>
+Herself (uncredited)
+</div>
+<div class="filmo-row odd" id="self-tt5532610">
+<span class="year_column">
+&#xA0;2016
+</span>
+<b><a href="/title/tt5532610/?ref_=nm_flmg_slf_51">Secrets of the Force Awakens: A Cinematic Journey</a></b>
+(Documentary)
+<br>
+Herself
+</div>
+<div class="filmo-row even" id="self-tt4991632">
+<span class="year_column">
+&#xA0;2016
+</span>
+<b><a href="/title/tt4991632/?ref_=nm_flmg_slf_52">The Oscars</a></b>
+(TV Special)
+<br>
+Herself - Presenter
+</div>
+<div class="filmo-row odd" id="self-tt0430836">
+<span class="year_column">
+&#xA0;2015-2016
+</span>
+<b><a href="/title/tt0430836/?ref_=nm_flmg_slf_53">The Insider</a></b>
+(TV Series)
+<br>
+Herself
+<div class="filmo-episodes">
+- <a href="/title/tt5485820/?ref_=nm_flmg_slf_53">Episode #12.143</a>
+(2016)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt5253366/?ref_=nm_flmg_slf_53">Episode #12.79</a>
+(2015)
+... Herself
+</div>
+</div>
+<div class="filmo-row even" id="self-tt3882074">
+<span class="year_column">
+&#xA0;2016
+</span>
+<b><a href="/title/tt3882074/?ref_=nm_flmg_slf_54">The Eagle Huntress</a></b>
+(Documentary)
+<br>
+Narrator (voice)
+</div>
+<div class="filmo-row odd" id="self-tt0379623">
+<span class="year_column">
+&#xA0;2015
+</span>
+<b><a href="/title/tt0379623/?ref_=nm_flmg_slf_55">Ellen: The Ellen DeGeneres Show</a></b>
+(TV Series)
+<br>
+Herself
+<div class="filmo-episodes">
+- <a href="/title/tt5265524/?ref_=nm_flmg_slf_55">Beth Behrs/Ellen&apos;s 12 Days of Giveaways</a>
+(2015)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt5278150/?ref_=nm_flmg_slf_55">Daisy Ridley, Oscar Isaac &amp; John Boyega/Dax Shepard/Ellen&apos;s 12 Days of Giveaways</a>
+(2015)
+... Herself
+</div>
+</div>
+<div class="filmo-row even" id="self-tt1637574">
+<span class="year_column">
+&#xA0;2015
+</span>
+<b><a href="/title/tt1637574/?ref_=nm_flmg_slf_56">Conan</a></b>
+(TV Series)
+<br>
+Herself - Guest
+<div class="filmo-episodes">
+- <a href="/title/tt5265276/?ref_=nm_flmg_slf_56">The Cast of Star Wars: The Force Awakens</a>
+(2015)
+... Herself - Guest
+</div>
+</div>
+<div class="filmo-row odd" id="self-tt6116986">
+<span class="year_column">
+&#xA0;2015
+</span>
+<b><a href="/title/tt6116986/?ref_=nm_flmg_slf_57">BuzzFeedVideo</a></b>
+(TV Series short)
+<br>
+Herself
+<div class="filmo-episodes">
+- <a href="/title/tt7954862/?ref_=nm_flmg_slf_57">&quot;Star Wars&quot; Cast Members Do &quot;Star Wars&quot; Impersonations</a>
+(2015)
+... Herself
+</div>
+</div>
+<div class="filmo-row even" id="self-tt2471942">
+<span class="year_column">
+&#xA0;2015
+</span>
+<b><a href="/title/tt2471942/?ref_=nm_flmg_slf_58">TN Tecno</a></b>
+(TV Series)
+<br>
+Herself
+<div class="filmo-episodes">
+- <a href="/title/tt7959660/?ref_=nm_flmg_slf_58">Episode dated 15 December 2015</a>
+(2015)
+... Herself
+</div>
+</div>
+<div class="filmo-row odd" id="self-tt7768640">
+<span class="year_column">
+&#xA0;2015
+</span>
+<b><a href="/title/tt7768640/?ref_=nm_flmg_slf_59">Star Wars: The Force Awakens World Premiere Red Carpet</a></b>
+(TV Movie)
+<br>
+Herself
+</div>
+<div class="filmo-row even" id="self-tt4969692">
+<span class="year_column">
+&#xA0;2015
+</span>
+<b><a href="/title/tt4969692/?ref_=nm_flmg_slf_60">Clevver News Feed</a></b>
+(TV Series)
+<br>
+Herself
+<div class="filmo-episodes">
+- <a href="/title/tt7984936/?ref_=nm_flmg_slf_60">Daisy Ridley Talks Becoming A Star Wars Role Model &amp; Famous Overnight</a>
+(2015)
+... Herself
+</div>
+</div>
+<div class="filmo-row odd" id="self-tt5368216">
+<span class="year_column">
+&#xA0;2015
+</span>
+<b><a href="/title/tt5368216/?ref_=nm_flmg_slf_61">Rotten Tomatoes</a></b>
+(TV Series)
+<br>
+Herself
+<div class="filmo-episodes">
+- <a href="/title/tt5371944/?ref_=nm_flmg_slf_61">The Force Awakens Cast Plays &quot;Star Wars or Florida?&quot;</a>
+(2015)
+... Herself
+</div>
+</div>
+<div class="filmo-row even" id="self-tt0240256">
+<span class="year_column">
+&#xA0;2015
+</span>
+<b><a href="/title/tt0240256/?ref_=nm_flmg_slf_62">BBC News</a></b>
+(TV Series)
+<br>
+Herself
+<div class="filmo-episodes">
+- <a href="/title/tt7949462/?ref_=nm_flmg_slf_62">Dec 3, 2015</a>
+(2015)
+... Herself
+</div>
+</div>
+<div class="filmo-row odd" id="self-tt5720402">
+<span class="year_column">
+&#xA0;2015
+</span>
+<b><a href="/title/tt5720402/?ref_=nm_flmg_slf_63">Associated Press: YouTube Channel</a></b>
+(TV Series)
+<br>
+Herself
+<div class="filmo-episodes">
+- <a href="/title/tt7971294/?ref_=nm_flmg_slf_63">&apos;Star Wars&apos; Stars Walk Fashion Red Carpet</a>
+(2015)
+... Herself
+</div>
+</div>
+<div class="filmo-row even" id="self-tt4612084">
+<span class="year_column">
+&#xA0;2015
+</span>
+<b><a href="/title/tt4612084/?ref_=nm_flmg_slf_64">Star Wars Celebration Live Anaheim 2015</a></b>
+(TV Mini-Series)
+<br>
+Herself
+<div class="filmo-episodes">
+- <a href="/title/tt5599512/?ref_=nm_flmg_slf_64">Day 1</a>
+(2015)
+... Herself
+</div>
+</div>
+<div class="filmo-row odd" id="self-tt5312326">
+<span class="year_column">
+&#xA0;2015
+</span>
+<b><a href="/title/tt5312326/?ref_=nm_flmg_slf_65">Star Wars: Greatest Moments</a></b>
+(TV Movie documentary)
+<br>
+Herself
+</div>
+</div>
+<div id="filmo-head-archive_footage" class="head" data-category="archive_footage" onclick="toggleFilmoCategory(this);">
+<span id="hide-archive_footage" class="hide-link" style="display:none;">Hide&#xA0;<img src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/icons/hide-1061525577._CB499613648_.png" class="absmiddle" alt="Hide" width="18" height="16"></span>
+<span id="show-archive_footage" class="show-link" style="display:inline;">Show&#xA0;<img src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/icons/show-582987296._CB499606955_.png" class="absmiddle" alt="Show" width="18" height="16"></span>
+<a name="archive_footage">Archive footage</a> (7 credits)
+</div>
+<div class="filmo-category-section" style="display:none;">
+<div class="filmo-row odd" id="archive_footage-tt0924651">
+<span class="year_column">
+&#xA0;2018
+</span>
+<b><a href="/title/tt0924651/?ref_=nm_flmg_arf_1">The Graham Norton Show</a></b>
+(TV Series)
+<br>
+Herself
+<div class="filmo-episodes">
+- <a href="/title/tt8091626/?ref_=nm_flmg_arf_1">Graham Norton&apos;s Good Guest Guide</a>
+(2018)
+... Herself
+</div>
+</div>
+<div class="filmo-row even" id="archive_footage-tt7588584">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt7588584/?ref_=nm_flmg_arf_2">Barbra: The Music... The Mem&apos;ries... The Magic!</a></b>
+(Documentary)
+<br>
+Herself
+</div>
+<div class="filmo-row odd" id="archive_footage-tt0081857">
+<span class="year_column">
+&#xA0;2015-2017
+</span>
+<b><a href="/title/tt0081857/?ref_=nm_flmg_arf_3">Entertainment Tonight</a></b>
+(TV Series)
+<br>
+Herself
+<div class="filmo-episodes">
+- <a href="/title/tt7572752/?ref_=nm_flmg_arf_3">Episode #37.54</a>
+(2017)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt7478960/?ref_=nm_flmg_arf_3">Episode #37.26</a>
+(2017)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt6953138/?ref_=nm_flmg_arf_3">Episode #36.240</a>
+(2017)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt5838842/?ref_=nm_flmg_arf_3">Episode dated 30 July 2016</a>
+(2016)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt5755948/?ref_=nm_flmg_arf_3">Episode dated 11 June 2016</a>
+(2016)
+... Herself
+</div>
+<div id="more-episodes-tt0081857-archive_footage" style="display:none;">
+<img src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/favorite_theater/spinner-3099941772._CB499603823_.gif">
+</div>
+<div class="filmo-episodes">
+<a href="#" data-n="7" onclick="toggleSeeMoreEpisodes(this,&apos;nm5397459&apos;,&apos;tt0081857&apos;,&apos;archive_footage&apos;,&apos;nm_flmg_arf_3&apos;,5,&apos;blind&apos;,&apos;#more-episodes-tt0081857-archive_footage&apos;,toggleContent); return false;">Show all 7 episodes</a>
+</div>
+</div>
+<div class="filmo-row even" id="archive_footage-tt3503424">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt3503424/?ref_=nm_flmg_arf_4">Ok! TV</a></b>
+(TV Series)
+<br>
+Herself
+<div class="filmo-episodes">
+- <a href="/title/tt7513352/?ref_=nm_flmg_arf_4">Episode #3.35</a>
+(2017)
+... Herself
+</div>
+</div>
+<div class="filmo-row odd" id="archive_footage-tt0167515">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt0167515/?ref_=nm_flmg_arf_5">Access Hollywood</a></b>
+(TV Series)
+<br>
+Herself
+<div class="filmo-episodes">
+- <a href="/title/tt7408284/?ref_=nm_flmg_arf_5">Episode #22.27</a>
+(2017)
+... Herself
+</div>
+</div>
+<div class="filmo-row even" id="archive_footage-tt0247094">
+<span class="year_column">
+&#xA0;2017
+</span>
+<b><a href="/title/tt0247094/?ref_=nm_flmg_arf_6">Extra</a></b>
+(TV Series)
+<br>
+Herself
+<div class="filmo-episodes">
+- <a href="/title/tt7062446/?ref_=nm_flmg_arf_6">Episode #23.276</a>
+(2017)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt6695716/?ref_=nm_flmg_arf_6">Episode #23.198</a>
+(2017)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt6760948/?ref_=nm_flmg_arf_6">Episode #23.193</a>
+(2017)
+... Herself
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt6477948/?ref_=nm_flmg_arf_6">Episode #23.150</a>
+(2017)
+... Herself
+</div>
+</div>
+<div class="filmo-row odd" id="archive_footage-tt4823212">
+<span class="year_column">
+&#xA0;2015-2016
+</span>
+<b><a href="/title/tt4823212/?ref_=nm_flmg_arf_7">The Drunken Peasants</a></b>
+(TV Series)
+<br>
+Rey
+<div class="filmo-episodes">
+- <a href="/title/tt5820006/?ref_=nm_flmg_arf_7">Scotty&apos;s Failed Attempt at Hijacking the Show - Paul Wants to Eat Weck - And More!</a>
+(2016)
+... Rey
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt5613000/?ref_=nm_flmg_arf_7">The GOP Schism - Moron Talks About White Privilege - Wild Bill on Rectums</a>
+(2016)
+... Rey
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt5368616/?ref_=nm_flmg_arf_7">Vegan Gains Joins Us - Prank Calls to Caiden Cowger - Opening Fan Mail</a>
+(2016)
+... Rey
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt5302394/?ref_=nm_flmg_arf_7">Sarah Palin Defends Ben Carson - Trump Vs Hillary - And More!</a>
+(2015)
+... Rey
+</div>
+<div class="filmo-episodes">
+- <a href="/title/tt5286302/?ref_=nm_flmg_arf_7">Bernie vs Hillary - Rubio vs Trump - Opening Fan Mail!</a>
+(2015)
+... Rey
+</div>
+</div>
+</div>
+</div>    <script>
+      if ('csm' in window) {
+        csm.measure('csm_NameFilmographyWidget_finished');
+      }
+    </script>
+<script>
+    if (typeof uet == 'function') {
+      uet("be", "NameFilmographyWidget", {wb: 1});
+    }
+</script>
+<script>
+    if (typeof uex == 'function') {
+      uex("ld", "NameFilmographyWidget", {wb: 1});
+    }
+</script>
+            </div>
+<script>
+    if (typeof uet == 'function') {
+      uet("bb", "NameVideoStrip", {wb: 1});
+    }
+</script>
+    <script>
+      if ('csm' in window) {
+        csm.measure('csm_NameVideoStrip_started');
+      }
+    </script>
+
+            <div class="article">
+
+            <h2>Related Videos</h2>
+    <div class="mediastrip_big">
+                <span class="video_slate" itemscope="" itemtype="http://schema.org/videoObject">
+                <meta itemprop="duration" content="T29S">
+
+<a href="/videoplayer/vi662616089?ref_=nm_rvd_vi_1" title="Daisy Ridley in 30 Seconds -- Discover Daisy Ridley&apos;s movies and more." alt="Daisy Ridley in 30 Seconds -- Discover Daisy Ridley&apos;s movies and more." class="video-modal" data-video="vi662616089" data-context="imdb" data-rid="RSXPFYJYS4QD4CR42RQ2" widget-context="nameMaindetails" itemprop="url"><img height="150" width="200" alt="Daisy Ridley in 30 Seconds -- Discover Daisy Ridley&apos;s movies and more." title="Daisy Ridley in 30 Seconds -- Discover Daisy Ridley&apos;s movies and more." src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._CB499607001_.png" class="loadlate hidden video" loadlate="https://ia.media-imdb.com/images/M/MV5BYTk4NzRiNzMtYzI2My00MDgxLWJlYWYtNzQ2ZmVjY2NlMjIxXkEyXkFqcGdeQWpvaG5oYXJ0._V1_SP330,330,0,C,0,0,0_CR65,90,200,150_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,200,150_PIimdb-bluebutton-big,BottomRight,-1,-1_ZAWeb%2520Only,4,123,16,196,verdenab,8,255,255,255,1_ZAon%2520IMDb,4,1,14,196,verdenab,7,255,255,255,1_ZA00%253A29,164,1,14,36,verdenab,7,255,255,255,1_PIimdb-HDIconMiniWhite,BottomLeft,4,-2_.jpg" viconst="vi662616089"></a>            </span>
+                <span class="video_slate" itemscope="" itemtype="http://schema.org/videoObject">
+                <meta itemprop="duration" content="T1M22S">
+
+<a href="/videoplayer/vi632469529?ref_=nm_rvd_vi_2" title="IMDb on the Scene -- Daisy Ridley, Josh Gad, Kenneth Branagh, and Derek Jacobi share tales of their &apos;Murder on the Orient Express&apos; co-star Johnny Depp." alt="IMDb on the Scene -- Daisy Ridley, Josh Gad, Kenneth Branagh, and Derek Jacobi share tales of their &apos;Murder on the Orient Express&apos; co-star Johnny Depp." class="video-modal" data-video="vi632469529" data-context="imdb" data-rid="RSXPFYJYS4QD4CR42RQ2" widget-context="nameMaindetails" itemprop="url"><img height="150" width="200" alt="IMDb on the Scene -- Daisy Ridley, Josh Gad, Kenneth Branagh, and Derek Jacobi share tales of their &apos;Murder on the Orient Express&apos; co-star Johnny Depp." title="IMDb on the Scene -- Daisy Ridley, Josh Gad, Kenneth Branagh, and Derek Jacobi share tales of their &apos;Murder on the Orient Express&apos; co-star Johnny Depp." src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._CB499607001_.png" class="loadlate hidden video" loadlate="https://ia.media-imdb.com/images/M/MV5BM2QzZDU5NzgtYzVlOS00N2VlLTgxNWUtN2ExMzNiMDcwMjE3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SP330,330,0,C,0,0,0_CR65,90,200,150_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,200,150_PIimdb-bluebutton-big,BottomRight,-1,-1_ZAInterview,4,123,16,196,verdenab,8,255,255,255,1_ZAon%2520IMDb,4,1,14,196,verdenab,7,255,255,255,1_ZA01%253A22,164,1,14,36,verdenab,7,255,255,255,1_PIimdb-HDIconMiniWhite,BottomLeft,4,-2_ZAIMDb%2520on%2520the%2520Scene,24,138,14,176,arialbd,7,255,255,255,1_.jpg" viconst="vi632469529"></a>            </span>
+                <span class="video_slate_last" itemscope="" itemtype="http://schema.org/videoObject">
+                <meta itemprop="duration" content="T1M52S">
+
+<a href="/videoplayer/vi2469114393?ref_=nm_rvd_vi_3" title="Star Wars: Episode VII - The Force Awakens -- IMDb sits down with the cast to discuss the dynamic between the new faces and the returning actors." alt="Star Wars: Episode VII - The Force Awakens -- IMDb sits down with the cast to discuss the dynamic between the new faces and the returning actors." class="video-modal" data-video="vi2469114393" data-context="imdb" data-rid="RSXPFYJYS4QD4CR42RQ2" widget-context="nameMaindetails" itemprop="url"><img height="150" width="200" alt="Star Wars: Episode VII - The Force Awakens -- IMDb sits down with the cast to discuss the dynamic between the new faces and the returning actors." title="Star Wars: Episode VII - The Force Awakens -- IMDb sits down with the cast to discuss the dynamic between the new faces and the returning actors." src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/images/nopicture/small/no-video-slate-856072904._CB499607001_.png" class="loadlate hidden video" loadlate="https://ia.media-imdb.com/images/M/MV5BMjI0NTk4NzY4NF5BMl5BanBnXkFtZTgwMTM0Mjg0NzE@._V1_SP330,330,0,C,0,0,0_CR65,90,200,150_PIimdb-blackband-204-14,TopLeft,0,0_PIimdb-blackband-204-28,BottomLeft,0,1_CR0,0,200,150_PIimdb-bluebutton-big,BottomRight,-1,-1_ZAInterview,4,123,16,196,verdenab,8,255,255,255,1_ZAon%2520IMDb,4,1,14,196,verdenab,7,255,255,255,1_ZA01%253A52,164,1,14,36,verdenab,7,255,255,255,1_PIimdb-HDIconMiniWhite,BottomLeft,4,-2_ZAStar%2520Wars%253A%2520Episode%2520VII%2520%252D%2520The%2520F%252E%252E%252E,24,138,14,176,arialbd,7,255,255,255,1_.jpg" viconst="vi2469114393"></a>            </span>
+    </div>
+
+                    <div class="see-more">
+<a href="/name/nm5397459/videogallery?ref_=nm_rvd_vi_sm">See all 32 videos</a>&#xA0;&#xBB;
+                    </div>
+            </div>
+    <script>
+      if ('csm' in window) {
+        csm.measure('csm_NameVideoStrip_finished');
+      }
+    </script>
+<script>
+    if (typeof uet == 'function') {
+      uet("be", "NameVideoStrip", {wb: 1});
+    }
+</script>
+<script>
+    if (typeof uex == 'function') {
+      uex("ld", "NameVideoStrip", {wb: 1});
+    }
+</script>
+
+
+
+
+
+
+            <div class="article">
+<script>
+    if (typeof uet == 'function') {
+      uet("bb", "NamePersonalDetailsWidget", {wb: 1});
+    }
+</script>
+    <script>
+      if ('csm' in window) {
+        csm.measure('csm_NamePersonalDetailsWidget_started');
+      }
+    </script>
+        <span class="rightcornerlink">
+<a href="https://contribute.imdb.com/updates?edit=nm5397459/details&amp;ref_=nm_pdt_edt"> Edit
+</a>        </span>
+    <h2>Personal Details</h2>
+        <div id="details-other-works" class="see-more inline canwrap">
+                <h4 class="inline">Other Works:</h4>
+<a href="/name/nm4041733?ref_=nm_pdt_wrk1">Wiley</a>&apos;s &quot;Lights On&quot; music video - Actress        </div>
+
+            <hr>
+        <div id="details-publicity-listings" class="see-more inline canwrap">
+            <h4 class="inline">Publicity Listings:</h4>
+    2 Articles <span class="ghost">|</span>
+    1 Magazine Cover Photo <span class="ghost">|</span>
+            <span class="see-more inline">
+                <a href="/name/nm5397459/publicity?ref_=nm_pdt_pub_sm">See more</a>
+            </span>&#xBB;
+        </div>
+
+
+
+            <hr>
+        <div id="details-height" class="see-more inline canwrap">
+            <h4 class="inline">Height:</h4>
+5&apos;&#xA0;7&quot;&#xA0;(1.7&#xA0;m)        </div>
+    <script>
+      if ('csm' in window) {
+        csm.measure('csm_NamePersonalDetailsWidget_finished');
+      }
+    </script>
+<script>
+    if (typeof uet == 'function') {
+      uet("be", "NamePersonalDetailsWidget", {wb: 1});
+    }
+</script>
+<script>
+    if (typeof uex == 'function') {
+      uex("ld", "NamePersonalDetailsWidget", {wb: 1});
+    }
+</script>
+            </div>
+            <div class="article">
+<script>
+    if (typeof uet == 'function') {
+      uet("bb", "NameDidYouKnowWidget", {wb: 1});
+    }
+</script>
+    <script>
+      if ('csm' in window) {
+        csm.measure('csm_NameDidYouKnowWidget_started');
+      }
+    </script>
+        <span class="rightcornerlink">
+<a href="https://contribute.imdb.com/updates?edit=nm5397459/fun-facts&amp;ref_=nm_dyk_edt"> Edit
+</a>        </span>
+    <h2>Did You Know?</h2>
+        <div id="dyk-personal-quote" class="see-more inline canwrap">
+                <h4 class="inline">Personal Quote:</h4>
+[About her family] I&apos;ve got sisters. I&apos;m the youngest of actually five. We have been watching the movies again, and my middle sister is super excited. Last year when we were filming, everyone came round and we had dinner and watched Episode IV, A New Hope, which was super cool.                    <span class="see-more inline">
+                        <a href="/name/nm5397459/bio?ref_=nm_dyk_qt_sm#quotes">See more</a>
+                    </span>
+                    &#xBB;
+        </div>
+            <hr>
+        <div id="dyk-trivia" class="see-more inline canwrap">
+                <h4 class="inline">Trivia:</h4>
+Is left-handed. Could also be considered &quot;cross-dominant&quot; as displayed in Star Wars; she writes/eats with her left hand, but shoots and uses her staff with her right hand.                    <span class="see-more inline">
+                        <a href="/name/nm5397459/bio?ref_=nm_dyk_trv_sm#trivia">See more</a>
+                    </span>
+                    &#xBB;
+        </div>
+
+            <hr>
+        <div id="dyk-trademark" class="see-more inline canwrap">
+
+                <h4 class="inline">Trademark:</h4>
+A small notch on her right cheek that resembles a scar                    <span class="see-more inline">
+                        <a href="/name/nm5397459/bio?ref_=nm_dyk_tm_sm#trademark">See more</a>
+                    </span>
+                    &#xBB;
+        </div>
+
+            <hr>
+        <div id="dyk-star-sign" class="see-more inline canwrap">
+            <h4 class="inline">Star Sign:</h4>
+            <a href="/starsign/aries?ref_=nm_dyk_sign">Aries</a>
+        </div>
+    <script>
+      if ('csm' in window) {
+        csm.measure('csm_NameDidYouKnowWidget_finished');
+      }
+    </script>
+<script>
+    if (typeof uet == 'function') {
+      uet("be", "NameDidYouKnowWidget", {wb: 1});
+    }
+</script>
+<script>
+    if (typeof uex == 'function') {
+      uex("ld", "NameDidYouKnowWidget", {wb: 1});
+    }
+</script>
+            </div>
+
+
+
+
+
+
+
+
+
+  <script>
+    if ('csm' in window) {
+      csm.measure('csm_NameContributeWidget_started');
+    }
+  </script>
+
+    <div class="article contribute">
+        <div class="rightcornerlink">
+<a href="https://help.imdb.com/article/contribution/contribution-information/adding-data/G6BXD2JFDCCETUF4?ref_=cons_nm_cn_gs_hlp">Getting Started</a>
+            <span>|</span>
+<a href="/czone/?ref_=nm_cn_cz">Contributor Zone</a>&#xA0;&#xBB;</div>
+        <h2>Contribute to This Page</h2>
+
+                <div class="button-box">
+                    <form method="get" action="https://contribute.imdb.com/updates">
+                        <input type="hidden" name="ref_" value="nm_cn_edt">
+                        <input type="hidden" name="edit" value="legacy/name/nm5397459/">
+                            <button class="btn primary large" rel="login" type="submit">Edit page</button>
+                    </form>
+                </div>
+
+
+    </div>
+
+  <script>
+    if ('csm' in window) {
+      csm.measure('csm_NameContributeWidget_finished');
+    }
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <br class="clear">
+</div>
+
+
+
+
+
+
+
+
+
+
+                   <br class="clear">
+                </div>
+
+
+
+
+
+
+    <div id="footer" class="ft">
+
+    <script type="text/javascript">
+        try {
+            window.lumierePlayer = window.lumierePlayer || {};
+            window.lumierePlayer.weblab = JSON.parse('{"IMDB_VIDEO_PLAYER_145714":"C"}');
+        } catch (error) {
+            if (window.ueLogError) {
+                window.ueLogError(error, {
+                    logLevel: "WARN",
+                    attribution: "videoplayer",
+                    message: "Failed to parse weblabs for video player."
+                });
+            }
+        }
+    </script>
+            <div id="rvi-div">
+                <div class="recently-viewed">
+                  <div class="header">
+                    <div class="rhs">
+                        <a id="clear_rvi" href="#">Clear your history</a>
+                    </div>
+                    <h3>Recently Viewed</h3>
+                    <br clear="all">
+                  </div>
+                    <div class="items">&#xA0;</div>
+                </div>
+                <br class="clear">
+            </div>
+
+
+
+<!-- begin BOTTOM_AD -->
+<div id="bottom_ad_wrapper" class="cornerstone_slot">
+<script type="text/javascript">
+doWithAds(function(){
+if ('cornerstone_slot' != 'injected_slot') {
+ad_utils.register_ad('bottom_ad');
+}
+});
+</script>
+<iframe allowtransparency="true" class="yesScript" data-blank-serverside="" frameborder="0" id="bottom_ad" marginwidth="0" marginheight="0" name="bottom_ad" onload="doWithAds.call(this, function(){ ad_utils.on_ad_load(this); });" scrolling="no" data-original-width="728" data-original-height="90" width="728" height="90"></iframe> </div>
+<div id="bottom_ad_reflow_helper"></div>
+<script id="bottom_ad_rendering">
+doWithAds(function(){
+if ('cornerstone_slot' == 'injected_slot') {
+ad_utils.inject_ad.register('bottom_ad');
+} else {
+ad_utils.gpt.render_ad('bottom_ad');
+}
+}, "ad_utils not defined, unable to render client-side GPT ad or injected ad.");
+</script>
+<!-- End BOTTOM_AD -->
+
+
+        <div class="container footer-grid-wrapper">
+            <div class="row footer-row">
+                <div class="col outside">
+    <h3>IMDb Everywhere</h3>
+    <div class="app-links">
+    <a href="/offsite/?page-action=ft_app_apple&amp;token=BCYpTTDd-GniVvpxS6j6O8Y_lMF9sFTO2zkj3khm_of5_uVAGJ9bJqN14MN0j-8nN69Zo5qkNHH6%0D%0Abt-b2SQxb4FWmr1YODeZ90Ss23xl8WG9tLxShpoc2_ZNx2_3BAlWnqD9KursS5HznxkJ6OtVCIBQ%0D%0AK62zcnGSuSMtEXDMb7kvKYyPilO0EwEAm1H_7owNfGTIu_hGDz1iwPL2BHsPyKbAbS5NTl4ivlwJ%0D%0AHp3GkS4wfg0%0D%0A&amp;ref_=ft_app_apple" title="Get the IMDb App on the Apple App Store" target="_blank" itemprop="url"> <span class="desktop-sprite appstore-apple"></span>
+</a>
+    <a href="/offsite/?page-action=ft_app_google&amp;token=BCYjgxs6uTg3jaj3_eBjHIPjdu6B4AXC4HZXBzM_hrSdlh4sc8HeBcsAsseasst54QONQDu1l0VB%0D%0A0xI-XFij24fZx-yAZXVpURcIGIdhtAKCHcQ-eb-BcR1l-u0SSSoVc2OA40-9HLmvdSfl3jMUPiiq%0D%0AXXq3Pq_jMuX5zucxjCZ5fTrregIGVXbNGt8S9e7j6lRjFLg_2fC6EwEuqTYaOFsDeCNpwkJOAa9a%0D%0ALwiLYPqca2M%0D%0A&amp;ref_=ft_app_google" title="Get the IMDb app on Google Play" target="_blank" itemprop="url"> <span class="desktop-sprite appstore-google"></span>
+</a>
+    <a href="/offsite/?page-action=ft_app_amazon&amp;token=BCYggJSedIuCmZbWeWQHX_wScig9nYg2WX5i3eH-Ut3I0J0yxyZRhe3V_ZBkrY73iVv1FK0I1MJd%0D%0AXoigTOEJ7j1A1QSv_So5bhlHoY-rPMJ8JIozgQTPJx3q9ecDw0zWHKvRfIgV0QCWBnX833jaKh5D%0D%0A5b7WE5uVShoyAGz28RCwoULKt93_ySapRmm22ThWo83Sq7P4dC2IiV1B_VG57awUWu6_PMcNDepG%0D%0Aurt-jwlRbxtAqLQrqBMgWQPZw_gJuAN1eRy-fah9C5sMSLkgNW1zKtTINuE_rmzw-k8MFrkUKZUj%0D%0ARLXHVnkVlmd7nZV6ngb_2zWnA9LQz0lkfkDehWcwb4E2tJVe19v0hbfoZKQw6Nn6t93UFwc2W5ja%0D%0Ats1vFic4hXzH5keN23WR03BhPCKXE7rSdr5Q03Mtul7_Nx6ruos%0D%0A&amp;ref_=ft_app_amazon" title="Get the IMDb app on Amazon Appstore for Android" target="_blank" itemprop="url"> <span class="desktop-sprite appstore-amazon"></span>
+</a>
+    </div>
+
+    <p>Find showtimes, watch trailers, browse photos, track your Watchlist and rate your favorite movies and TV shows on your phone or tablet!</p>
+
+    <a href="https://m.imdb.com?ref_=ft_mdot" class="touchlink">IMDb Mobile site</a>
+                </div>
+                <div class="col center">
+  <div class="link-bar icon-link-bar">
+    <h3>
+      Follow IMDb on
+      <div>
+
+    <a href="/offsite/?page-action=fol_fb&amp;token=BCYooqAB4_dfg581vt9XWp2JV1VWCbCZRw2mAJKizAqqdPjKEeyBVjymYYCTE8mPja1MJc2Szv-r%0D%0AB38igj2ItfS5up__ln5yTlVDOiAsg2DF3UWxPr0G8ECMuiFTnzfiUCd6KQ9TBktKYaYAYA05UZ5r%0D%0ACcQKSsC3LqE3n3WjO4Z3RB19BVVaHifoggZAqBe2G9BdiP71gXz4_k7oLOPGNjYAow%0D%0A&amp;ref_=nm_ft_fol_fb" title="Follow IMDb on Facebook" target="_blank" itemprop="url"> <span class="desktop-sprite follow-facebook"></span>
+</a>
+    <a href="/offsite/?page-action=fol_tw&amp;token=BCYuOCvLgNu3H5C8App1BtSjGMIEFVlA-SAOv33_VclZOvJiM2UeeKFuke7hFIOOrVqw9SoRLFlL%0D%0A4C9vmyPaqeWMZMVCp07A4goF3gvG5XWbhnw8T2U_BpG3yfI4NDrGid-fFuzYImO7-X5SNZkeLQHf%0D%0ATeR_4p3gXXrz45AFYwPWmbsUIb7Wf7Vn7qcPq7orK1x-4qtuQnh9zvHPJm1jt1o_Fw%0D%0A&amp;ref_=nm_ft_fol_tw" title="Follow IMDb on Twitter" target="_blank" itemprop="url"> <span class="desktop-sprite follow-twitter"></span>
+</a>
+    <a href="/offsite/?page-action=fol_inst&amp;token=BCYluGi1Gak3sDtOFeJgvLmjRoELgt0kFUTsdnPCBFUvVMsyyEPDfOoNUKFRjPkQ2669Dxuz1duG%0D%0AuUM34nFKxJrTwT0Z5-J_DikEAN63J1XmbzRC4aPqVtw5A6U5WiPc8f5rO53qmOHOezWhIqhqwCPD%0D%0AyaWQFjO_bZq3LaGFIvinCjqWQCznu64MK3zd78cJmyIgoNkxvWEPIhY9qB5NXZ_ayw%0D%0A&amp;ref_=nm_ft_fol_inst" title="Follow IMDb on Instagram" target="_blank" itemprop="url"> <span class="desktop-sprite follow-instagram"></span>
+</a>
+      </div>
+    </h3>
+  </div>
+                </div>
+                <div class="col outside">
+    <div class="row">
+        <div class="col col-4">
+            <ul class="unstyled">
+                <li><a href="/?ref_=ft_hm">Home</a></li>
+                <li><a href="/chart/top?ref_=ft_250">Top Rated Movies</a></li>
+                <li><a href="/chart/?ref_=ft_cht">Box Office</a></li>
+                <li><a href="/tv/?ref_=ft_tv">TV</a></li>
+                <li><a href="/movies-coming-soon/?ref_=ft_cs">Coming Soon</a></li>
+                <li><a href="/a2z?ref_=ft_si">Site Index</a></li>
+                <li><a href="/search?ref_=ft_sr">Search</a></li>
+                <li><a href="/movies-in-theaters/?ref_=ft_inth">In Theaters</a></li>
+            </ul>
+        </div>
+        <div class="col col-4">
+            <ul class="unstyled">
+                <li><a href="/helpdesk/contact?ref_=ft_con">Contact Us</a></li>
+                <li>        <a href="https://secure.imdb.com/register-imdb/form-v2?ref_=ft_reg">Register</a>
+</li>
+                <li><a href="/news/?ref_=ft_nw">News</a></li>
+                <li class="spacer"></li>
+                <li><a href="/pressroom/?ref_=ft_pr">Press Room</a></li>
+                <li><a href="https://advertising.amazon.com/lp/imdb?ref_=ft_ad">Advertising</a></li>
+                <li><a href="/jobs?ref_=ft_jb">Jobs</a></li>
+            </ul>
+        </div>
+        <div class="col col-4">
+            <ul class="unstyled">
+                <li><a href="https://pro.imdb.com/signup/index.html?rf=cons_ft_hm&amp;ref_=cons_ft_hm">IMDbPro</a></li>
+                <li>    <a href="/offsite/?page-action=ft-mojo&amp;token=BCYr84rtPgu5pra2f8_yKeE6vgwIltRg6pCVZJDytEJnyR4NFbKzbbEOo9f40ZlcQ81EMU1jhYno%0D%0Ae-K5sSZmKAtGuj39XuI88dPi4ngnO0MAhjjat5kZc-eSEruVM76b-B3Yzy1A0Vls9tTX7dTUi-vO%0D%0AjeDgTxHHjNXCpckyemjAZpYU6tjk7DaZt8gqffRlKpEZJBKBTveCMk1Hq3J4uHWPOA%0D%0A&amp;ref_=ft_bom" itemprop="url">Box Office Mojo</a>
+</li>
+                <li>    <a href="/offsite/?page-action=ft-wab&amp;token=BCYjav_ef5iaOVosq-Ct05--fZvGjtfOR1zBhYnMli3kZztIQYxrE8NKXnrzBL02gixqXkC7-MYW%0D%0Avhwzmh38Ixx6rIQQV2y24voZYuMi-i_KKAs_9EGT5ODW-YIHlWJumoLg3qEnKNNoKkCWisNy9Wm2%0D%0AHNkm-KOXxrdYjIiqQAwh3_IIVBSONmZ4M9L_wH7p7mjfCrFsz4ws8peFqY_gVoG0_Q%0D%0A&amp;ref_=ft_wab" itemprop="url">Withoutabox</a>
+</li>
+                <li class="spacer"></li>
+                <li><a href="/conditions?ref_=ft_cou">Conditions of Use</a></li>
+                <li><a href="/privacy?ref_=ft_pvc">Privacy Policy</a></li>
+                <li>    <a href="/offsite/?page-action=ft-iba&amp;token=BCYtudX6ustOxSqNGD3yslYpSjo3Y7f80_D7k1e5Tw-vkrSE1vd5K63gAjJNsF8oKE0vRNtVYg4a%0D%0A337SBeiadAuFjS5ccpXxx1n_9n47sYunsZSmz0QTpaLNoj8DsxxjxjLQvvw9_r72qwndDLGIzgr3%0D%0Ao-vOgbwmU_WTU5QFF3mAmnGjuZxTxKsGY1l8o5a-lUny9yGiZP9KxdH-JRNo7OWUHHSalr8DSbZ6%0D%0ApnWjBLPkJlsnlalxCt3tbVu--awZzFza%0D%0A&amp;ref_=ft_iba" itemprop="url">Interest-Based Ads</a>
+</li>
+                <li class="spacer"></li>
+            </ul>
+        </div>
+    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="ft-copy float-right">
+                <a href="/conditions">Copyright &#xA9;</a> 1990-2018
+                <a href="https://help.imdb.com/imdb?ref_=cons_ftr_imdb">IMDb.com, Inc.</a>
+            </div>
+            <div>
+                An <span id="amazon_logo" class="footer_logo" align="middle">Amazon.com</span> company.
+            </div>
+        </div>
+
+
+
+
+
+    <table class="footer" id="amazon-affiliates">
+        <tbody><tr>
+            <td colspan="8">
+                Amazon Affiliates
+            </td>
+        </tr>
+        <tr>
+
+    <td>
+        <div>
+            <a href="/offsite/?page-action=ft-aiv&amp;token=BCYoZuiEE3AmelolNgJSou7D7m_XmMP0Ja-_b-gZREPOGiOz6biVCcTQOxEm1HJBxMqLW8TXSbw4%0D%0AYPBquBhVpNvATDYu7I0p6SzEK5lUf8Z1fN7BykdupIPuoVqXHCs7dTl3oeqTjZXTtyHa-qdKdISt%0D%0AWIsOHd99QCy2dQGpMXY44kBElgcIwCTeq8at4i7vEd-cPwbQMZ6XMmVfy2EQr1HTQ6Vw5Fos_UKq%0D%0Aqhl8k2TQEF0%0D%0A" class="amazon-affiliate-site-link">
+                <span class="amazon-affiliate-site-name">Amazon Video</span><br>
+                <span class="amazon-affiliate-site-desc">Watch Movies &amp;<br>TV Online</span>
+            </a>
+        </div>
+    </td>
+
+    <td>
+        <div>
+            <a href="/offsite/?page-action=ft-piv&amp;token=BCYnRt15dp06b0rFvCM66M82SLkiMUekDc2ckZ_csdUVF9XsriaMTGaK0fnZmgKOF2AmZ1I_OFon%0D%0AVhd-Ufk111qp0M--HFkn2DDiSZZMIx9_8M3CV12auIWPsq26WEZIveKTZS93BMHejnEspZs9qgvN%0D%0A77CJ0EeDDNj7dJVGiB_ZJkDY1FhuOePLXqen2U5RnCbKsb5TgncUCnKm7LrpkRrDQ1p78qgQt7os%0D%0Ao1vqA6Ynfgk%0D%0A" class="amazon-affiliate-site-link">
+                <span class="amazon-affiliate-site-name">Prime Video</span><br>
+                <span class="amazon-affiliate-site-desc">Unlimited Streaming<br>of Movies &amp; TV</span>
+            </a>
+        </div>
+    </td>
+
+    <td>
+        <div>
+            <a href="/offsite/?page-action=ft-amzn-de&amp;token=BCYn6FlBnItazS4UkKUUwPgOnBmLz_esWFRApVdDeyaKuQFZcsCz3p19dn_XdQ26F30sAwn0UedC%0D%0A87VXPIkF6UBHEHGIOOuD6YaZVEKOBOTNmIkqOwYW4G4EoZPZPt7YZCImc5UD9qbpaCixgkb2lV9n%0D%0AV1PPPCoURURYoCEmWkW7pALMmHEs137fqtpUjHFDXg4wa-JKlhvcTP9jFDObgVvgNRVLLLS6lUaC%0D%0AliuykQacesI%0D%0A" class="amazon-affiliate-site-link">
+                <span class="amazon-affiliate-site-name">Amazon Germany</span><br>
+                <span class="amazon-affiliate-site-desc">Buy Movies on<br>DVD &amp; Blu-ray</span>
+            </a>
+        </div>
+    </td>
+
+    <td>
+        <div>
+            <a href="/offsite/?page-action=ft-amzn-it&amp;token=BCYhgQcV3SI_NrZP3EI07o0m79NZw83wN0jJCeFeGtESpFzk7Q0BS_U7r0TmxFXhvnkY1GTPEVoH%0D%0AxWoQFVZ1P5uEu4_92_glBpmQD7K7mvsMq5AzXn9wGRyM5nkM68GULiqv1bM-1664pDHGLzYyCAeK%0D%0A0i6brCUA0JLmHehsrBq2mGD_C9ssBhFR618k_jM8Nt4YBz6cwBfSARMk3BihqtxSNEbVWqnoReOU%0D%0AYt7vGIFkGew%0D%0A" class="amazon-affiliate-site-link">
+                <span class="amazon-affiliate-site-name">Amazon Italy</span><br>
+                <span class="amazon-affiliate-site-desc">Buy Movies on<br>DVD &amp; Blu-ray</span>
+            </a>
+        </div>
+    </td>
+
+    <td>
+        <div>
+            <a href="/offsite/?page-action=ft-amzn-fr&amp;token=BCYlTXKKqs8rq8WmR7B95bpybH7vnsAFPJTkRJ_XVTfeoe2YOzr4U9PE5RvUcwkCgtCnPT3FrKwv%0D%0Ag4dwtd6LDi9EwrlpMz5H9zoQ-UWOmaplZwlCKdu8t55bpLsfdjlW8vXhoONym5EwKYivsfVZrJov%0D%0AIFU5Wa9FOHKQmVt9dpH8287KeVq5Lihf2Mrcsbb_GYe1nRakuQvyYTi49MJe2drpnUtkh1_5lCOf%0D%0AQXIGTcc0Cpg%0D%0A" class="amazon-affiliate-site-link">
+                <span class="amazon-affiliate-site-name">Amazon France</span><br>
+                <span class="amazon-affiliate-site-desc">Buy Movies on<br>DVD &amp; Blu-ray</span>
+            </a>
+        </div>
+    </td>
+
+    <td>
+        <div>
+            <a href="/offsite/?page-action=ft-amzn-in&amp;token=BCYkrARtxPbpDkOd6GXUMIZJKjNq2QHKMlNxqBPkaxbu9mu8Tf_RFNPTROAN41HHI_1ETOV_Ol_r%0D%0AS1nK5YdKCZ8g2NpBE6iYEX9s2PuJ8Ax2EE0SfnNvfkAIc96gb8PwvzyDrIMRXOtCPl1D7P_2Gin-%0D%0AoWju_LKPzF335v-FSPG-NXgqEUNhQ2PXvTLB29fQwO9Yaz1kq0xF4y-aqw2k0EH7DExmIhQ76zYI%0D%0AbPIva-66ZDQteH9YBN0LTaOfV4MinOqy%0D%0A" class="amazon-affiliate-site-link">
+                <span class="amazon-affiliate-site-name">Amazon India</span><br>
+                <span class="amazon-affiliate-site-desc">Buy Movie and<br>TV Show DVDs</span>
+            </a>
+        </div>
+    </td>
+
+    <td>
+        <div>
+            <a href="/offsite/?page-action=ft-amzn-dpr&amp;token=BCYlqJhmXludf6Zpt_i8srBKDoHrxNr94Snk1iB7I9ayOXiIKc9BZABsQV9kGQuWDTo8WrYNbddx%0D%0A-SUUTtbqJsvA0D7H0E8IUUTNBmytOhaTjC8LyBKYTKi6ccg4TqZzP416XxIht9bPvK7c5rZ4sFco%0D%0Al-RXa2ZApasWz4lEsTEETYw%0D%0A" class="amazon-affiliate-site-link">
+                <span class="amazon-affiliate-site-name">DPReview</span><br>
+                <span class="amazon-affiliate-site-desc">Digital<br>Photography</span>
+            </a>
+        </div>
+    </td>
+
+    <td>
+        <div>
+            <a href="/offsite/?page-action=ft-amzn-aud&amp;token=BCYvAPOSazHdLDY2guMfb_zPHbKFU1jzUbtHUu8XAlY0E39jf1nV9lOYuP-NJoFf6ORaTlozjbAJ%0D%0AbbuvS7jGZwtnA9eEEZVscpn-6LX_xxrXPi66aHJ4I_7hlyH19ACZGIMveFwpE7LivQyyXBNpAtfZ%0D%0AGZytegiHtziNOz5_lEeJyRc%0D%0A" class="amazon-affiliate-site-link">
+                <span class="amazon-affiliate-site-name">Audible</span><br>
+                <span class="amazon-affiliate-site-desc">Download<br>Audio Books</span>
+            </a>
+        </div>
+    </td>
+        </tr>
+    </tbody></table>
+      </div>
+            </div>
+        </div>
+
+
+
+
+<script type="text/javascript" src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/js/collections/common-1818413004._CB499603761_.js"></script>
+<script type="text/javascript" src="https://images-na.ssl-images-amazon.com/images/G/01/imdb/js/collections/name-3666107702._CB497464319_.js"></script>
+
+<script type="text/javascript" id="login">
+(function(){
+    var readyTimeout = setInterval(function() {
+        if (window.jQuery && window.imdb && window.imdb.login_lightbox) {
+            clearTimeout(readyTimeout);
+            window.imdb.login_lightbox();
+        }
+    }, 100);
+})();
+</script>
+
+        <script type="text/javascript">
+        function jQueryOnReady(remaining_count) {
+            if (window.jQuery && typeof $.fn.watchlistRibbon !== 'undefined') {
+                jQuery(
+                         function() {
+        $("#demoReelShoveler").shoveler({
+            'buttons' : {
+                'left' : {
+                    'text' : '',
+                },
+                'right' : {
+                    'text' : '',
+                }
+            },
+            'height' : 'auto',
+            'itemsPerShovel' : 2,
+            'paginate' : false,
+            'useExternalCSS' : true,
+            'width' : '100%'
+        });
+    }
+
+                );
+                jQuery(
+                             function() {
+           var isAdvertisingThemed = !!(window.custom && window.custom.full_page && window.custom.full_page.theme),
+               url = "https://www.facebook.com/widgets/like.php?width=280&show_faces=1&layout=standard&href=http%3A%2F%2Fwww.imdb.com%2Fname%2Fnm5397459%2F&colorscheme=light",
+               like = document.getElementById('iframe_like');
+
+           if (!isAdvertisingThemed && like) {
+              like.src = url;
+              like.onload = function () {
+                  if (typeof uex == 'function') { uex('ld', 'facebook_like_iframe', {wb: 1}); }
+              };
+           } else if (isAdvertisingThemed) {
+              $('.social_networking_like').closest('.aux-content-widget-2').hide();
+           }
+        }
+
+                );
+            } else if (remaining_count > 0) {
+                setTimeout(function() { jQueryOnReady(remaining_count-1) }, 100);
+            }
+        }
+        jQueryOnReady(50);
+        </script>
+
+<!-- begin ads footer -->
+
+
+<!-- Begin SIS code -->
+<script>
+    if (typeof uet == 'function') {
+      uet("bb", "LoadSis", {wb: 1});
+    }
+</script>
+
+<div id="sis_pixel_r2" style="height:1px; position: absolute; left: -1000000px; top: -1000000px;">
+    <iframe id="sis_pixel_sitewide" width="1" height="1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</div>
+
+<script>
+    setTimeout(function() {
+        var el = document.getElementById("sis_pixel_sitewide");
+        el.src="https://aax-eu.amazon-adsystem.com/s/iu3?d=imdb.com&a1=&a2=01012cb6a179b1dd02ef1d675b17f592a3946312043b3258ba97ff2bfadcbde62e20&cb=467494768829&pId=&r=1&rP=https%3A%2F%2Fwww.imdb.com%2Fname%2Fnm5397459%2F%3Fref_%3Dnmmi_mi_nm&encoding=server";
+        el.onload = function() {
+            if (typeof uex == 'function') {
+                uex("ld", "LoadSis", {wb: 1});
+            }
+        }
+    },20);
+
+    if (typeof uet == 'function') {
+        uet("be", "LoadSis", {wb: 1});
+    }
+</script>
+
+<!-- End SIS code -->
+
+<!-- begin comscore beacon -->
+<script type="text/javascript" src="https://ia.media-imdb.com/images/G/01/imdbads/js/beacon-1792157672._CB514933407_.js"></script>
+<script type="text/javascript">
+if(window.COMSCORE){
+COMSCORE.beacon({
+c1: 2,
+c2:"6034961",
+c3:"",
+c4:"https://www.imdb.com/name/nm5397459/?ref_=nmmi_mi_nm",
+c5:"",
+c6:"",
+c15:""
+});
+}
+</script>
+<noscript>
+<img src="https://sb.scorecardresearch.com/p?c1=2&c2=6034961&c3=&c4=https%3A%2F%2Fwww.imdb.com%2Fname%2Fnm5397459%2F%3Fref_%3Dnmmi_mi_nm&c5=c6=&15=&cj=1"/>
+</noscript>
+<!-- end comscore beacon -->
+
+<script>
+    doWithAds(function(){
+        (new Image()).src = "https://www.amazon.co.uk/aan/2009-05-01/imdb.gb/default?slot=sitewide-iframe&u=467494768829&ord=467494768829";
+    },"unable to request AAN pixel");
+</script>
+
+<!-- end ads footer -->
+
+<div id="servertime" time="706">
+
+
+
+<script>
+    if (typeof uet == 'function') {
+      uet("be");
+    }
+</script>
+        <div id="be" style="display:none;visibility:hidden;"><form name="ue_backdetect" action="get"><input type="hidden" name="ue_back" value="1"></form>
+
+
+<script type="text/javascript">
+
+var ue_mbl=ue_csm.ue.exec(function(e,a){function l(f){b=f||{};a.AMZNPerformance=b;b.transition=b.transition||{};b.timing=b.timing||{};e.ue.exec(m,"csm-android-check")()&&b.tags instanceof Array&&(f=-1!=b.tags.indexOf("usesAppStartTime")||b.transition.type?!b.transition.type&&-1<b.tags.indexOf("usesAppStartTime")?"warm-start":void 0:"view-transition",f&&(b.transition.type=f));"reload"===c._nt&&e.ue_orct||"intrapage-transition"===c._nt?a.performance&&performance.timing&&performance.timing.navigationStart?
+b.timing.transitionStart=a.performance.timing.navigationStart:delete b.timing.transitionStart:"undefined"===typeof c._nt&&a.performance&&performance.timing&&performance.timing.navigationStart&&a.history&&"function"===typeof a.History&&"object"===typeof a.history&&history.length&&1!=history.length&&(b.timing.transitionStart=a.performance.timing.navigationStart);f=b.transition;var d;d=c._nt?c._nt:void 0;f.subType=d;a.ue&&a.ue.tag&&a.ue.tag("has-AMZNPerformance");c.isl&&a.uex&&uex("at","csm-timing");
+n()}function p(b){a.ue&&a.ue.count&&a.ue.count("csm-cordova-plugin-failed",1)}function m(){return a.webclient&&"function"===typeof a.webclient.getRealClickTime?a.cordova&&a.cordova.platformId&&"ios"==a.cordova.platformId?!1:!0:!1}function n(){try{P.register("AMZNPerformance",function(){return b})}catch(a){}}function h(){if(!b)return"";ue_mbl.cnt=null;for(var a=b.timing,d=b.transition,a=["mts",k(a.transitionStart),"mps",k(a.processStart),"mtt",d.type,"mtst",d.subType,"mtlt",d.launchType],d="",c=0;c<
+a.length;c+=2){var e=a[c],g=a[c+1];"undefined"!==typeof g&&(d+="&"+e+"="+g)}return d}function k(a){if("undefined"!==typeof a&&"undefined"!==typeof g)return a-g}function q(a,c){b&&(g=c,b.timing.transitionStart=a,b.transition.type="view-transition",b.transition.subType="ajax-transition",b.transition.launchType="normal",ue_mbl.cnt=h)}var c=e.ue||{},g=e.ue_t0,b;if(a.P&&a.P.when&&a.P.register)return a.P.when("CSMPlugin").execute(function(a){a.buildAMZNPerformance&&a.buildAMZNPerformance({successCallback:l,
+failCallback:p})}),{cnt:h,ajax:q}},"mobile-timing")(ue_csm,window);
+
+(function(d){d._uess=function(){var a="";screen&&screen.width&&screen.height&&(a+="&sw="+screen.width+"&sh="+screen.height);var b=function(a){var b=document.documentElement["client"+a];return"CSS1Compat"===document.compatMode&&b||document.body["client"+a]||b},c=b("Width"),b=b("Height");c&&b&&(a+="&vw="+c+"&vh="+b);return a}})(ue_csm);
+
+(function(a){var b=document.ue_backdetect;b&&b.ue_back&&a.ue&&(a.ue.bfini=b.ue_back.value);a.uet&&a.uet("be");a.onLdEnd&&(window.addEventListener?window.addEventListener("load",a.onLdEnd,!1):window.attachEvent&&window.attachEvent("onload",a.onLdEnd));a.ueh&&a.ueh(0,window,"load",a.onLd,1);a.ue&&a.ue.tag&&(a.ue_furl&&a.ue_furl.split?(b=a.ue_furl.split("."))&&b[0]&&a.ue.tag(b[0]):a.ue.tag("nofls"))})(ue_csm);
+(function(g,h){function d(a,d){var b={};if(!e||!f)try{var c=h.sessionStorage;c?a&&("undefined"!==typeof d?c.setItem(a,d):b.val=c.getItem(a)):f=1}catch(g){e=1}e&&(b.e=1);return b}var b=g.ue||{},a="",f,e,c,a=d("csmtid");f?a="NA":a.e?a="ET":(a=a.val,a||(a=b.oid||"NI",d("csmtid",a)),c=d(b.oid),c.e||(c.val=c.val||0,d(b.oid,c.val+1)),b.ssw=d);b.tabid=a})(ue_csm,window);
+ue_csm.ue.exec(function(e,f){var a=e.ue||{},b=a._wlo,d;if(a.ssw){d=a.ssw("CSM_previousURL").val;var c=f.location,b=b?b:c&&c.href?c.href.split("#")[0]:void 0;c=(b||"")===a.ssw("CSM_previousURL").val;!c&&b&&a.ssw("CSM_previousURL",b);d=c?"reload":d?"intrapage-transition":"first-view"}else d="unknown";a._nt=d},"NavTypeModule")(ue_csm,window);
+ue_csm.ue.exec(function(c,a){function g(a){a.run(function(e){d.tag("csm-feature-"+a.name+":"+e);d.isl&&c.uex("at")})}if(a.addEventListener)for(var d=c.ue||{},f=[{name:"touch-enabled",run:function(b){var e=function(){a.removeEventListener("touchstart",c,!0);a.removeEventListener("mousemove",d,!0)},c=function(){b("true");e()},d=function(){b("false");e()};a.addEventListener("touchstart",c,!0);a.addEventListener("mousemove",d,!0)}}],b=0;b<f.length;b++)g(f[b])},"csm-features")(ue_csm,window);
+
+
+(function(b,c){var a=c.images;a&&a.length&&b.ue.count("totalImages",a.length)})(ue_csm,document);
+(function(b){function c(){var d=[];a.log&&a.log.isStub&&a.log.replay(function(a){e(d,a)});a.clog&&a.clog.isStub&&a.clog.replay(function(a){e(d,a)});d.length&&(a._flhs+=1,n(d),p(d))}function g(){a.log&&a.log.isStub&&(a.onflush&&a.onflush.replay&&a.onflush.replay(function(a){a[0]()}),a.onunload&&a.onunload.replay&&a.onunload.replay(function(a){a[0]()}),c())}function e(d,b){var c=b[1],f=b[0],e={};a._lpn[c]=(a._lpn[c]||0)+1;e[c]=f;d.push(e)}function n(b){q&&(a._lpn.csm=(a._lpn.csm||0)+1,b.push({csm:{k:"chk",
+f:a._flhs,l:a._lpn,s:"inln"}}))}function p(a){if(h)a=k(a),b.navigator.sendBeacon(l,a);else{a=k(a);var c=new b[f];c.open("POST",l,!0);c.setRequestHeader&&c.setRequestHeader("Content-type","text/plain");c.send(a)}}function k(a){return JSON.stringify({rid:b.ue_id,sid:b.ue_sid,mid:b.ue_mid,mkt:b.ue_mkt,sn:b.ue_sn,reqs:a})}var f="XMLHttpRequest",q=1===b.ue_ddq,a=b.ue,r=b[f]&&"withCredentials"in new b[f],h=b.navigator&&b.navigator.sendBeacon,l="//"+b.ue_furl+"/1/batch/1/OE/",m=b.ue_fci_ft||5E3;a&&(r||h)&&
+(a._flhs=a._flhs||0,a._lpn=a._lpn||{},a.attach&&(a.attach("beforeunload",g),a.attach("pagehide",g)),m&&b.setTimeout(c,m),a._ffci=c)})(window);
+
+
+ue_csm.ue._rtn = 1;
+(function(e,f){function h(a){a=a.split("?")[0]||a;a=a.replace("http://","").replace("https://","").replace("resource://","").replace("res://","").replace("undefined://","").replace("chrome://","").replace(/\*/g,"").replace(/!/g,"").replace(/~/g,"");var b=a.split("/");a=a.substr(a.lastIndexOf("/")+1);b.splice(-1);b=b.map(function(a){c[a]||(c[a]=(k++).toString(36));return c[a]});b.push(a);return b.join("!")}function l(){return f.getEntriesByType("resource").filter(function(a){return d._rre(a)<d._ld}).sort(function(a,
+b){return a.responseEnd-b.responseEnd}).splice(0,m).map(function(a){var b=[],c;for(c in a)g[c]&&a[c]&&b.push(g[c]+Math.max(a[c]|0,-1).toString(36));b.push("i"+a.initiatorType);(1==d._rtn&&d._afjs>n||2==d._rtn)&&b.push("n"+h(a.name));return b.join("_")}).join("*")}function p(){var a="pm",b;for(b in c)c.hasOwnProperty(b)&&(a+="*"+c[b]+"_"+b);return a}function q(){d.log({k:"rtiming",value:l()+"~"+p()},"csm")}if(f&&f.getEntriesByType&&Array.prototype.map&&Array.prototype.filter&&e.ue&&e.ue.log){var g=
+{connectStart:"c",connectEnd:"C",domainLookupStart:"d",domainLookupEnd:"D",duration:"z",encodedBodySize:"e",decodedBodySize:"E",fetchStart:"f",redirectStart:"r",redirectEnd:"R",requestStart:"q",responseStart:"s",responseEnd:"S",startTime:"a",transferSize:"t"},d=e.ue,c={},k=1,n=20,m=200;d&&d._rre&&(d._art=function(){d._ld&&window.setTimeout(q,0)})}})(ue_csm||{},window.performance);
+
+
+(function(c,d){var b=c.ue,a=d.navigator;b&&b.tag&&a&&(a=a.connection||a.mozConnection||a.webkitConnection)&&a.type&&b.tag("netInfo:"+a.type)})(ue_csm,window);
+
+
+(function(c,d){function h(a,b){for(var c=[],d=0;d<a.length;d++){var e=a[d],f=b.encode(e);if(e[k]){var g=b.metaSep,e=e[k],l=b.metaPairSep,h=[],m=void 0;for(m in e)e.hasOwnProperty(m)&&h.push(m+"="+e[m]);e=h.join(l);f+=g+e}c.push(f)}return c.join(b.resourceSep)}function s(a){var b=a[k]=a[k]||{};b[t]||(b[t]=c.ue_mid);b[u]||(b[u]=c.ue_sid);b[f]||(b[f]=c.ue_id);b.csm=1;a="//"+c.ue_furl+"/1/"+a[v]+"/1/OP/"+a[w]+"/"+a[x]+"/"+h([a],y);if(n)try{n.call(d[p],a)}catch(g){c.ue.sbf=1,(new Image).src=a}else(new Image).src=
+a}function q(){g&&g.isStub&&g.replay(function(a,b,c){a=a[0];b=a[k]=a[k]||{};b[f]=b[f]||c;s(a)});l.impression=s;g=null}if(!(1<c.ueinit)){var k="metadata",x="impressionType",v="foresterChannel",w="programGroup",t="marketplaceId",u="session",f="requestId",p="navigator",l=c.ue||{},n=d[p]&&d[p].sendBeacon,r=function(a,b,c,d){return{encode:d,resourceSep:a,metaSep:b,metaPairSep:c}},y=r("","?","&",function(a){return h(a.impressionData,z)}),z=r("/",":",",",function(a){return a.featureName+":"+h(a.resources,
+A)}),A=r(",","@","|",function(a){return a.id}),g=l.impression;n?q():(l.attach("load",q),l.attach("beforeunload",q));try{d.P&&d.P.register&&d.P.register("impression-client",function(){})}catch(B){c.ueLogError(B,{logLevel:"WARN"})}}})(ue_csm,window);
+
+
+
+
+
+
+
+
+var ue_adb = 4;
+var ue_adb_rtla = 1;
+ue_csm.ue.exec(function(w,a){function q(){if(d&&f){var a;a:{try{a=d.getItem(g);break a}catch(c){}a=void 0}if(a)return b=a,!0}return!1}function r(){b=h;k();if(f)try{d.setItem(g,b)}catch(a){}}function s(){b=1===a.ue_adb_chk?l:h;k();if(f)try{d.setItem(g,b)}catch(c){}}function m(){a.ue_adb_rtla&&c&&0<c.ec&&!1===n&&(c.elh=null,ueLogError({m:"Hit Info",fromOnError:1},{logLevel:"INFO",adb:b}),n=!0)}function k(){e.tag(b);e.isl&&a.uex&&uex("at",b);p&&p.updateCsmHit("adb",b);c&&0<c.ec?m():a.ue_adb_rtla&&c&&
+(c.elh=m)}function t(){return b}if(a.ue_adb){a.ue_fadb=a.ue_fadb||10;var e=a.ue,h="adblk_yes",l="adblk_no",b="adblk_unk",d;a:{try{d=a.localStorage;break a}catch(x){}d=void 0}var g="csm:adb",c=a.ue_err,p=e.cookie,f=void 0!==a.localStorage,u=Math.random()>1-1/a.ue_fadb,n=!1,v=q();u||!v?e.uels("https://m.media-amazon.com/images/G/01/csm/showads.v2.js",{onerror:r,onload:s}):k();a.ue_isAdb=t;a.ue_isAdb.unk="adblk_unk";a.ue_isAdb.no=l;a.ue_isAdb.yes=h}},"adb")(document,window);
+
+
+
+
+(function(f){function g(a){try{if(a.id)return"//*[@id='"+a.id+"']";var d,e=1,b;for(b=a.previousSibling;b;b=b.previousSibling)b.nodeName===a.nodeName&&(e+=1);d=e;var c=a.nodeName;1!==d&&(c+="["+d+"]");a.parentNode&&(c=g(a.parentNode)+"/"+c);return c}catch(f){return"DETACHED"}}f.ue_utils={getXPath:g}})(ue_csm);
+
+
+ue_csm.ue_wdg_imp = 0;
+
+
+ue_csm.ue_unrt = 750;
+(function(b,a,q){function r(e){k=!0;var g=h=b.ue.d(),d;b.ue_cdt&&l&&"function"===typeof l.now&&e.timeStamp&&(d=l.now()-e.timeStamp,d=parseFloat(d.toFixed(2)));n=a.setTimeout(function(){var a=d,c=e.srcElement||e.target||{},f={k:s,t:g,x:e.pageX,y:e.pageY,p:t(c),n:c.nodeName};b.ue_cdt&&a&&(f.dt=a);e.button&&(f.b=e.button);c.type&&(f.ty=c.type);c.href&&(f.r=c.href);c.id&&(f.i=c.id);c.className&&c.className.split&&(f.c=c.className.split(/\s+/));b.ue.log(f,p)},u)}function v(a){m=!0;g=b.ue.d();k&&m&&(b.ue_cmr&&
+g&&h&&b.ue.log({k:w,t:h,m:Math.abs(g-h)},p),d(),m=!1,g=0)}function d(){k=!1;h=0;a.clearTimeout(n)}if(a.MutationObserver&&a.addEventListener&&b&&b.ue_unrt&&b.ue_utils){var u=b.ue_unrt,p="cel",s="unr_mcm",w="res_mcm",l=a.performance,t=b.ue_utils.getXPath,k=!1,h=0,n=0,m=!1,g=0;a.addEventListener&&(a.addEventListener("mousedown",r,!0),a.addEventListener("beforeunload",d,!0),a.addEventListener("visibilitychange",d,!0),a.addEventListener("pagehide",d,!0));(new MutationObserver(v)).observe(q,{childList:!0,
+attributes:!0,characterData:!0,subtree:!0})}})(ue_csm,window,document);
+
+
+ue_csm.ue.exec(function(g,f){f.ue_err=f.ue_err||{};var e="";f.ue_err.addContextInfo=function(a){if(!a.logLevel||"FATAL"===a.logLevel)if(e=g.getElementsByTagName("html")[0].innerHTML){var b=e.indexOf("var ue_t0=ue_t0||+new Date();");if(-1!=b){var b=e.substr(0,b).split("\n"),d=Math.max(b.length-5-1,0),b=b.slice(d,b.length-1);a.fcsmln=b.length+1;a.cinfo=a.cinfo||{};for(var c=0;c<b.length;c++)a.cinfo[d+c+1+""]=b[c]}b=e.split("\n");a.cinfo=a.cinfo||{};if(!(a.f||void 0===a.l||a.l in a.cinfo))for(c=+a.l-
+1,d=Math.max(c-2,0),c=Math.min(c+2,b.length-1);d<=c;d++)a.cinfo[d+1+""]=b[d]}}},"fatals-context")(document,window);
+
+
+
+
+
+/* ◬ */
+</script>
+
+</div>
+
+<noscript>
+    <img height="1" width="1" style='display:none;visibility:hidden;' src='//fls-na.amazon.com/1/batch/1/OP/A1EVAM02EL8SFB:143-3513222-3382342:RSXPFYJYS4QD4CR42RQ2$uedata=s:%2Fuedata%3Fnoscript%26id%3DRSXPFYJYS4QD4CR42RQ2:0' alt=""/>
+</noscript>
+
+
+
+</div></body></html>
