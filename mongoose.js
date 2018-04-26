@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 
-const mongoDB = 'mongodb://localhost:27017/test';
+const mongoDB =
+  'mongodb+srv://sheerlin:<password>@cluster0-vbfsn.mongodb.net/imdb';
 mongoose.connect(mongoDB);
 
 mongoose.Promise = global.Promise;

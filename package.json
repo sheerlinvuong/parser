@@ -2,7 +2,7 @@
   "name": "scrappy",
   "version": "1.0.0",
   "description": "imdb web scraper",
-  "main": "index.js",
+  "main": "parser.js",
   "scripts": {
     "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,8 +13,7 @@
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.3",
     "mongodb": "^3.0.7",
+    "mongoose": "^5.0.16",
     "node-fetch": "^2.1.2"
   }
 }
-
-

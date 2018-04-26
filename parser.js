@@ -1,12 +1,12 @@
-const request = require('request');
+const fetch = require('node-fetch');
 const cheerio = require('cheerio');
 const Actor = require('./models/actor');
-const actorURL = 'https://www.imdb.com/name/nm0425005';
 
-request(actorURL, function(error, response, html) {
-  if (!error && response.statusCode == 200) {
-    const $ = cheerio.load(html);
-    const parsedResults = [];
+const getActorData = async imdbId => {
+  const actorURL = `https://www.imdb.com/name/${imdbId}`;
+  try {
+    const res = await fetch(actorURL).then(res => res.text());
+    const $ = cheerio.load(res);
 
     let actor = new Actor();
 
@@ -25,49 +25,67 @@ request(actorURL, function(error, response, html) {
         .children();
       // Parse the href attribute from the "a" element
       const url = pic.attr('src');
+      console.log(`title: ${title}`);
       actor.name = title;
       actor.images = [url];
-
-      // Our parsed meta data object
-      var metadata = {
-        title: title,
-        profilepic: url,
-      };
-      // Push meta-data into parsedResults array
-      parsedResults.push(metadata);
     });
 
     const more = '/mediaindex?ref_=nm_phs_md_sm';
     // /mediaindex?ref_=nm_phs_md_sm <-- 1st page
     // /mediaindex?page=5&ref_=nmmi_mi_sm <-- next pages (make a for loop)
-    request(actorURL + more, (error, response, html) => {
-      if (!error && response.statusCode == 200) {
-        const $ = cheerio.load(html);
+    const moreRes = await fetch(actorURL + more).then(res => res.text());
 
-        $('div.media_index_thumb_list')
-          .children()
-          .children()
-          .each(function(i, element) {
-            sm = $(this).attr('src');
+    const $more = cheerio.load(moreRes);
 
-            const end = sm.split('._V1_').pop();
-            const lg = sm.replace('._V1_' + end, '.jpg');
-            //console.log(lg);
+    $more('div.media_index_thumb_list')
+      .children()
+      .children()
+      .each(function(i, element) {
+        sm = $(this).attr('src');
 
-            actor.images.push({ sm: sm, lg: lg });
+        const end = sm.split('._V1').pop();
+        const lg = sm.replace('._V1' + end, '.jpg');
+        //console.log(lg);
 
-            //parsedResults.push(mpic);
-          });
-        actor.save(e => {
-          console.log('saved');
-          if (e) {
-            console.log('somethings wrong', e);
-          }
-        });
+        actor.images.push({ sm: sm, lg: lg });
+      });
+    actor.save(e => {
+      console.log('saved');
+      if (e) {
+        console.log('somethings wrong', e);
       }
     });
-
-    // Log our finished parse results in the terminal
-    //console.log(parsedResults);
+  } catch (e) {
+    console.error(e);
   }
-});
+};
+
+const getTopActors1000 = async function(no) {
+  const Url = 'https://www.imdb.com/search/name?gender=male,female&start=' + no;
+
+  try {
+    const res = await fetch(Url).then(res => res.text());
+    const $ = cheerio.load(res);
+
+    $('h3.lister-item-header')
+      .children()
+      .next()
+      .each(async function(i, element) {
+        const a = $(this).attr('href');
+        const b = $(this).text();
+
+        const id = a.split('/name/').pop();
+
+        //actor.id.push(id)
+        await getActorData(id);
+      });
+    if (no < 1000) {
+      no += 50;
+      getTopActors1000(no);
+    }
+  } catch (error) {
+    console.error(error);
+  }
+};
+
+getTopActors1000(1);
