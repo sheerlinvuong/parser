@@ -1,6 +1,6 @@
-./node_modules,
-info.html,
-.vscode,
-package.json,
-package-lock.json,
+node_modules
+info.html
+.vscode
+package.json
+package-lock.json
 
