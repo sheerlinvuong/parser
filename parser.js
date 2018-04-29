@@ -3,7 +3,7 @@ const cheerio = require('cheerio');
 const Actor = require('./models/actor');
 
 const getActorData = async imdbId => {
-  const actorURL = `https://www.imdb.com/name/${imdbId}`;
+  const actorURL = `https://www.imdb.com/name/nm${imdbId}`;
   try {
     const res = await fetch(actorURL).then(res => res.text());
     const $ = cheerio.load(res);
@@ -28,6 +28,7 @@ const getActorData = async imdbId => {
       console.log(`title: ${title}`);
       actor.name = title;
       actor.images = [url];
+      actor.id = imdbId;
     });
 
     const more = '/mediaindex?ref_=nm_phs_md_sm';
@@ -60,7 +61,9 @@ const getActorData = async imdbId => {
   }
 };
 
-const getTopActors1000 = async function(no) {
+const inDb = [];
+
+const getTopActors = async function(no) {
   const Url = 'https://www.imdb.com/search/name?gender=male,female&start=' + no;
 
   try {
@@ -74,18 +77,28 @@ const getTopActors1000 = async function(no) {
         const a = $(this).attr('href');
         const b = $(this).text();
 
-        const id = a.split('/name/').pop();
+        const id = a.split('/name/nm').pop();
 
-        //actor.id.push(id)
-        await getActorData(id);
+        const find = Actor.findOne({ id: id }, async function(
+          err,
+          person,
+        ) {
+          try {
+            console.log(id + ' Already in database!');
+          } catch (error) {
+            await getActorData(id);
+            console.log(id + 'isnt in db');
+            console.log(error);
+          }
+        });
       });
-    if (no < 1000) {
+    if (no < 1) {
       no += 50;
-      getTopActors1000(no);
+      getTopActors(no);
     }
   } catch (error) {
     console.error(error);
   }
 };
 
-getTopActors1000(1);
+getTopActors(1);

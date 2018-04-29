@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 
-const mongoDB =
-  'mongodb+srv://sheerlin:<password>@cluster0-vbfsn.mongodb.net/imdb';
+const mongoDB = 'mongodb+srv://sheerlin:pw@cluster0-vbfsn.mongodb.net/imdb';
 mongoose.connect(mongoDB);
 
 mongoose.Promise = global.Promise;
