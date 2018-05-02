@@ -5,7 +5,7 @@ const Schema = mongoose.Schema;
 const ActorSchema = new Schema({
   name: { type: String, required: true, max: 100 },
   images: { type: [] },
-  id: { type: String },
+  imdb_id: { type: String },
 });
 
-module.exports = mongoose.model('Actor', ActorSchema);
+module.exports = mongoose.model('Actor', ActorSchema, 'Actor');
