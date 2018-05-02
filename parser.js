@@ -25,10 +25,10 @@ const getActorData = async imdbId => {
         .children();
       // Parse the href attribute from the "a" element
       const url = pic.attr('src');
-      console.log(`title: ${title}`);
       actor.name = title;
       actor.images = [url];
-      actor.id = imdbId;
+      actor.imdb_id = imdbId;
+      console.log(`${imdbId}`);
     });
 
     const more = '/mediaindex?ref_=nm_phs_md_sm';
@@ -51,7 +51,7 @@ const getActorData = async imdbId => {
         actor.images.push({ sm: sm, lg: lg });
       });
     actor.save(e => {
-      console.log('saved');
+      console.log('saved ');
       if (e) {
         console.log('somethings wrong', e);
       }
@@ -60,8 +60,6 @@ const getActorData = async imdbId => {
     console.error(e);
   }
 };
-
-const inDb = [];
 
 const getTopActors = async function(no) {
   const Url = 'https://www.imdb.com/search/name?gender=male,female&start=' + no;
@@ -79,25 +77,25 @@ const getTopActors = async function(no) {
 
         const id = a.split('/name/nm').pop();
 
-        const find = Actor.findOne({ id: id }, async function(
+        const find = Actor.findOne({ imdb_id: id }, async function(
           err,
-          person,
+          result,
         ) {
           try {
-            console.log(id + ' Already in database!');
+            console.log(result.name + ' Already in database!');
           } catch (error) {
+            console.log(id + ' isnt in db');
             await getActorData(id);
-            console.log(id + 'isnt in db');
             console.log(error);
           }
         });
       });
-    if (no < 1) {
+    if (no < 49) {
       no += 50;
       getTopActors(no);
     }
   } catch (error) {
-    console.error(error);
+    //console.error(error);
   }
 };
 
